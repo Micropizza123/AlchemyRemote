@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "alchemy:ruby",
+    "count": 9
+  }
+}

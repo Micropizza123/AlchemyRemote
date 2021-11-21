@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "alchemy:sword_fragment"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "alchemy:magicswordshandle"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "alchemy:asired_fragment",
+    "count": 1
+  }
+}

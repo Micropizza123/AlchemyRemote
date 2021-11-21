@@ -1,0 +1,12 @@
+{
+  "parent": "alchemy:custom/fusiontable",
+  "textures": {
+    "all": "alchemy:blocks/up",
+    "particle": "alchemy:blocks/up",
+    "0": "alchemy:blocks/front_back",
+    "1": "alchemy:blocks/left_right",
+    "2": "alchemy:blocks/up",
+    "3": "alchemy:blocks/block",
+    "missing": "alchemy:blocks/fusion"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "alchemy:ruby"
+    },
+    "4": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "6": {
+      "item": "alchemy:steel_magichandle"
+    }
+  },
+  "result": {
+    "item": "alchemy:demonic_staff",
+    "count": 1
+  }
+}

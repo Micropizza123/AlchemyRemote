@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:magenta_crystal_shard"
+  },
+  "addition": {
+    "item": "alchemy:magical_dust"
+  },
+  "result": {
+    "item": "alchemy:less_mana_gem"
+  }
+}

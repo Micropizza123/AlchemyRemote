@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "rune",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:MagicRune"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:MagicRuneStage2"
+    },
+    "name": "magic_rune_stage_2_recipe",
+    "namespace": "mod"
+  }
+}

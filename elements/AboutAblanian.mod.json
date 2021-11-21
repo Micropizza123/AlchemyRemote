@@ -1,0 +1,148 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousProc1"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ablanian",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Ablanian",
+          "x": 190,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ablanian is an unknown",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Ablanian is an unknown",
+          "x": 157,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dimension that only you",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "dimension that only you",
+          "x": 157,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can access...",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "can access...",
+          "x": 157,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You can access ablanian",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "You can access ablanian",
+          "x": 157,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "by doing what the guide",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "by doing what the guide",
+          "x": 157,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "says...",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "says...",
+          "x": 156,
+          "y": 103
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

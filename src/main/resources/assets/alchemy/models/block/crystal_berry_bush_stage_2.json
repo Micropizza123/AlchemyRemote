@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alchemy:blocks/berry_bush_stage1",
+    "particle": "alchemy:blocks/berry_bush_stage1"
+  }
+}

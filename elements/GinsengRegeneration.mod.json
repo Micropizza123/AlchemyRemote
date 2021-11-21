@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ginseng_potion_2",
+    "customModelName": "Normal",
+    "name": "Ginseng Regeneration I",
+    "rarity": "UNCOMMON",
+    "specialInfo": [
+      "Regeneration I",
+      "2 min 30 s"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

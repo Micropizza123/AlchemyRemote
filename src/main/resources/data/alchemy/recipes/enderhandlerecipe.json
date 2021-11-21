@@ -1,0 +1,19 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "alchemy:ender_dust"
+    }
+  },
+  "result": {
+    "item": "alchemy:enderswordshandle",
+    "count": 1
+  }
+}

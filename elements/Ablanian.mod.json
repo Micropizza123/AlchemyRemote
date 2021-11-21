@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AblanianForest"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "CUSTOM:Sakuraforest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:AblanianStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -6710785,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.PACKED_ICE"
+    },
+    "portalParticles": {
+      "value": "SOUL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Dimensional Key",
+    "igniterTab": {
+      "value": "No creative tab entry"
+    },
+    "texture": "ablanian",
+    "portalTexture": "portal",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "alchemy:asi_fragment"
+  },
+  "result": {
+    "item": "alchemy:asi"
+  }
+}

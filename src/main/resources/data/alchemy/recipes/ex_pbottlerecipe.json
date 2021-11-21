@@ -1,0 +1,26 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "alchemy:magical_dust"
+    },
+    "3": {
+      "item": "alchemy:magical_dust"
+    },
+    "4": {
+      "item": "minecraft:splash_potion"
+    },
+    "5": {
+      "item": "alchemy:magical_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 16
+  }
+}

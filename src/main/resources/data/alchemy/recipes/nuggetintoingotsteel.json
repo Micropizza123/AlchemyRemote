@@ -1,0 +1,37 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    },
+    {
+      "item": "alchemy:steelnugget"
+    }
+  ],
+  "result": {
+    "item": "alchemy:steel_ingot",
+    "count": 1
+  }
+}

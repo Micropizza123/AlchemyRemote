@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "alchemy:ancient_magic_relic"
+    },
+    "title": {
+      "translate": "advancements.relic_recipes.title"
+    },
+    "description": {
+      "translate": "advancements.relic_recipes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "relic_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "alchemy:ancient_magic_relic",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "alchemy:recipes"
+}

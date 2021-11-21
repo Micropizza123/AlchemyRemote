@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "malysiumrune",
+    "customModelName": "Normal",
+    "name": "Malysiun Rune",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Right Click to Disable armor",
+      "(must have malysium armor on)"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "MalysiumRuneDisabler"
+    },
+    "hasDispenseBehavior": false
+  }
+}

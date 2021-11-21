@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "teleportationstaff",
+    "customModelName": "Normal",
+    "name": "Teleportationstaff",
+    "specialInfo": [
+      "Right Click:",
+      "Teleport"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 10.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "TeleportationstaffBulletHitsBlock"
+    }
+  }
+}

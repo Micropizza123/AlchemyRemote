@@ -1,0 +1,220 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousProcP2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cold Lava",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Cold Lava",
+          "x": 188,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_bucket.png",
+          "use1Xscale": false,
+          "name": "lava_bucket.png",
+          "x": 236,
+          "y": 33
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lava_still.png",
+          "use1Xscale": false,
+          "name": "lava_still.png",
+          "x": 167,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cold lava is a Fluid",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Cold lava is a Fluid",
+          "x": 153,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that is like lava but",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "that is like lava but",
+          "x": 153,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "colded.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "colded.",
+          "x": 154,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cold Lava is used as a",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Cold Lava is used as a",
+          "x": 153,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fuel on furnaces even on",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "fuel on furnaces even on",
+          "x": 152,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fusion furnace where it",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "fusion furnace where it",
+          "x": 152,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "is made on.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "is made on.",
+          "x": 152,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cold Lava is 4 times",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Cold Lava is 4 times",
+          "x": 151,
+          "y": 113
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "better than lava as a",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "better than lava as a",
+          "x": 152,
+          "y": 122
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fuel.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "fuel.",
+          "x": 151,
+          "y": 131
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

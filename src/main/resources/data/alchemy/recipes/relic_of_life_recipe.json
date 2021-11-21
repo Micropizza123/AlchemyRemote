@@ -1,0 +1,42 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:heart"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:golden_apple"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "alchemy:ancient_magic_relic"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "minecraft:golden_apple"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    },
+    "8": {
+      "item": "alchemy:heart"
+    }
+  },
+  "result": {
+    "item": "alchemy:relic_of_life",
+    "count": 1
+  }
+}

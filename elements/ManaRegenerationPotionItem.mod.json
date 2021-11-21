@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Mana Regeneration",
+    "splashName": "Splash Mana Regeneration",
+    "lingeringName": "Lingering Mana Regeneration",
+    "arrowName": "Arrow Mana Regeneration",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ManaRegeneration"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

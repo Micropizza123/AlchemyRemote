@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemy:block/fusiontable"
+    },
+    "facing=east": {
+      "model": "alchemy:block/fusiontable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemy:block/fusiontable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemy:block/fusiontable",
+      "y": 270
+    }
+  }
+}

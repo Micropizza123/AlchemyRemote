@@ -1,0 +1,11 @@
+{
+  "parent": "alchemy:custom/model1",
+  "textures": {
+    "all": "alchemy:blocks/furnaceside",
+    "particle": "alchemy:blocks/furnaceside",
+    "0": "alchemy:blocks/furnace",
+    "1": "alchemy:blocks/furnaceside",
+    "3": "alchemy:blocks/pasted",
+    "missing": "alchemy:blocks/pasted"
+  }
+}

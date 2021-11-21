@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alchemy:block/ablanian_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alchemy:block/ablanian_wood"
+    },
+    "axis=z": {
+      "model": "alchemy:block/ablanian_wood",
+      "x": 90
+    }
+  }
+}

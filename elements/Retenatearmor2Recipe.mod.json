@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Reteniteingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Reteniteingot"
+      },
+      {
+        "value": "CUSTOM:Reteniteingot"
+      },
+      {
+        "value": "CUSTOM:RetenateGem"
+      },
+      {
+        "value": "CUSTOM:Reteniteingot"
+      },
+      {
+        "value": "CUSTOM:Reteniteingot"
+      },
+      {
+        "value": "CUSTOM:RetenateGem"
+      },
+      {
+        "value": "CUSTOM:Reteniteingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Retenatearmor.body"
+    },
+    "name": "retenatearmor_2_recipe",
+    "namespace": "mod"
+  }
+}

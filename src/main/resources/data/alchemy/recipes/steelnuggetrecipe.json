@@ -1,0 +1,16 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:steelnugget",
+    "count": 9
+  }
+}

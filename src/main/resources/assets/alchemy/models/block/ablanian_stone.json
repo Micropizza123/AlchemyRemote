@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alchemy:blocks/albanian_stone",
+    "particle": "alchemy:blocks/albanian_stone"
+  }
+}

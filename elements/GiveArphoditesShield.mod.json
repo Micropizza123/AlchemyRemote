@@ -1,0 +1,9 @@
+{
+  "_fv": 24,
+  "_type": "function",
+  "definition": {
+    "code": "/kill @e[type=item,limit=1,nbt={Item:{id:\"minecraft:nether_star\",Count:1b}}]\n/kill @e[type=item,limit=1,nbt={Item:{id:\"minecraft:shield\",Count:1b}}]\n/function alchemy:a1",
+    "name": "give_arphodites_shield",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "minecraft:blaze_rod"
+    },
+    "4": {
+      "item": "alchemy:soul_fragment"
+    },
+    "5": {
+      "item": "minecraft:blaze_rod"
+    },
+    "7": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:magic_rune_stage_4"
+  },
+  "addition": {
+    "item": "alchemy:golden_crystal_shard"
+  },
+  "result": {
+    "item": "alchemy:magic_rune_stage_5"
+  }
+}

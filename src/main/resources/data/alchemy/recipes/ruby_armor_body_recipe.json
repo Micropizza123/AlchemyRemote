@@ -1,0 +1,39 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ruby"
+    },
+    "2": {
+      "item": "alchemy:ruby"
+    },
+    "3": {
+      "item": "alchemy:ruby"
+    },
+    "4": {
+      "item": "alchemy:ruby"
+    },
+    "5": {
+      "item": "alchemy:ruby"
+    },
+    "6": {
+      "item": "alchemy:ruby"
+    },
+    "7": {
+      "item": "alchemy:ruby"
+    },
+    "8": {
+      "item": "alchemy:ruby"
+    }
+  },
+  "result": {
+    "item": "alchemy:ruby_armor_chestplate",
+    "count": 1
+  }
+}

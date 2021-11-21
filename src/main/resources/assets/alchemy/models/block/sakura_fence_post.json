@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "alchemy:blocks/sakuraplanks",
+    "particle": "alchemy:blocks/sakuraplanks"
+  }
+}

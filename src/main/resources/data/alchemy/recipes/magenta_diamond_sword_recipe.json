@@ -1,0 +1,24 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:amethyst_items"
+    },
+    "1": {
+      "tag": "forge:amethyst_items"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "alchemy:magenta_diamond_sword",
+    "count": 1
+  }
+}

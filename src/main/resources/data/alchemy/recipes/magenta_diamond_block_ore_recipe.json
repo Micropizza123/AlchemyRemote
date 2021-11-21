@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:magenta_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "alchemy:magenta_diamond",
+    "count": 9
+  }
+}

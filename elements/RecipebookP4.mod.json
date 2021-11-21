@@ -1,0 +1,173 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviusProc4"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bibelssi.png",
+          "use1Xscale": false,
+          "name": "bibelssi.png",
+          "x": 152,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_6.png",
+          "use1Xscale": false,
+          "name": "progress_bar_filled_6.png",
+          "x": 184,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reallava.png",
+          "use1Xscale": false,
+          "name": "reallava.png",
+          "x": 154,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grid_obsidian_ingot.png",
+          "use1Xscale": true,
+          "name": "grid_obsidian_ingot.png",
+          "x": 254,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "obsidianblock.png",
+          "use1Xscale": true,
+          "name": "obsidianblock.png",
+          "x": 154,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Obsidian Ingot",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Obsidian Ingot",
+          "x": 172,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "White Diamond",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "White Diamond",
+          "x": 175,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bibelssi.png",
+          "use1Xscale": false,
+          "name": "bibelssi.png",
+          "x": 152,
+          "y": 102
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 154,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bonemeal.png",
+          "use1Xscale": false,
+          "name": "bonemeal.png",
+          "x": 154,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "white_diamond.png",
+          "use1Xscale": false,
+          "name": "white_diamond.png",
+          "x": 254,
+          "y": 132
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

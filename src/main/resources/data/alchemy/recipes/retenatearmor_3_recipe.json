@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:reteniteingot"
+    },
+    "1": {
+      "item": "alchemy:reteniteingot"
+    },
+    "2": {
+      "item": "alchemy:reteniteingot"
+    },
+    "3": {
+      "item": "alchemy:reteniteingot"
+    },
+    "5": {
+      "item": "alchemy:reteniteingot"
+    },
+    "6": {
+      "item": "alchemy:reteniteingot"
+    },
+    "8": {
+      "item": "alchemy:reteniteingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenatearmor_leggings",
+    "count": 1
+  }
+}

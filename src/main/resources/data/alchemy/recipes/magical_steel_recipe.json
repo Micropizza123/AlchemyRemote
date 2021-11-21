@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:steel_ingot"
+  },
+  "addition": {
+    "item": "alchemy:magical_dust"
+  },
+  "result": {
+    "item": "alchemy:magicalsteel"
+  }
+}

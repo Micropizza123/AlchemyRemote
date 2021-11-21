@@ -1,0 +1,186 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousProc2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "Nextproc2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bibelssi.png",
+          "use1Xscale": false,
+          "name": "bibelssi.png",
+          "x": 153,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_5.png",
+          "use1Xscale": false,
+          "name": "progress_bar_filled_5.png",
+          "x": 185,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Steel",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Steel",
+          "x": 200,
+          "y": 32
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Poison Sword",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Poison Sword",
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "juttu.png",
+          "use1Xscale": false,
+          "name": "juttu.png",
+          "x": 156,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "poison_stick.png",
+          "use1Xscale": false,
+          "name": "poison_stick.png",
+          "x": 157,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steel.png",
+          "use1Xscale": false,
+          "name": "steel.png",
+          "x": 175,
+          "y": 127
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steel.png",
+          "use1Xscale": false,
+          "name": "steel.png",
+          "x": 193,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "poison_sword.png",
+          "use1Xscale": false,
+          "name": "poison_sword.png",
+          "x": 247,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reallava.png",
+          "use1Xscale": false,
+          "name": "reallava.png",
+          "x": 155,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "name": "iron_ingot.png",
+          "x": 155,
+          "y": 50
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steel.png",
+          "use1Xscale": false,
+          "name": "steel.png",
+          "x": 255,
+          "y": 50
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

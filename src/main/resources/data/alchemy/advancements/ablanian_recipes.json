@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "alchemy:ablanian"
+    },
+    "title": {
+      "translate": "advancements.ablanian_recipes.title"
+    },
+    "description": {
+      "translate": "advancements.ablanian_recipes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ablanian_recipes": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "alchemy:ablanian"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "alchemy:ablanian_wood_recipe",
+      "alchemy:ablanian_planks_recipe",
+      "alchemy:ablanian_stairs_recipe",
+      "alchemy:ablanian_slab_recipe",
+      "alchemy:ablanian_fence_recipe",
+      "alchemy:ablanian_fence_gate_recipe",
+      "alchemy:ablanian_pressure_plate_recipe",
+      "alchemy:ablanian_button_recipe",
+      "alchemy:ablanian_stick_recipe",
+      "alchemy:ruby_ore_block_recipe",
+      "alchemy:ruby_block_ore_recipe",
+      "alchemy:ruby_ore_smelting",
+      "alchemy:ruby_pickaxe_recipe",
+      "alchemy:ruby_axe_recipe",
+      "alchemy:ruby_sword_recipe",
+      "alchemy:ruby_shovel_recipe",
+      "alchemy:ruby_hoe_recipe",
+      "alchemy:ruby_armor_helmet_recipe",
+      "alchemy:ruby_armor_leggings_recipe",
+      "alchemy:ruby_armor_body_recipe",
+      "alchemy:ruby_armor_boots_recipe",
+      "alchemy:ablanian_crafting_table"
+    ]
+  },
+  "parent": "alchemy:relic_recipes"
+}

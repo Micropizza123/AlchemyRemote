@@ -1,0 +1,32 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:retenateflesh"
+    },
+    "1": {
+      "item": "alchemy:retenateflesh"
+    },
+    "2": {
+      "item": "alchemy:retenateflesh"
+    },
+    "3": {
+      "item": "alchemy:retenateflesh"
+    },
+    "4": {
+      "item": "alchemy:retenateflesh"
+    },
+    "5": {
+      "item": "alchemy:retenateflesh"
+    }
+  },
+  "result": {
+    "item": "alchemy:reteniteingot",
+    "count": 1
+  }
+}

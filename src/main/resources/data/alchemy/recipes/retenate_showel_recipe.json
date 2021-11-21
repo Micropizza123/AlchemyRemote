@@ -1,0 +1,24 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:reteniteingot"
+    },
+    "1": {
+      "item": "alchemy:retenate_gem"
+    },
+    "2": {
+      "item": "alchemy:retenatestick"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenate_showel",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gambanteinn",
+    "customModelName": "Normal",
+    "name": "§4Gambanteinn",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.5,
+    "usageCount": 4062,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

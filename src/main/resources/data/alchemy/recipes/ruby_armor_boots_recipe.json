@@ -1,0 +1,26 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ruby"
+    },
+    "2": {
+      "item": "alchemy:ruby"
+    },
+    "3": {
+      "item": "alchemy:ruby"
+    },
+    "5": {
+      "item": "alchemy:ruby"
+    }
+  },
+  "result": {
+    "item": "alchemy:ruby_armor_boots",
+    "count": 1
+  }
+}

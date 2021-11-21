@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:red_crystal_shard"
+  },
+  "addition": {
+    "item": "alchemy:magical_dust"
+  },
+  "result": {
+    "item": "alchemy:bonus_slot_gem"
+  }
+}

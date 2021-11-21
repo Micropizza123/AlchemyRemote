@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond"
+  },
+  "addition": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "item": "alchemy:black_diamond"
+  }
+}

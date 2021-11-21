@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:magic_rune_stage_2"
+  },
+  "addition": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "item": "alchemy:magic_rune_stage_3"
+  }
+}

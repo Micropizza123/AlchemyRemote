@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "alchemy:sword_fragment"
+    },
+    "5": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "6": {
+      "item": "alchemy:magicswordshandle"
+    },
+    "7": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "alchemy:asi_fragment",
+    "count": 1
+  }
+}

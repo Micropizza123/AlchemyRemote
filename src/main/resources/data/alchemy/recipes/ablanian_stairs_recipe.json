@@ -1,0 +1,33 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "3": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "4": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "6": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "7": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "8": {
+      "item": "alchemy:ablanian_planks"
+    }
+  },
+  "result": {
+    "item": "alchemy:ablanian_stairs",
+    "count": 4
+  }
+}

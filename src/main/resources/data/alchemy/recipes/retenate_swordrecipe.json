@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "alchemy:reteniteingot"
+    },
+    "2": {
+      "item": "alchemy:reteniteingot"
+    },
+    "4": {
+      "item": "alchemy:retenate_gem"
+    },
+    "5": {
+      "item": "alchemy:reteniteingot"
+    },
+    "6": {
+      "item": "alchemy:retenatestick"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenate_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amethyst_fishing_rod",
+    "customModelName": "Normal",
+    "name": "Amethyst Fishing Rod",
+    "specialInfo": [
+      "Easily Enchantable"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Fishing rod",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 40,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      },
+      {
+        "value": "CUSTOM:MagentaCrystalShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

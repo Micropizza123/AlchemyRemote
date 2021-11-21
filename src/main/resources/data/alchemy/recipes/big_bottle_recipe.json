@@ -1,0 +1,33 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "minecraft:glass"
+    },
+    "8": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "alchemy:big_bottle",
+    "count": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GoldenCrystalShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GoldenCrystalShard"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "CUSTOM:GoldenCrystalShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GoldenCrystalShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnchantedGOldenCarrot"
+    },
+    "name": "enchanted_golden_carrot_recipe",
+    "namespace": "mod"
+  }
+}

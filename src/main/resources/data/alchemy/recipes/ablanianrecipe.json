@@ -1,0 +1,23 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ender_dust"
+    },
+    "1": {
+      "item": "alchemy:diamond_ingot"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:dimensional_key",
+    "count": 1
+  }
+}

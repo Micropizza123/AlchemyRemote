@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "alchemy:steelnugget"
+    },
+    "3": {
+      "item": "alchemy:steelnugget"
+    },
+    "4": {
+      "item": "alchemy:magicswordshandle"
+    },
+    "5": {
+      "item": "alchemy:steelnugget"
+    },
+    "7": {
+      "item": "alchemy:steelnugget"
+    }
+  },
+  "result": {
+    "item": "alchemy:steel_magichandle",
+    "count": 1
+  }
+}

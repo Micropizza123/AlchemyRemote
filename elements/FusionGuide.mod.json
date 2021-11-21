@@ -1,0 +1,126 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Open Recipes",
+          "onClick": {
+            "name": "OpenRecipes"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Open Recipes",
+          "x": 168,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Open Item Guide",
+          "onClick": {
+            "name": "OpenItemGuide"
+          },
+          "width": 100,
+          "height": 20,
+          "name": "Open Item Guide",
+          "x": 161,
+          "y": 81
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "About Ablanian",
+          "onClick": {
+            "name": "OpenAboutAblanian"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "About Ablanian",
+          "x": 164,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alchemy Guide",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Alchemy Guide",
+          "x": 177,
+          "y": 32
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Key to everything...",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Key to everything...",
+          "x": 163,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tip:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Tip:",
+          "x": 153,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " press r to see abilities",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": " press r to see abilities",
+          "x": 148,
+          "y": 133
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

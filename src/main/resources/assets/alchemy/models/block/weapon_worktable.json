@@ -1,0 +1,11 @@
+{
+  "parent": "alchemy:custom/newtable",
+  "textures": {
+    "all": "alchemy:blocks/blackstone",
+    "particle": "alchemy:blocks/blackstone",
+    "0": "alchemy:blocks/texture",
+    "1": "alchemy:blocks/blackstone",
+    "2": "alchemy:blocks/blackstone_top",
+    "missing": "alchemy:blocks/texture1"
+  }
+}

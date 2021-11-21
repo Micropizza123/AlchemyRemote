@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "front_back",
+        "1": "left_right",
+        "2": "up",
+        "3": "block",
+        "missing": "fusion"
+      },
+      "name": "default"
+    }
+  }
+}

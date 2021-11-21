@@ -1,0 +1,26 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:sakura_planks"
+    },
+    "1": {
+      "item": "alchemy:sakura_planks"
+    },
+    "2": {
+      "item": "alchemy:sakura_planks"
+    },
+    "3": {
+      "item": "alchemy:sakura_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:WATER"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:RelicOfDefence"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:PotionOfDefence"
+    },
+    "name": "potion_of_defence_recipe",
+    "namespace": "mod"
+  }
+}

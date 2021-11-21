@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ablanian",
+    "customModelName": "Normal",
+    "name": "Dimensional Key",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 342,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Also used to craft materials"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "DimensionalKeyRightClickedOnBlock"
+    },
+    "hasDispenseBehavior": false
+  }
+}

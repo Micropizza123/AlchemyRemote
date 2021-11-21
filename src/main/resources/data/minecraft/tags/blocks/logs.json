@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alchemy:sakura_log",
+    "alchemy:sakura_wood",
+    "alchemy:ablanian_wood",
+    "alchemy:ablanian_log"
+  ]
+}

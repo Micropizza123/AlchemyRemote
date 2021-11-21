@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemy:block/fusion_furnace"
+    },
+    "facing=east": {
+      "model": "alchemy:block/fusion_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemy:block/fusion_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemy:block/fusion_furnace",
+      "y": 270
+    }
+  }
+}

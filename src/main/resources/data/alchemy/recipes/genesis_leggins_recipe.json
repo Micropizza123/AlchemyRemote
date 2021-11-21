@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:red_diamond"
+    },
+    "1": {
+      "item": "alchemy:white_diamond"
+    },
+    "2": {
+      "item": "alchemy:red_diamond"
+    },
+    "3": {
+      "item": "alchemy:white_diamond"
+    },
+    "5": {
+      "item": "alchemy:white_diamond"
+    },
+    "6": {
+      "item": "alchemy:white_diamond"
+    },
+    "8": {
+      "item": "alchemy:white_diamond"
+    }
+  },
+  "result": {
+    "item": "alchemy:genesis_armor_leggings",
+    "count": 1
+  }
+}

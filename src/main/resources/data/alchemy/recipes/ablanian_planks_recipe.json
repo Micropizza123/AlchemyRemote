@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ablanian_log"
+    }
+  ],
+  "result": {
+    "item": "alchemy:ablanian_planks",
+    "count": 4
+  }
+}

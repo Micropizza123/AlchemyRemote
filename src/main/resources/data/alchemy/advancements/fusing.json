@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "alchemy:philosophersstone"
+    },
+    "title": {
+      "translate": "advancements.fusing.title"
+    },
+    "description": {
+      "translate": "advancements.fusing.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fusing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "alchemy:fusiontable"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "loot": [
+      "alchemy:entities/advancement_loot_1"
+    ]
+  },
+  "parent": "alchemy:recipes"
+}

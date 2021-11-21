@@ -1,0 +1,9 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "result": "alchemy:pulverized_netherrack"
+}

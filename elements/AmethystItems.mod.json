@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      },
+      {
+        "value": "CUSTOM:MagentaCrystalShard"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "amethyst_items",
+    "namespace": "forge"
+  }
+}

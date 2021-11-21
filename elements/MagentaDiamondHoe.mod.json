@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "magentadiamond_hoe",
+    "customModelName": "Normal",
+    "name": "Amethyst Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 4,
+    "efficiency": 8.5,
+    "attackSpeed": 4.0,
+    "enchantability": 30,
+    "damageVsEntity": 1.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

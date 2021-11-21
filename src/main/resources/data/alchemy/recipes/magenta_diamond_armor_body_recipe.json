@@ -1,0 +1,39 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:amethyst_items"
+    },
+    "2": {
+      "tag": "forge:amethyst_items"
+    },
+    "3": {
+      "tag": "forge:amethyst_items"
+    },
+    "4": {
+      "tag": "forge:amethyst_items"
+    },
+    "5": {
+      "tag": "forge:amethyst_items"
+    },
+    "6": {
+      "tag": "forge:amethyst_items"
+    },
+    "7": {
+      "tag": "forge:amethyst_items"
+    },
+    "8": {
+      "tag": "forge:amethyst_items"
+    }
+  },
+  "result": {
+    "item": "alchemy:magenta_diamond_armor_chestplate",
+    "count": 1
+  }
+}

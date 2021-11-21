@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ender_sword",
+    "customModelName": "Normal",
+    "name": "§4Ender Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 7.6,
+    "usageCount": 1754,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnderShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

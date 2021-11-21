@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "magentadiamond_shovel",
+    "customModelName": "Normal",
+    "name": "Amethyst Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 8.5,
+    "attackSpeed": 1.0,
+    "enchantability": 30,
+    "damageVsEntity": 1.7000000000000002,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

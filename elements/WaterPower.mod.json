@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "staff_water",
+    "customModelName": "Normal",
+    "name": "Waterstaff",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Right-Click to shot damaging water at your foes!",
+      "Makes lot of damages against FIRE type mobs!",
+      "§3Mana Cost:§5 2",
+      "Put it in one of the 5 slots in a Master Station!"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "WaterPowerRightClickedInAir"
+    },
+    "hasDispenseBehavior": false
+  }
+}

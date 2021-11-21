@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "alchemy:items/amethyst_fishing_rod"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousProc1"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "NextProc1"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Here are recipes that",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Here are recipes that",
+          "x": 158,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can not be seen on the",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "can not be seen on the",
+          "x": 158,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "normal recipe book.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "normal recipe book.",
+          "x": 158,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Such as the:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Such as the:",
+          "x": 157,
+          "y": 59
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

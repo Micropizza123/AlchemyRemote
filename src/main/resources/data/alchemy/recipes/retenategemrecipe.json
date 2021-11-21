@@ -1,0 +1,16 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:retenateeye"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenate_gem",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "furnace",
+        "1": "furnaceside",
+        "3": "pasted",
+        "missing": "pasted"
+      },
+      "name": "default"
+    }
+  }
+}

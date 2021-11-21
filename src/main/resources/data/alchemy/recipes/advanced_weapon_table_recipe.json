@@ -1,0 +1,42 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:steel_ingot"
+    },
+    "1": {
+      "item": "alchemy:steel_ingot"
+    },
+    "2": {
+      "item": "alchemy:steel_ingot"
+    },
+    "3": {
+      "item": "minecraft:blackstone"
+    },
+    "4": {
+      "item": "minecraft:stone_bricks"
+    },
+    "5": {
+      "item": "minecraft:blackstone"
+    },
+    "6": {
+      "item": "minecraft:blackstone"
+    },
+    "7": {
+      "item": "minecraft:blackstone"
+    },
+    "8": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "alchemy:weapon_worktable",
+    "count": 1
+  }
+}

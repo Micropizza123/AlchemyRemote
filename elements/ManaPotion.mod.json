@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "manapotion",
+    "customModelName": "Normal",
+    "name": "Mana Potion",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Regenerates you +20 Mana!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ManaPotionFoodEaten"
+    }
+  }
+}

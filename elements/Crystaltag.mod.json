@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AmethystCrystal"
+      },
+      {
+        "value": "CUSTOM:GreenCrystalBlock"
+      },
+      {
+        "value": "CUSTOM:BlueCrystalBlock"
+      },
+      {
+        "value": "CUSTOM:RedCrystalBlock"
+      },
+      {
+        "value": "CUSTOM:BlueCrystalShard"
+      },
+      {
+        "value": "CUSTOM:RedCrystalShard"
+      },
+      {
+        "value": "CUSTOM:GoldenCrystalShard"
+      },
+      {
+        "value": "CUSTOM:MagentaCrystalShard"
+      },
+      {
+        "value": "CUSTOM:GreenCrystalShard"
+      },
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "crystalitems",
+    "namespace": "forge"
+  }
+}

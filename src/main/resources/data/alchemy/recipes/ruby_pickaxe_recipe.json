@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ruby"
+    },
+    "1": {
+      "item": "alchemy:ruby"
+    },
+    "2": {
+      "item": "alchemy:ruby"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "alchemy:ruby_pickaxe",
+    "count": 1
+  }
+}

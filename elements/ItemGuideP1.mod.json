@@ -1,0 +1,297 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousProc1"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Item Guide",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Item Guide",
+          "x": 183,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Runes",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Runes",
+          "x": 194,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nimeton.png",
+          "use1Xscale": false,
+          "name": "nimeton.png",
+          "x": 166,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nimeton2.png",
+          "use1Xscale": false,
+          "name": "nimeton2.png",
+          "x": 181,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nimeton3.png",
+          "use1Xscale": false,
+          "name": "nimeton3.png",
+          "x": 196,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nimeton4.png",
+          "use1Xscale": false,
+          "name": "nimeton4.png",
+          "x": 213,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nimeton5.png",
+          "use1Xscale": false,
+          "name": "nimeton5.png",
+          "x": 228,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Can be found in chests.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Can be found in chests.",
+          "x": 157,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Every rune is used to",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Every rune is used to",
+          "x": 157,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "do different things.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "do different things.",
+          "x": 157,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1.png",
+          "use1Xscale": false,
+          "name": "1.png",
+          "x": 154,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2.png",
+          "use1Xscale": false,
+          "name": "2.png",
+          "x": 154,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3.png",
+          "use1Xscale": false,
+          "name": "3.png",
+          "x": 155,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "4.png",
+          "use1Xscale": false,
+          "name": "4.png",
+          "x": 154,
+          "y": 155
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5.png",
+          "use1Xscale": false,
+          "name": "5.png",
+          "x": 153,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ü",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Ü",
+          "x": 194,
+          "y": 157
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "L",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "L",
+          "x": 194,
+          "y": 142
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "LI",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "LI",
+          "x": 192,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Y",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Y",
+          "x": 194,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "iL",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "iL",
+          "x": 192,
+          "y": 127
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "awda.png",
+          "use1Xscale": false,
+          "name": "awda.png",
+          "x": 179,
+          "y": 111
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

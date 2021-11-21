@@ -1,0 +1,29 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:amethyst_items"
+    },
+    "1": {
+      "tag": "forge:amethyst_items"
+    },
+    "2": {
+      "tag": "forge:amethyst_items"
+    },
+    "3": {
+      "tag": "forge:amethyst_items"
+    },
+    "5": {
+      "tag": "forge:amethyst_items"
+    }
+  },
+  "result": {
+    "item": "alchemy:magenta_diamond_armor_helmet",
+    "count": 1
+  }
+}

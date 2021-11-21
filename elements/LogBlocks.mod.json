@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SakuraLog"
+      },
+      {
+        "value": "CUSTOM:SakuraWood"
+      },
+      {
+        "value": "CUSTOM:AblanianWood"
+      },
+      {
+        "value": "CUSTOM:AblanianLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

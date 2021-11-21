@@ -1,0 +1,29 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:reteniteingot"
+    },
+    "1": {
+      "item": "alchemy:retenate_gem"
+    },
+    "2": {
+      "item": "alchemy:reteniteingot"
+    },
+    "3": {
+      "item": "alchemy:reteniteingot"
+    },
+    "5": {
+      "item": "alchemy:reteniteingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenatearmor_helmet",
+    "count": 1
+  }
+}

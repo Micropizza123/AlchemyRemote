@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:magic_rune_stage_5"
+  },
+  "addition": {
+    "item": "alchemy:magenta_diamond"
+  },
+  "result": {
+    "item": "alchemy:magic_rune_stage_6"
+  }
+}

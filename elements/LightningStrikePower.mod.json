@@ -1,0 +1,41 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "staff_lightning",
+    "customModelName": "Normal",
+    "name": "Lightningstaff",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Right Click to summon 8 lightning around you!",
+      "§3Mana Cost:§5 5",
+      "Put it in one of the 5 slots in a Master Station!"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "LightningStrikePowerRightClickedInAir"
+    },
+    "hasDispenseBehavior": false
+  }
+}

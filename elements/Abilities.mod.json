@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Abilities",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "AbilitiesOnKeyPressed"
+    }
+  }
+}

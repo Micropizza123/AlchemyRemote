@@ -1,0 +1,16 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "alchemy:magical_dust"
+    }
+  ],
+  "result": {
+    "item": "alchemy:magicswordshandle",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "3": {
+      "item": "alchemy:ablanian_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "alchemy:ablanian_planks"
+    }
+  },
+  "result": {
+    "item": "alchemy:ablanian_fence",
+    "count": 3
+  }
+}

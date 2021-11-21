@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sharur3",
+    "customModelName": "Normal",
+    "name": "§4Sharur",
+    "specialInfo": [
+      "The enchanted mace of Ninurta"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 10.5,
+    "usageCount": 4062,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

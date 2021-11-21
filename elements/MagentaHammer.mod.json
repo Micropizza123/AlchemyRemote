@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "magentadiamondhammer",
+    "customModelName": "Normal",
+    "name": "Amethyst Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 6.5,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 40,
+    "damageVsEntity": 5.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagentaDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "MagentaDiamondPickaxeBlockDestroyedWithTool"
+    }
+  }
+}

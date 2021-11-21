@@ -1,0 +1,26 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:magenta_crystal_shard"
+    },
+    "1": {
+      "item": "alchemy:ender_dust"
+    },
+    "2": {
+      "item": "alchemy:ender_dust"
+    },
+    "3": {
+      "item": "alchemy:magenta_crystal_shard"
+    }
+  },
+  "result": {
+    "item": "alchemy:ender_shard",
+    "count": 2
+  }
+}

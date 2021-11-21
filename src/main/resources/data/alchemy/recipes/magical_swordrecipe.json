@@ -1,0 +1,24 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:magicalsteel"
+    },
+    "1": {
+      "item": "alchemy:magicalsteel"
+    },
+    "2": {
+      "item": "alchemy:steel_magichandle"
+    }
+  },
+  "result": {
+    "item": "alchemy:magical_sword",
+    "count": 1
+  }
+}

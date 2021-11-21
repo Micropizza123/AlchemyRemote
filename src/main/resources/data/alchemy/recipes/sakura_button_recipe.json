@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:sakura_planks"
+    }
+  ],
+  "result": {
+    "item": "alchemy:sakura_button",
+    "count": 1
+  }
+}

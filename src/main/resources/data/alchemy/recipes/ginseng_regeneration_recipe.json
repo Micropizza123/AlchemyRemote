@@ -1,0 +1,23 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:big_bottle"
+    },
+    "1": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "2": {
+      "item": "alchemy:ginseng"
+    }
+  },
+  "result": {
+    "item": "alchemy:ginseng_regeneration",
+    "count": 1
+  }
+}

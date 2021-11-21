@@ -1,0 +1,42 @@
+{
+  "group": "rune",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "minecraft:stone_slab"
+    },
+    "2": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "minecraft:stone_slab"
+    },
+    "4": {
+      "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "minecraft:stone_slab"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "minecraft:stone_slab"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "alchemy:magic_rune",
+    "count": 1
+  }
+}

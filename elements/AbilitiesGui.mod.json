@@ -1,0 +1,237 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "map_background.png",
+          "use1Xscale": false,
+          "name": "map_background.png",
+          "x": 138,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Abilities",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Abilities",
+          "x": 189,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set Location",
+          "onClick": {
+            "name": "WarpingpearlRightClickedInAir"
+          },
+          "displayCondition": {
+            "name": "WarpingPearlInInventory"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Set Location",
+          "x": 144,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "WarpingPearl",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "WarpingPearlInInventory"
+          },
+          "name": "WarpingPearl",
+          "x": 145,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Teleport",
+          "onClick": {
+            "name": "WarpingPearlTeleport"
+          },
+          "displayCondition": {
+            "name": "WarpingPearlInInventory"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Teleport",
+          "x": 144,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mapthinh.png",
+          "use1Xscale": false,
+          "name": "mapthinh.png",
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Passive Abilities",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Passive Abilities",
+          "x": 9,
+          "y": 5
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "potion_of_damage.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "StrenghtinInventory"
+          },
+          "name": "potion_of_damage.png",
+          "x": 7,
+          "y": 13
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "potion_of_defence.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "DefenceInInvetory"
+          },
+          "name": "potion_of_defence.png",
+          "x": 18,
+          "y": 13
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "potion_of_life.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeInInvetory"
+          },
+          "name": "potion_of_life.png",
+          "x": 29,
+          "y": 13
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixelartwings.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FlightOn"
+          },
+          "name": "pixelartwings.png",
+          "x": 43,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mapthinh.png",
+          "use1Xscale": false,
+          "name": "mapthinh.png",
+          "x": 1,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Permanent modding",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Permanent modding",
+          "x": 7,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Permanent Mods",
+          "onClick": {
+            "name": "OpenPermanentMods"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Permanent Mods",
+          "x": 5,
+          "y": 121
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "SpellBook",
+          "onClick": {
+            "name": "OpenSpellBookGui"
+          },
+          "displayCondition": {
+            "name": "SpellBookInInvetory"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "SpellBook",
+          "x": 14,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Spellbook",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Spellbook",
+          "x": 26,
+          "y": 58
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

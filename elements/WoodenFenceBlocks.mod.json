@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SakuraFence"
+      },
+      {
+        "value": "CUSTOM:SakuraFenceGate"
+      },
+      {
+        "value": "CUSTOM:AblanianFence"
+      },
+      {
+        "value": "CUSTOM:AblanianFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "wooden_fences",
+    "namespace": "minecraft"
+  }
+}

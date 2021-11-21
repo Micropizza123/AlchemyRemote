@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alchemy:blocks/netherrack",
+    "particle": "alchemy:blocks/netherrack"
+  }
+}

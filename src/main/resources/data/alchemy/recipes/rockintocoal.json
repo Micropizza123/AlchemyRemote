@@ -1,0 +1,37 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:philosophersstone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

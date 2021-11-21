@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pngkey.com-excalibur-png-7992912",
+        "1": "pngkey.com-excalibur-png-79929122",
+        "2": "newtexture",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

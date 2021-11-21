@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "alchemy:blocks/ablanian_planks",
+    "particle": "alchemy:blocks/ablanian_planks"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "alchemy:fire_element"
+    },
+    "2": {
+      "item": "alchemy:steel_magichandle"
+    }
+  },
+  "result": {
+    "item": "alchemy:fire_throw_power_item",
+    "count": 1
+  }
+}

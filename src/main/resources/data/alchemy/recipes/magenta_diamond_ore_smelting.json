@@ -1,0 +1,12 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alchemy:magenta_diamond_ore"
+  },
+  "result": {
+    "item": "alchemy:magenta_diamond"
+  }
+}

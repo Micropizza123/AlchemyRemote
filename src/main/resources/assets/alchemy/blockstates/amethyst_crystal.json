@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemy:block/amethyst_crystal"
+    },
+    "facing=east": {
+      "model": "alchemy:block/amethyst_crystal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemy:block/amethyst_crystal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemy:block/amethyst_crystal",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "alchemy:block/amethyst_crystal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "alchemy:block/amethyst_crystal",
+      "x": 90
+    }
+  }
+}

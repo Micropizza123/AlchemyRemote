@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "fireorb",
+    "customModelName": "Normal",
+    "name": "Bonus Slot Shard",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Staff Upgrade: Allows you to add a bonus slot for an additional power on your §dStaff!",
+      "You can only have 1 bonus slot on a staff",
+      "having 3 times the upgrades doesn't add more slots!"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

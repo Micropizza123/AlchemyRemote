@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:amethyst_items"
+    },
+    "1": {
+      "tag": "forge:amethyst_items"
+    },
+    "2": {
+      "tag": "forge:amethyst_items"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "alchemy:magenta_diamond_pickaxe",
+    "count": 1
+  }
+}

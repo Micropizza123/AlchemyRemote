@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Rod Of Fighting",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 1,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:GoldenFishingRod"
+      },
+      {
+        "value": "Items.FISHING_ROD"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

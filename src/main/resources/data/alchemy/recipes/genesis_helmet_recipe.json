@@ -1,0 +1,29 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:white_diamond"
+    },
+    "1": {
+      "item": "alchemy:red_diamond"
+    },
+    "2": {
+      "item": "alchemy:white_diamond"
+    },
+    "3": {
+      "item": "alchemy:white_diamond"
+    },
+    "5": {
+      "item": "alchemy:white_diamond"
+    }
+  },
+  "result": {
+    "item": "alchemy:genesis_armor_helmet",
+    "count": 1
+  }
+}

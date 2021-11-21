@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alchemy:blocks/bluecrystalblock",
+    "particle": "alchemy:blocks/bluecrystalblock"
+  }
+}

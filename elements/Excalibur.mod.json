@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "excalibur",
+    "customModelName": "Normal",
+    "name": "Excalibur",
+    "specialInfo": [
+      "Made By Gods"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 8,
+    "efficiency": 4.0,
+    "attackSpeed": 3.2,
+    "enchantability": 22,
+    "damageVsEntity": 12.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObsidianIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

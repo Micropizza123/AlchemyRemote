@@ -1,0 +1,9 @@
+{
+  "_fv": 24,
+  "_type": "function",
+  "definition": {
+    "code": "/say Alchemy Loaded",
+    "name": "load_1",
+    "namespace": "mod"
+  }
+}

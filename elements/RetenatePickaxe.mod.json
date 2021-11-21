@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "retenate_pickaxe",
+    "customModelName": "Normal",
+    "name": "Retenate Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Alchemy"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "alchemy:amethyst_crystal",
+    "alchemy:green_crystal_block",
+    "alchemy:blue_crystal_block",
+    "alchemy:red_crystal_block",
+    "alchemy:blue_crystal_shard",
+    "alchemy:red_crystal_shard",
+    "alchemy:golden_crystal_shard",
+    "alchemy:magenta_crystal_shard",
+    "alchemy:green_crystal_shard",
+    "alchemy:magenta_diamond"
+  ]
+}

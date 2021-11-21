@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "rune",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagicRune"
+    },
+    "name": "magic_rune_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:netherite_sword"
+    },
+    "2": {
+      "item": "alchemy:magical_dust"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "tag": "forge:amethyst_items"
+    },
+    "5": {
+      "item": "minecraft:netherite_sword"
+    },
+    "6": {
+      "item": "alchemy:magicswordshandle"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:gambanteinn",
+    "count": 1
+  }
+}

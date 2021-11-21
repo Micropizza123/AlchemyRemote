@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:crystal_berry"
+    }
+  ],
+  "result": {
+    "item": "alchemy:blue_crystal_shard",
+    "count": 1
+  }
+}

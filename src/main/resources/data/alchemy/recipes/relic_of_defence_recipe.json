@@ -1,0 +1,42 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shield"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "minecraft:shield"
+    },
+    "3": {
+      "item": "minecraft:emerald"
+    },
+    "4": {
+      "item": "alchemy:ancient_magic_relic"
+    },
+    "5": {
+      "item": "minecraft:emerald"
+    },
+    "6": {
+      "item": "minecraft:shield"
+    },
+    "7": {
+      "item": "minecraft:emerald"
+    },
+    "8": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "alchemy:relic_of_defence",
+    "count": 1
+  }
+}

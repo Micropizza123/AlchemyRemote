@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "alchemy:blocks/ablanian_planks",
+    "top": "alchemy:blocks/ablanian_planks",
+    "side": "alchemy:blocks/ablanian_planks"
+  }
+}

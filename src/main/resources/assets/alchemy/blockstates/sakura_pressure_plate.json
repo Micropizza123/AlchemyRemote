@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "alchemy:block/sakura_pressure_plate"
+    },
+    "powered=true": {
+      "model": "alchemy:block/sakura_pressure_plate_down"
+    }
+  }
+}

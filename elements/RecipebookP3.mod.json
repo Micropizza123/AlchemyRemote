@@ -1,0 +1,185 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviusProc3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 113,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "NextProc3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 283,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 120,
+          "y": 16
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "juttu.png",
+          "use1Xscale": false,
+          "name": "juttu.png",
+          "x": 160,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ice Element",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Ice Element",
+          "x": 182,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Must have gotten Water's",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Must have gotten Water's",
+          "x": 152,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Spellbook alteast once.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Spellbook alteast once.",
+          "x": 152,
+          "y": 115
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "qwerdsa.png",
+          "use1Xscale": true,
+          "name": "qwerdsa.png",
+          "x": 179,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "qwerdsa.png",
+          "use1Xscale": true,
+          "name": "qwerdsa.png",
+          "x": 161,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "qwerdsa.png",
+          "use1Xscale": true,
+          "name": "qwerdsa.png",
+          "x": 197,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "qwerdsa.png",
+          "use1Xscale": true,
+          "name": "qwerdsa.png",
+          "x": 179,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icepowder.png",
+          "use1Xscale": false,
+          "name": "icepowder.png",
+          "x": 251,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To craft Ice element you ",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "To craft Ice element you ",
+          "x": 152,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Need normal ice.",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Need normal ice.",
+          "x": 153,
+          "y": 132
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

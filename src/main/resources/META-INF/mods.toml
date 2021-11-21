@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="alchemy"
+version="1.0.0"
+displayName="Alchemy"
+credits="Created using Mcreator"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="MicroPizza"
+description='''
+Alchemy mod Beta
+'''
+
+[[dependencies.alchemy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.alchemy]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

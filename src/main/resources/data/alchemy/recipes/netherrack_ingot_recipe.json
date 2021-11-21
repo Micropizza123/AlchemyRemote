@@ -1,0 +1,32 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "1": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "2": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "3": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "4": {
+      "item": "alchemy:pulverized_netherrack"
+    },
+    "5": {
+      "item": "alchemy:pulverized_netherrack"
+    }
+  },
+  "result": {
+    "item": "alchemy:netherrack_ingot",
+    "count": 1
+  }
+}

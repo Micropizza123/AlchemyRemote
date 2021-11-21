@@ -1,0 +1,30 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "alchemy:ender_shard"
+    },
+    "3": {
+      "item": "alchemy:ender_shard"
+    },
+    "4": {
+      "item": "alchemy:ender_shard"
+    },
+    "6": {
+      "item": "alchemy:enderswordshandle"
+    },
+    "7": {
+      "item": "alchemy:ender_shard"
+    }
+  },
+  "result": {
+    "item": "alchemy:ender_sword",
+    "count": 1
+  }
+}

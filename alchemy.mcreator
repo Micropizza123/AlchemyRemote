@@ -1,0 +1,6613 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Fusiontable",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusiontable",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "FusionGui",
+      "type": "gui",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_gui",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "FusionProcedure",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "FusionTableRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_table_recipe",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_dust",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "DiamondIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ingot",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "DiamondDustRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_dust_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "DiamondIngotRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ingot_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "RedDiamond",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_diamond",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "BlackDiamond",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_diamond",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "WhiteDiamond",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_diamond",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "AncientMagicRelic",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_magic_relic",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfLife",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_life",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfDefence",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_defence",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfDamage",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_damage",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RainbowPowder",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_powder",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "RainbowIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_ingot",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "PotionOfLife",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_life",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "PotionOfDefence",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_defence",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "PotionOfDamage",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_damage",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfDamageRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_damage_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfDefenceRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_defence_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "Heart",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicOfLifeRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_of_life_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "PotionOfLifeRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_life_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "PotionOfDefenceRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_defence_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "PotionOfDamageRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_damage_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "HeartRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart_recipe",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RainbowIngotRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_ingot_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "RainbowPowderRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_powder_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "BlackDiamondRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_diamond_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "RedDiamondRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_diamond_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "AblanianWood",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_wood",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianLog",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_log",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianPlanks",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_planks",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianLeaves",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_leaves",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianStairs",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_stairs",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianSlab",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_slab",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianFence",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_fence",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianFenceGate",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_fence_gate",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianPressurePlate",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_pressure_plate",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianButton",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_button",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianItemsTag",
+      "type": "tag",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_items_tag",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianWoodRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_wood_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianPlanksRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_planks_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianStairsRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_stairs_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianSlabRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_slab_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianFenceRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_fence_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_fence_gate_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_pressure_plate_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianButtonRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_button_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "AblanianStickRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_stick_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_helmet_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_body_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_leggings_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_boots_recipe",
+      "path": "~/Ablanian/Material"
+    },
+    {
+      "name": "AblanianStone",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_stone",
+      "path": "~/Ablanian/Stone"
+    },
+    {
+      "name": "AblanianForest",
+      "type": "biome",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_forest",
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "Ablanian",
+      "type": "dimension",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "RecipeBook",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_book",
+      "path": "~/RecipeBook"
+    },
+    {
+      "name": "AblanianCraftingTable",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_crafting_table",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "RecipebookP1",
+      "type": "gui",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipebook_p_1",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "RecipebookP2",
+      "type": "gui",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipebook_p_2",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "NextProc1",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_proc_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "PreviousProc2",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previous_proc_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "Alchemy",
+      "type": "tab",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "OpenRecipes",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "FusionGuide",
+      "type": "gui",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_guide",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "ItemGuideP1",
+      "type": "gui",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_guide_p_1",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "OpenItemGuide",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_item_guide",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "PreviousProc1",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previous_proc_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "AblanianCobblestone",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_cobblestone",
+      "path": "~/Ablanian/Stone"
+    },
+    {
+      "name": "FusionFurnace",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_furnace",
+      "path": "~/Blocks/FusionFurnace"
+    },
+    {
+      "name": "FusionFurnaceGui",
+      "type": "gui",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_furnace_gui",
+      "path": "~/Blocks/FusionFurnace"
+    },
+    {
+      "name": "FusionFurnaceProc",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_furnace_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace"
+    },
+    {
+      "name": "ProgressbarEmpty",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progressbar_empty",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress2",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress3",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress4",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress5",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress6",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress7",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress8",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress9",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "Progress10",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "progress_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionFurnace/bars"
+    },
+    {
+      "name": "ColdLava",
+      "type": "fluid",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cold_lava",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SpawnWithItem",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawn_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/RecipeBook"
+    },
+    {
+      "name": "Recipes",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipes",
+      "path": "~/RecipeBook"
+    },
+    {
+      "name": "AblanianRecipes",
+      "type": "achievement",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanian_recipes",
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "Ancientmagicrelicloot",
+      "type": "loottable",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientmagicrelicloot",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "RelicRecipes",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relic_recipes",
+      "path": "~/Alchemy"
+    },
+    {
+      "name": "BlueCrystalShard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_crystal_shard",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "RedCrystalShard",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crystal_shard",
+      "path": "~/Alchemy/Crystals/RedCrystal"
+    },
+    {
+      "name": "GoldenCrystalShard",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_crystal_shard",
+      "path": "~/Alchemy/Crystals"
+    },
+    {
+      "name": "MagentaCrystalShard",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_crystal_shard",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "GreenCrystalShard",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_crystal_shard",
+      "path": "~/Alchemy/Crystals/GreenCrystal"
+    },
+    {
+      "name": "GreenCrystalBlock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_crystal_block",
+      "path": "~/Alchemy/Crystals/GreenCrystal"
+    },
+    {
+      "name": "BlueCrystalBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_crystal_block",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "RedCrystalBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crystal_block",
+      "path": "~/Alchemy/Crystals/RedCrystal"
+    },
+    {
+      "name": "ObsidianIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_ingot",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "Glock",
+      "type": "rangeditem",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glock",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "ColdLavaFuel",
+      "type": "fuel",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cold_lava_fuel",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NextProcP1",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_proc_p_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "PreviousProcP2",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previous_proc_p_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "ItemGuideP2",
+      "type": "gui",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_guide_p_2",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "OpenAboutAblanian",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_about_ablanian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "AboutAblanian",
+      "type": "gui",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "about_ablanian",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "DungeonLoot",
+      "type": "loottable",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_loot",
+      "path": "~/Dungeons"
+    },
+    {
+      "name": "MagentaDiamond",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_ore",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_block",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_ore_block_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_block_ore_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondOreSmelting",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_ore_smelting",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondPickaxe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_pickaxe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_axe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_sword",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondShovel",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_shovel",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondHoe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_hoe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_pickaxe_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondAxeRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_axe_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondSwordRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_sword_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondShovelRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_shovel_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondHoeRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_hoe_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmor",
+      "type": "armor",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor_helmet_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor_body_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor_leggings_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor_boots_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "MagentaDiamondPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "DungeonTower",
+      "type": "structure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_tower",
+      "path": "~/Dungeons"
+    },
+    {
+      "name": "MagentaHammer",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_hammer",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "SteelStick",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_stick",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "MagentaDiamondHammerRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_diamond_hammer_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "SteelStickRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_stick_recipe",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "MalysiumArmor",
+      "type": "armor",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "MalysiumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysium_chestplate_recipe",
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "Growth",
+      "type": "enchantment",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "growth",
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "Wither",
+      "type": "enchantment",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither",
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "WitherProcedure",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "HeroBrine",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hero_brine",
+      "path": "~/Entities"
+    },
+    {
+      "name": "WeaponWorktable",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weapon_worktable",
+      "path": "~/Blocks/Advanced Weapon Workbench"
+    },
+    {
+      "name": "WeapontableGui",
+      "type": "gui",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weapontable_gui",
+      "path": "~/Blocks/Advanced Weapon Workbench"
+    },
+    {
+      "name": "WeaponTableProcedure",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weapon_table_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Advanced Weapon Workbench"
+    },
+    {
+      "name": "AdvancedWeaponTableRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_weapon_table_recipe",
+      "path": "~/Blocks/Advanced Weapon Workbench"
+    },
+    {
+      "name": "Excalibur",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excalibur",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "WarpingpearlRightClickedInAir",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warpingpearl_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
+    },
+    {
+      "name": "Warpingpearl",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warpingpearl",
+      "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
+    },
+    {
+      "name": "GrowthProcedure",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "growth_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "GoldenFishingRod",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_fishing_rod",
+      "path": "~/Alchemy/Crystals"
+    },
+    {
+      "name": "GoldenFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_fishing_rod_recipe",
+      "path": "~/Alchemy/Crystals"
+    },
+    {
+      "name": "Abilities",
+      "type": "keybind",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abilities",
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "AbilitiesGui",
+      "type": "gui",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abilities_gui",
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "AbilitiesOnKeyPressed",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abilities_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "WarpingPearlInInventory",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warping_pearl_in_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
+    },
+    {
+      "name": "WarpingPearlTeleport",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warping_pearl_teleport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
+    },
+    {
+      "name": "StrenghtinInventory",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strenghtin_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "DefenceInInvetory",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "defence_in_invetory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "LifeInInvetory",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_in_invetory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "TickProcedure",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tick_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "SpellBook",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spell_book",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "MalysiumRune",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysium_rune",
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "MalysiunRuneDisabler",
+      "type": "item",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysiun_rune_disabler",
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "MalysiumRuneRightClickedInAir",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysium_rune_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "MalysiumRuneDisabler",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malysium_rune_disabler",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/armor"
+    },
+    {
+      "name": "Philosophersstone",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosophersstone",
+      "path": "~/Alchemy/Philosophers stone"
+    },
+    {
+      "name": "Rockintocoal",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rockintocoal",
+      "path": "~/Alchemy/Philosophers stone"
+    },
+    {
+      "name": "Coalintogold",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalintogold",
+      "path": "~/Alchemy/Philosophers stone"
+    },
+    {
+      "name": "Spellbookininventory",
+      "type": "procedure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spellbookininventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "BackpackGui",
+      "type": "gui",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_gui",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "WaterElement",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "LightningElement",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "EarthsSpellbook",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "earths_spellbook",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "AirsSpellbook",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "airs_spellbook",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "WatersSpellbook",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waters_spellbook",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "FiresSpellbook",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fires_spellbook",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "IceElement",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "FireElement",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "AirElement",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "EarthElement",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "earth_element",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "AmethystCrystal",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_crystal",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "Ablanianrecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ablanianrecipe",
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "RecipebookP3",
+      "type": "gui",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipebook_p_3",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "Nextproc2",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nextproc_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "PreviusProc3",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previus_proc_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "Ice",
+      "type": "achievement",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "AdvancementLoot1",
+      "type": "loottable",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_loot_1",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "Fusing",
+      "type": "achievement",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusing",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "MoreAdvanced",
+      "type": "achievement",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_advanced",
+      "path": "~/Blocks/Advanced Weapon Workbench"
+    },
+    {
+      "name": "Sakuraleaves",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakuraleaves",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraLog",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_log",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "Sakuraforest",
+      "type": "biome",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakuraforest",
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "SakuraPlanks",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_planks",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraWood",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_wood",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraItemsTag",
+      "type": "tag",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_items_tag",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraStairs",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_stairs",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraSlab",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_slab",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraFence",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_fence",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraFenceGate",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_fence_gate",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraButton",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_button",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraPressurePlate",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_pressure_plate",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraButtonRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_button_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_crafting_table_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_fence_gate_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraFenceRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_fence_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_pressure_plate_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraSlabRecipe",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_slab_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraStairsRecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_stairs_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraPlanksRecipe",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_planks_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraStickRecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_stick_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "SakuraWoodRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_wood_recipe",
+      "path": "~/Ablanian/Wood"
+    },
+    {
+      "name": "RodOfFighting",
+      "type": "enchantment",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rod_of_fighting",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "AmethystFishingRod",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_fishing_rod",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "PermanentModGui",
+      "type": "gui",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "permanent_mod_gui",
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "OpenPermanentMods",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_permanent_mods",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "EnchantedGOldenCarrotFoodEaten",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_g_olden_carrot_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "EnchantedGOldenCarrot",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_g_olden_carrot",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "CrystalBerryBush",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage2",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_2",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage3",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_3",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage4",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_4",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushUpdateTick",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage2P",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_2_p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage3P",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_3_p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerry",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "CrystalBerryBushStage4OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_berry_bush_stage_4_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "AmethystItems",
+      "type": "tag",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_items",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "AmethystFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_fishing_rod_recipe",
+      "path": "~/Alchemy/Crystals/Amethyst"
+    },
+    {
+      "name": "TeleportationstaffBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportationstaff_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "Teleportationstaff",
+      "type": "rangeditem",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportationstaff",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "LifeSteal",
+      "type": "enchantment",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal",
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "BlueCrystalRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_crystal_recipe",
+      "path": "~/Alchemy/Crystals/BlueCrystal"
+    },
+    {
+      "name": "GoldenCrystalShardRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_crystal_shard_recipe",
+      "path": "~/Alchemy/Crystals"
+    },
+    {
+      "name": "MagicStaff",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "magic_staff",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "IcestagaliteUpdateTick",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "icestagalite_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "Icestagalite",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "icestagalite",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "IceStagalitePowerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_stagalite_power_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "IceStagalitePower",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_stagalite_power",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "BonusSlotGem",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonus_slot_gem",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "FireThrowPowerRangedBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_throw_power_ranged_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "FireThrowPowerRangedWhileBulletFlyingTick",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_throw_power_ranged_while_bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "FireThrowPowerRanged",
+      "type": "rangeditem",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_throw_power_ranged",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "FireThrowPowerItemRightClickedInAir",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_throw_power_item_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "FireThrowPowerItem",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_throw_power_item",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "LessManaGem",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "less_mana_gem",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "LightningStrikePowerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_strike_power_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "LightningStrikePower",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_strike_power",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "MagicStaffRightClickedInAir",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_staff_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "ManaPotionFoodEaten",
+      "type": "procedure",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "ManaPotion",
+      "type": "food",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_potion",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "ManaRegenerationOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_regeneration_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "ManaRegeneration",
+      "type": "potioneffect",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_regeneration",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "ManaRegenerationPotionItem",
+      "type": "potion",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_regeneration_potion_item",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "MasterStationRecipes",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_station_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WaterPowerRangedBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power_ranged_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WaterPowerRangedWhileBulletFlyingTick",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power_ranged_while_bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WaterPowerRanged",
+      "type": "rangeditem",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power_ranged",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WaterPowerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WaterPower",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "TeleportationStaffItemRightClickedInAir",
+      "type": "procedure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportation_staff_item_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "TeleportationStaffItem",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportation_staff_item",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "StaffMaxCommandExecuted",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staff_max_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "StaffMax",
+      "type": "command",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staff_max",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "XPBoostGem",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_boost_gem",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WandStationGui",
+      "type": "gui",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wand_station_gui",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "WandStation",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wand_station",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "MagicStaffRecipe",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_staff_recipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
+    },
+    {
+      "name": "MagicRune",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage2",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_2",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage3",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_3",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage4",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_4",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage5",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_5",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage6",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_6",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "Flight",
+      "type": "potioneffect",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flight",
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "FlightOn",
+      "type": "procedure",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flight_on",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/PassiveAilities"
+    },
+    {
+      "name": "GenesisArmor",
+      "type": "armor",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genesis_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "IceStagalitePowerInventory",
+      "type": "procedure",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_stagalite_power_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "FirePowerInventory",
+      "type": "procedure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_power_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "LightningPowerInventory",
+      "type": "procedure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_power_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "WaterPowerInventory",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_power_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "TeleportStaffInventory",
+      "type": "procedure",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleport_staff_inventory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "SpellBookRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spell_book_recipe",
+      "path": "~/Alchemy/Spells"
+    },
+    {
+      "name": "SpellBookInInvetory",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spell_book_in_invetory",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities/MagicWandSpells"
+    },
+    {
+      "name": "RecipebookP4",
+      "type": "gui",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipebook_p_4",
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "PreviusProc4",
+      "type": "procedure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previus_proc_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "NextProc3",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_proc_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RecipeBook/gui"
+    },
+    {
+      "name": "GenesisHelmetRecipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genesis_helmet_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "GenesisBootsRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genesis_boots_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "GenesisChestplateRecipe",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genesis_chestplate_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "GenesisLegginsRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genesis_leggins_recipe",
+      "path": "~/Ablanian/Materials"
+    },
+    {
+      "name": "WarpingPearlRecipe",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warping_pearl_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
+    },
+    {
+      "name": "SpellBookGui",
+      "type": "gui",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spell_book_gui",
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "OpenSpellBookGui",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_spell_book_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Abilities"
+    },
+    {
+      "name": "Particles1",
+      "type": "function",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particles_1",
+      "path": "~/Alchemy/Functions"
+    },
+    {
+      "name": "MagicRuneRecipe",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage2Recipe",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_2_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage3Recipe",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_3_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage4Recipe",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_4_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage5Recipe",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_5_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage6Recipe2",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_6_recipe_2",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "MagicRuneStage6Recipe",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_rune_stage_6_recipe",
+      "path": "~/Alchemy/Abilities/item abilities/Magic Rune"
+    },
+    {
+      "name": "Crystaltag",
+      "type": "tag",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystaltag",
+      "path": "~/Alchemy/Crystals"
+    },
+    {
+      "name": "MagicalDust",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_dust",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "MagicalDustRecipe",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_dust_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EXPbottlerecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ex_pbottlerecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Sharur",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharur",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Magicswordshandle",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicswordshandle",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "SwordHandleRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_handle_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Gambanteinn",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gambanteinn",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "GambanteinnRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gambanteinn_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Asi",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asi",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "SwordFragment",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_fragment",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "GiveArphoditesShield",
+      "type": "function",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_arphodites_shield",
+      "path": "~/Alchemy/Functions"
+    },
+    {
+      "name": "Crafting",
+      "type": "function",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting",
+      "path": "~/Alchemy/Functions"
+    },
+    {
+      "name": "TotemFragment",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totem_fragment",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Steelnugget",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelnugget",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "Steelnuggetrecipe",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelnuggetrecipe",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "Nuggetintoingotsteel",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuggetintoingotsteel",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "SteelMagichandle",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_magichandle",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "SteelMagicHandlerecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_magic_handlerecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "FireStaffrecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_staffrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "IceStaffrecipe",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_staffrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "LightningStaffrecipe",
+      "type": "recipe",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_staffrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "WaterStaffrecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_staffrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "TeleportationStaffRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportation_staff_recipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "Magicalsteel",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicalsteel",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "MagicalSteelRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_steel_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "MagicalSword",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_sword",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "MagicalSwordrecipe",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_swordrecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Xpboostgemrecipe",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpboostgemrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "Bonusslotgemrecipe",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonusslotgemrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "Lessmanagemrecipe",
+      "type": "recipe",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lessmanagemrecipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "ManapotionRecipe",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manapotion_recipe",
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject/staff recipes"
+    },
+    {
+      "name": "AsiFragment",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asi_fragment",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "AsiFragmentRecipe",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asi_fragment_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Asirecipe",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asirecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Fossilore",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossilore",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Fossiloreloot",
+      "type": "loottable",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiloreloot",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Lifestealproc",
+      "type": "procedure",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lifestealproc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "A1",
+      "type": "function",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_1",
+      "path": "~/Alchemy/Functions"
+    },
+    {
+      "name": "PulverizedNetherrack",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulverized_netherrack",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "PulverizedNetherrackrecipe",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulverized_netherrackrecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "AutoSmelt",
+      "type": "enchantment",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_smelt",
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "Autosmeltproc",
+      "type": "procedure",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "autosmeltproc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Enchantments"
+    },
+    {
+      "name": "Mana",
+      "type": "achievement",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana"
+    },
+    {
+      "name": "Snowflake",
+      "type": "rangeditem",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowflake",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderDust",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_dust",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderDustRecipe",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_dust_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "SoulFragment",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fragment",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Asired",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asired",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "AsiredFragment",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asired_fragment",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "AsiredFragmentRecipe",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asired_fragment_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Asiredrecipe",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asiredrecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderShard",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_shard",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderShardRecipe",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_shard_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Enderswordshandle",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderswordshandle",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Enderhandlerecipe",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderhandlerecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderSword",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_sword",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "EnderSwordrecipe",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_swordrecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "DimensionalKey",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimensional_key",
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "DimensionalKeyRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimensional_key_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "EnderStaff",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_staff",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "EnderStaffRightClickedInAir",
+      "type": "procedure",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_staff_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "SakuraleavesUpdateTick",
+      "type": "procedure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakuraleaves_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "SakuraleavesBlockAdded",
+      "type": "procedure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakuraleaves_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "SakuraleavesBlockAdded1",
+      "type": "procedure",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakuraleaves_block_added_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ablanian"
+    },
+    {
+      "name": "EnderStaffRecipe",
+      "type": "recipe",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_staff_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Spawnzombie",
+      "type": "recipe",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawnzombie",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Spawnspider",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawnspider",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Spawnskeleton",
+      "type": "recipe",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawnskeleton",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Spawncreeper",
+      "type": "recipe",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawncreeper",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Spawnblaze",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawnblaze",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "Spawnenderman",
+      "type": "recipe",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawnenderman",
+      "path": "~/Alchemy/Magical Dust/Soul"
+    },
+    {
+      "name": "GinsengUpdateTick",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "Ginseng",
+      "type": "plant",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengRegeneration",
+      "type": "food",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengRegenerationFoodEaten",
+      "type": "procedure",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_blocks"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beacon_base_block_blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tick_functions"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot_recipe",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "BackpackRecipe",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_recipe",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "EnchantedGoldenCarrotRecipe",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_golden_carrot_recipe",
+      "path": "~/Items and tools"
+    },
+    {
+      "name": "BigBottle",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_bottle",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "BigBottleRecipe",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_bottle_recipe",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStenght",
+      "type": "food",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_stenght",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStregtheaten",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_stregtheaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengRegenerationII",
+      "type": "food",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration_ii",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengRegenerationIIEaten",
+      "type": "procedure",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration_ii_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStrengthII",
+      "type": "food",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_strength_ii",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStrengthIIEaten",
+      "type": "procedure",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_strength_ii_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "Netherarrow",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherarrow",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "NetherArrowRecipe",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_arrow_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arrow_items"
+    },
+    {
+      "name": "GinsengRegenerationRecipe",
+      "type": "recipe",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration_recipe",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengRegenerationIIRecipe",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_regeneration_ii_recipe",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStrengthRecipe",
+      "type": "recipe",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_strength_recipe",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "GinsengStrengthIIRecipe",
+      "type": "recipe",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ginseng_strength_ii_recipe",
+      "path": "~/Alchemy/Magical Dust/Ginseng"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_items"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_items"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "climbable_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raider_entities"
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_functions"
+    },
+    {
+      "name": "Load1",
+      "type": "function",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_1",
+      "path": "~/Alchemy/Functions"
+    },
+    {
+      "name": "DemonicStaff",
+      "type": "item",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonic_staff",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "DemonicStaffRecipe",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonic_staff_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Emeraldorb",
+      "type": "item",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldorb",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "TotemOfStrength",
+      "type": "item",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totem_of_strength",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "TotemOfStrengthProc",
+      "type": "procedure",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totem_of_strength_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "TotemOfResistance",
+      "type": "item",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totem_of_resistance",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "NetherrackIngot",
+      "type": "item",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrack_ingot",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "NetherrackIngotRecipe",
+      "type": "recipe",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrack_ingot_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Retenate",
+      "type": "livingentity",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenateeye",
+      "type": "item",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateeye",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Infestedgrass",
+      "type": "block",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infestedgrass",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateSword",
+      "type": "tool",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_sword",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenateaxe",
+      "type": "tool",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateaxe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateHoe",
+      "type": "tool",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_hoe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenatePickaxe",
+      "type": "tool",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_pickaxe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateShowel",
+      "type": "tool",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_showel",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatearmor",
+      "type": "armor",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatearmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateGem",
+      "type": "item",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_gem",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatestick",
+      "type": "item",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatestick",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenateflesh",
+      "type": "item",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateflesh",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenateloot",
+      "type": "loottable",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateloot",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Reteniteingot",
+      "type": "item",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reteniteingot",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "ReteniteIngotrecipe",
+      "type": "recipe",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenite_ingotrecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenategemrecipe",
+      "type": "recipe",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenategemrecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenatePickaxerecipe",
+      "type": "recipe",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_pickaxerecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateShowelRecipe",
+      "type": "recipe",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_showel_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateSwordrecipe",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_swordrecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateHoeRecipe",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenate_hoe_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "RetenateaxeRecipe",
+      "type": "recipe",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateaxe_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatearmor1Recipe",
+      "type": "recipe",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatearmor_1_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatearmor2Recipe",
+      "type": "recipe",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatearmor_2_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatearmor3Recipe",
+      "type": "recipe",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatearmor_3_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Retenatearmor4Recipe",
+      "type": "recipe",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenatearmor_4_recipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "WarpingPearl",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerJoinedWorldBefore",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "EnderStaffAbility",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Speed",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Yaw",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "retenate_armor",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "recipe_book.pagetext": "Page",
+      "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
+      "item.alchemy.magenta_diamond": "NetherAmethyst",
+      "item.alchemy.earth_element": "Earth Element",
+      "item.alchemy.steel_ingot": "Steel Ingot",
+      "item.alchemy.genesis_armor_boots": "Genesis Boots",
+      "biome.alchemy.ablanian_forest": "Ablanian Forest",
+      "block.alchemy.cold_lava": "Cold Lava",
+      "item.alchemy.genesis_armor_helmet": "Genesis Helmet",
+      "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
+      "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
+      "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
+      "advancements.ice.descr": "New Elements...",
+      "item.alchemy.soul_fragment": "Fossil",
+      "item.alchemy.malysium_armor_leggings": "Malysium Leggings",
+      "key.alchemy.abilities": "Abilities",
+      "item.alchemy.excalibur": "Excalibur",
+      "item.alchemy.magenta_diamond_shovel": "Amethyst Shovel",
+      "block.alchemy.sakura_slab": "Sakura Slab",
+      "advancements.relic_recipes.title": "Something Weird",
+      "item.alchemy.retenate_pickaxe": "Retenate Pickaxe",
+      "item.alchemy.totem_fragment": "Fossil",
+      "item.alchemy.magenta_diamond_sword": "Amethyst Sword",
+      "item.alchemy.recipe_book": "Alchemy Guide",
+      "advancements.ablanian_recipes.descr": "New dimension, new recipes!",
+      "item.alchemy.golden_crystal_shard": "Golden Crystal Shard",
+      "item.alchemy.red_crystal_shard": "Red Crystal Shard",
+      "item.alchemy.magic_rune_stage_5": "Magic Rune",
+      "item.alchemy.asi": "§cAsi",
+      "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.alchemy.magic_rune_stage_4": "Magic Rune",
+      "item.alchemy.magic_rune_stage_6": "Magic Rune",
+      "item.alchemy.warpingpearl": "Warping Pearl",
+      "block.alchemy.ablanian_stone": "Ablanian Stone",
+      "item.alchemy.magenta_diamond_pickaxe": "Amethyst Pickaxe",
+      "item.alchemy.ruby_axe": "Ruby Axe",
+      "advancements.more_advanced.title": "More Advanced",
+      "item.alchemy.magic_rune_stage_3": "Magic Rune",
+      "item.alchemy.waters_spellbook": "Water\u0027s SpellBook",
+      "item.alchemy.magic_rune_stage_2": "Magic Rune",
+      "item.alchemy.retenate_showel": "Retenate Shovel",
+      "block.alchemy.ginseng": "Ginseng",
+      "item.alchemy.netherarrow": "Nether arrow",
+      "block.alchemy.wand_station": "Wand Station",
+      "block.alchemy.amethyst_crystal": "Amethyst CrystalBlock",
+      "item.alchemy.asi_fragment": "Fossil",
+      "block.alchemy.fusion_furnace": "Fusion Furnace",
+      "item.alchemy.rainbow_powder": "Rainbow Powder",
+      "item.alchemy.demonic_staff": "Demonic Staff",
+      "item.alchemy.retenateaxe": "Retenate Axe",
+      "block.alchemy.icestagalite": "Icestagalite",
+      "item.alchemy.retenatestick": "Retenate stick",
+      "item.alchemy.spell_book": "SpellBook",
+      "block.alchemy.red_crystal_block": "Red Crystal Block",
+      "block.alchemy.green_crystal_block": "Green Crystal Block",
+      "block.alchemy.ablanian_fence_gate": "Ablanian Fence Gate",
+      "item.alchemy.potion_of_life": "Potion Of Life",
+      "block.alchemy.infestedgrass": "Infestedgrass",
+      "item.alchemy.retenate_gem": "Retenate Gem",
+      "item.alchemy.rainbow_ingot": "Rainbow Ingot",
+      "item.alchemy.enchanted_g_olden_carrot": "Enchanted Golden Carrot",
+      "item.alchemy.ruby_sword": "Ruby Sword",
+      "item.alchemy.magenta_diamond_hoe": "Amethyst Hoe",
+      "item.alchemy.magicalsteel": "Magical steel",
+      "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
+      "advancements.recipes.descr": "Loading into a world first time",
+      "advancements.ablanian_recipes.title": "Ice Age",
+      "block.alchemy.sakura_log": "Sakura Log",
+      "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
+      "item.alchemy.ender_sword": "§4Ender Sword",
+      "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
+      "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
+      "item.alchemy.dimensional_key": "Dimensional Key",
+      "effect.mana_regeneration": "Mana Regeneration Potion",
+      "item.alchemy.blue_crystal_shard": "Blue Crystal Shard",
+      "item.alchemy.water_power_ranged": "Water Power Ranged",
+      "item.alchemy.ruby_shovel": "Ruby Shovel",
+      "advancements.more_advanced.descr": "Advanced Crafting",
+      "advancements.relic_recipes.descr": "Relics",
+      "item.alchemy.obsidian_ingot": "Obsidian Ingot",
+      "item.alchemy.retenateeye": "Retenate Eye",
+      "item.alchemy.cold_lava_bucket": "Cold Lava Bucket",
+      "item.alchemy.black_diamond": "Black Diamond",
+      "item.alchemy.ruby_armor_leggings": "Ruby Leggings",
+      "item.alchemy.green_crystal_shard": "Green Crystal Shard",
+      "item.alchemy.ender_shard": "Ender Shard",
+      "item.alchemy.ancient_magic_relic": "Ancient Magic Relic",
+      "item.alchemy.ginseng_stenght": "Ginseng Strength I",
+      "enchantment.alchemy.auto_smelt": "Auto Smelt",
+      "item.alchemy.sharur": "§4Sharur",
+      "item.alchemy.teleportation_staff_item": "Teleportation Staff Item",
+      "block.alchemy.magenta_diamond_block": "Block of Amethyst",
+      "item.alchemy.ruby_armor_helmet": "Ruby Helmet",
+      "block.alchemy.ablanian_slab": "Ablanian Slab",
+      "item.alchemy.ablanian": "Dimensional Key",
+      "item.alchemy.retenate_sword": "Retenate Sword",
+      "item.alchemy.glock": "Glock",
+      "item.alchemy.diamond_dust": "Diamond Dust",
+      "item.alchemy.fires_spellbook": "Fire\u0027s SpellBook",
+      "block.alchemy.fusiontable": "Fusiontable",
+      "item.alchemy.malysiun_rune_disabler": "Malysiun Rune",
+      "item.alchemy.genesis_armor_leggings": "Genesis Leggings",
+      "block.alchemy.sakura_pressure_plate": "Sakura Pressure Plate",
+      "item.alchemy.malysium_armor_helmet": "Malysium Helmet",
+      "item.alchemy.amethyst_fishing_rod": "Amethyst Fishing Rod",
+      "item.minecraft.lingering_potion.effect.mana_regeneration_potion_item": "Lingering Mana Regeneration",
+      "item.alchemy.fire_throw_power_ranged": "Fire Throw Power Ranged",
+      "item.alchemy.heart": "Heart",
+      "item.alchemy.asired": "§9Asi",
+      "item.alchemy.ruby_hoe": "Ruby Hoe",
+      "item.alchemy.earths_spellbook": "Earth\u0027s Spellbook",
+      "item.alchemy.relic_of_defence": "Relic Of Defence",
+      "item.alchemy.retenatearmor_leggings": "Retenate Leggings",
+      "entity.alchemy.hero_brine": "Herobrine",
+      "advancements.fusing.title": "Fusing",
+      "block.alchemy.sakura_fence_gate": "Sakura Fence Gate",
+      "enchantment.alchemy.rod_of_fighting": "Rod Of Fighting",
+      "item.alchemy.snowflake": "§4Snowflake",
+      "item.alchemy.backpack": "Backpack",
+      "item.alchemy.magenta_crystal_shard": "Amethyst Shard",
+      "item.alchemy.retenateflesh": "Retenateflesh",
+      "block.alchemy.crystal_berry_bush": "Crystal Berry Bush",
+      "item.alchemy.mana_potion": "Mana Potion",
+      "item.alchemy.totem_of_resistance": "Totem Of Resistance",
+      "block.alchemy.fossilore": "Fossil",
+      "item.alchemy.retenatearmor_boots": "Retenate Boots",
+      "item.alchemy.magenta_diamond_armor_leggings": "Amethyst Leggings",
+      "item.alchemy.ruby_pickaxe": "Ruby Pickaxe",
+      "block.alchemy.sakura_stairs": "Sakura Stairs",
+      "item.alchemy.ice_element": "Ice Element",
+      "item.alchemy.netherrack_ingot": "Netherrack Ingot",
+      "block.alchemy.ablanian_planks": "Ablanian Planks",
+      "item.alchemy.enderswordshandle": "Ender handle",
+      "advancements.mana.title": "Mana!",
+      "block.alchemy.magenta_diamond_ore": "NetherAmethyst Ore",
+      "item.alchemy.golden_fishing_rod": "Golden Fishing Rod",
+      "block.alchemy.ablanian_wood": "Ablanian Wood",
+      "block.alchemy.crystal_berry_bush_stage_3": "Crystal Berry Bush",
+      "block.alchemy.crystal_berry_bush_stage_2": "Crystal Berry Bush",
+      "advancements.fusing.descr": "Placed FusionTable",
+      "block.alchemy.crystal_berry_bush_stage_4": "Crystal Berry Bush",
+      "enchantment.alchemy.growth": "Growth",
+      "recipe_book.page1": "Enhanced Netherite Sword",
+      "recipe_book.page2": "",
+      "block.alchemy.sakura_fence": "Sakura Fence",
+      "item.alchemy.malysium_rune": "Malysium Rune",
+      "item.alchemy.retenate_hoe": "Retenate Hoe",
+      "item.alchemy.relic_of_damage": "Relic Of Damage",
+      "item.alchemy.white_diamond": "White Diamond",
+      "item.alchemy.ender_dust": "Ender Dust",
+      "item.alchemy.potion_of_damage": "Potion Of Damage",
+      "item.alchemy.magenta_hammer": "Amethyst Hammer",
+      "item.alchemy.magenta_diamond_axe": "Amethyst Axe",
+      "item.alchemy.red_diamond": "Red Diamond",
+      "item.alchemy.teleportationstaff": "Teleportationstaff",
+      "item.alchemy.magical_sword": "Magical Sword",
+      "item.alchemy.ender_staff": "§4Ender Staff",
+      "item.alchemy.pulverized_netherrack": "Pulverized Netherrack",
+      "item.alchemy.magic_rune": "Magic Rune",
+      "enchantment.alchemy.wither": "Wither",
+      "item.alchemy.xp_boost_gem": "XP Boost Shard",
+      "item.alchemy.ice_stagalite_power": "Icestaff",
+      "item.alchemy.potion_of_defence": "Potion Of Defence",
+      "item.alchemy.airs_spellbook": "Air\u0027s SpellBook",
+      "item.alchemy.philosophersstone": "Philosopher\u0027s Stone",
+      "item.alchemy.reteniteingot": "Retenate ingot",
+      "block.alchemy.ruby_block": "Block of Ruby",
+      "item.alchemy.lightning_strike_power": "Lightningstaff",
+      "fluid.alchemy.cold_lava": "Cold Lava",
+      "item.alchemy.malysium_armor_boots": "Malysium Boots",
+      "item.alchemy.hero_brine_spawn_egg": "Herobrine Spawn Egg",
+      "item.minecraft.splash_potion.effect.mana_regeneration_potion_item": "Splash Mana Regeneration",
+      "block.alchemy.ablanian_stairs": "Ablanian Stairs",
+      "item.alchemy.magenta_diamond_armor_chestplate": "Amethyst Chestplate",
+      "item.alchemy.steel_magichandle": "Steel Magic handle",
+      "item.alchemy.fire_element": "Fire Element",
+      "item.alchemy.ginseng_regeneration_ii": "Ginseng Regeneration II",
+      "item.alchemy.air_element": "Air Element",
+      "block.alchemy.ablanian_cobblestone": "Ablanian Cobblestone",
+      "item.alchemy.water_element": "Water Element",
+      "item.alchemy.gambanteinn": "§4Gambanteinn",
+      "item.alchemy.totem_of_strength": "Totem Of Strength",
+      "item.alchemy.diamond_ingot": "Diamond Ingot",
+      "block.alchemy.ablanian_button": "Ablanian Button",
+      "block.alchemy.ablanian_leaves": "Ablanian Leaves",
+      "advancements.recipes.title": "Start the game!",
+      "item.alchemy.bonus_slot_gem": "Bonus Slot Shard",
+      "item.alchemy.sword_fragment": "Fossil",
+      "item.alchemy.fire_throw_power_item": "Firestaff",
+      "item.alchemy.magical_dust": "Magical Dust",
+      "block.alchemy.ruby_ore": "Ruby Ore",
+      "item.alchemy.magenta_diamond_armor_helmet": "Amethyst Helmet",
+      "advancements.ice.title": "Water",
+      "item.alchemy.genesis_armor_chestplate": "Genesis Chestplate",
+      "block.alchemy.sakura_button": "Sakura Button",
+      "block.alchemy.ablanian_fence": "Ablanian Fence",
+      "block.alchemy.sakura_planks": "Sakura Planks",
+      "item.alchemy.ginseng_strength_ii": "Ginseng Strength II",
+      "entity.alchemy.retenate": "Retenate",
+      "item.alchemy.magic_staff": "Magic Staff",
+      "item.alchemy.emeraldorb": "Emeraldorb",
+      "item.alchemy.ruby": "Ruby",
+      "block.alchemy.ablanian_pressure_plate": "Ablanian Pressure Plate",
+      "block.alchemy.blue_crystal_block": "Blue Crystal Block",
+      "item.alchemy.big_bottle": "Big Bottle",
+      "item.alchemy.steel_stick": "Steel Stick",
+      "biome.alchemy.sakuraforest": "Sakuraforest",
+      "advancements.mana.descr": "Drink one mana  potion",
+      "effect.flight": "Flight",
+      "item.alchemy.lightning_element": "Lightning Element",
+      "item.alchemy.steelnugget": "Steel nugget",
+      "item.alchemy.less_mana_gem": "Less Mana Shard",
+      "item.alchemy.crystal_berry": "Crystal Berry",
+      "enchantment.alchemy.life_steal": "Lifesteal",
+      "itemGroup.tabalchemy": "Alchemy",
+      "item.alchemy.ruby_armor_boots": "Ruby Boots",
+      "item.alchemy.relic_of_life": "Relic Of Life",
+      "block.alchemy.ablanian_log": "Ablanian Log",
+      "block.alchemy.sakura_wood": "Sakura Wood",
+      "item.alchemy.water_power": "Waterstaff",
+      "block.alchemy.sakuraleaves": "Sakuraleaves",
+      "item.alchemy.ginseng_regeneration": "Ginseng Regeneration I",
+      "item.alchemy.asired_fragment": "Fossil",
+      "item.alchemy.magicswordshandle": "Magic handle"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "FusionFurnace",
+            "children": [
+              {
+                "name": "bars",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "FusionTable",
+            "children": []
+          },
+          {
+            "name": "Advanced Weapon Workbench",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items and tools",
+        "children": []
+      },
+      {
+        "name": "Alchemy",
+        "children": [
+          {
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "Philosophers stone",
+            "children": []
+          },
+          {
+            "name": "Crystals",
+            "children": [
+              {
+                "name": "GreenCrystal",
+                "children": []
+              },
+              {
+                "name": "BlueCrystal",
+                "children": []
+              },
+              {
+                "name": "RedCrystal",
+                "children": []
+              },
+              {
+                "name": "Amethyst",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Abilities",
+            "children": [
+              {
+                "name": "item abilities",
+                "children": [
+                  {
+                    "name": "WarpingPearl",
+                    "children": []
+                  },
+                  {
+                    "name": "Magic Rune",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "PassiveAilities",
+                "children": []
+              },
+              {
+                "name": "Skillbooks",
+                "children": []
+              },
+              {
+                "name": "MagicWandSpells",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Enchantments",
+            "children": []
+          },
+          {
+            "name": "Magical Dust",
+            "children": [
+              {
+                "name": "MagicStaffProject",
+                "children": [
+                  {
+                    "name": "staff recipes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Soul",
+                "children": []
+              },
+              {
+                "name": "Ginseng",
+                "children": []
+              },
+              {
+                "name": "Retenate",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Functions",
+            "children": []
+          },
+          {
+            "name": "Spells",
+            "children": [
+              {
+                "name": "element Recipes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ablanian",
+        "children": [
+          {
+            "name": "Wood",
+            "children": []
+          },
+          {
+            "name": "Material",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "RecipeBook",
+        "children": [
+          {
+            "name": "gui",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dungeons",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Functions2",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alchemy",
+    "modName": "Alchemy",
+    "version": "1.0.0",
+    "description": "Alchemy mod Beta",
+    "author": "MicroPizza",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "aaa",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using Mcreator",
+    "modElementsPackage": "net.mcreator.alchemy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

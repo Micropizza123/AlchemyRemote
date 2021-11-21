@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:SoulFragment"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#50"
+    },
+    "name": "spawncreeper",
+    "namespace": "mod"
+  }
+}

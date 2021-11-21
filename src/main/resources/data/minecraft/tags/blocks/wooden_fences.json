@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alchemy:sakura_fence",
+    "alchemy:sakura_fence_gate",
+    "alchemy:ablanian_fence",
+    "alchemy:ablanian_fence_gate"
+  ]
+}

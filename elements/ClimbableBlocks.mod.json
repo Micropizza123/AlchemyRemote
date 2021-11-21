@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.CHAIN"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "climbable",
+    "namespace": "minecraft"
+  }
+}

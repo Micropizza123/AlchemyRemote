@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": "CUSTOM:Magicswordshandle"
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SteelMagichandle"
+    },
+    "name": "steel_magic_handlerecipe",
+    "namespace": "mod"
+  }
+}

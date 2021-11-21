@@ -1,0 +1,1 @@
+/execute as @e[tag=!AdCraft,nbt={Item:{id:"minecraft:nether_star"}}] at @s at @e[tag=!AdCraft,nbt={Item:{id:"minecraft:shield"}},distance=..1] unless entity @e[type=item,nbt={OnGround:0b},distance=..4] unless entity @e[distance=..1,scores={ItemCountTransf=1..}] run function alchemy:give_arphodites_shield

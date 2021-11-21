@@ -1,0 +1,42 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:ruby"
+    },
+    "1": {
+      "item": "alchemy:ruby"
+    },
+    "2": {
+      "item": "alchemy:ruby"
+    },
+    "3": {
+      "item": "alchemy:ruby"
+    },
+    "4": {
+      "item": "alchemy:ruby"
+    },
+    "5": {
+      "item": "alchemy:ruby"
+    },
+    "6": {
+      "item": "alchemy:ruby"
+    },
+    "7": {
+      "item": "alchemy:ruby"
+    },
+    "8": {
+      "item": "alchemy:ruby"
+    }
+  },
+  "result": {
+    "item": "alchemy:ruby_block",
+    "count": 1
+  }
+}

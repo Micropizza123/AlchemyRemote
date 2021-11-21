@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:green_crystal_shard"
+  },
+  "addition": {
+    "item": "alchemy:magical_dust"
+  },
+  "result": {
+    "item": "alchemy:xp_boost_gem"
+  }
+}

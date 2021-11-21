@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "alchemy:blocks/ginseng_",
+    "particle": "alchemy:blocks/ginseng_"
+  }
+}

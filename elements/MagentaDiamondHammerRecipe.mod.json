@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:amethyst_items"
+      },
+      {
+        "value": "TAG:forge:amethyst_items"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelStick"
+      },
+      {
+        "value": "TAG:forge:amethyst_items"
+      },
+      {
+        "value": "CUSTOM:SteelStick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagentaHammer"
+    },
+    "name": "magenta_diamond_hammer_recipe",
+    "namespace": "mod"
+  }
+}

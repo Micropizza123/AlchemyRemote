@@ -1,0 +1,7 @@
+{
+  "parent": "alchemy:custom/emerald_orb",
+  "textures": {
+    "0": "alchemy:blocks/emerald_orb",
+    "particle": "alchemy:items/emerald_orb"
+  }
+}

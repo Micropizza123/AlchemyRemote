@@ -1,0 +1,39 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemy:reteniteingot"
+    },
+    "2": {
+      "item": "alchemy:reteniteingot"
+    },
+    "3": {
+      "item": "alchemy:reteniteingot"
+    },
+    "4": {
+      "item": "alchemy:retenate_gem"
+    },
+    "5": {
+      "item": "alchemy:reteniteingot"
+    },
+    "6": {
+      "item": "alchemy:reteniteingot"
+    },
+    "7": {
+      "item": "alchemy:retenate_gem"
+    },
+    "8": {
+      "item": "alchemy:reteniteingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:retenatearmor_chestplate",
+    "count": 1
+  }
+}

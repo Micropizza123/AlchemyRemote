@@ -1,0 +1,13 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:ablanian_planks"
+    }
+  ],
+  "result": {
+    "item": "alchemy:ablanian_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "alchemy:recipe_book"
+    },
+    "title": {
+      "translate": "advancements.recipes.title"
+    },
+    "description": {
+      "translate": "advancements.recipes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "alchemy:recipe_book",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "alchemy:fusion_table_recipe",
+      "alchemy:diamond_dust_recipe",
+      "alchemy:diamond_ingot_recipe",
+      "alchemy:relic_of_damage_recipe",
+      "alchemy:relic_of_defence_recipe",
+      "alchemy:relic_of_life_recipe",
+      "alchemy:potion_of_life_recipe",
+      "alchemy:potion_of_defence_recipe",
+      "alchemy:potion_of_damage_recipe",
+      "alchemy:heart_recipe",
+      "alchemy:rainbow_ingot_recipe",
+      "alchemy:rainbow_powder_recipe",
+      "alchemy:black_diamond_recipe",
+      "alchemy:red_diamond_recipe",
+      "alchemy:deleted_mod_element",
+      "alchemy:deleted_mod_element",
+      "alchemy:ablanian_crafting_table",
+      "alchemy:deleted_mod_element",
+      "alchemy:magenta_diamond_ore_block_recipe",
+      "alchemy:magenta_diamond_block_ore_recipe",
+      "alchemy:magenta_diamond_ore_smelting",
+      "alchemy:magenta_diamond_pickaxe_recipe",
+      "alchemy:magenta_diamond_axe_recipe",
+      "alchemy:magenta_diamond_sword_recipe",
+      "alchemy:magenta_diamond_shovel_recipe",
+      "alchemy:magenta_diamond_hoe_recipe",
+      "alchemy:magenta_diamond_armor_helmet_recipe",
+      "alchemy:magenta_diamond_armor_body_recipe",
+      "alchemy:magenta_diamond_armor_leggings_recipe",
+      "alchemy:magenta_diamond_armor_boots_recipe",
+      "alchemy:magenta_diamond_hammer_recipe",
+      "alchemy:steel_stick_recipe",
+      "alchemy:malysium_chestplate_recipe",
+      "alchemy:advanced_weapon_table_recipe",
+      "alchemy:golden_fishing_rod_recipe",
+      "alchemy:rockintocoal",
+      "alchemy:coalintogold",
+      "alchemy:ablanianrecipe",
+      "alchemy:rainbow_ingot_recipe",
+      "alchemy:rainbow_powder_recipe",
+      "alchemy:advanced_weapon_table_recipe"
+    ]
+  }
+}

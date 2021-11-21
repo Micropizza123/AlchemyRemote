@@ -1,0 +1,16 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "alchemy:magical_dust"
+    }
+  ],
+  "result": {
+    "item": "alchemy:spell_book",
+    "count": 1
+  }
+}
