@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "alchemy:infestedgrass"
+    },
+    "title": {
+      "translate": "advancements.retenative.title"
+    },
+    "description": {
+      "translate": "advancements.retenative.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "retenative": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "alchemy:retenated_land"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

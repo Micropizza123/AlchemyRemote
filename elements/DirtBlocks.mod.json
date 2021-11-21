@@ -4,7 +4,11 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Infestedgrass"
+      }
+    ],
     "functions": [],
     "entities": [],
     "name": "dirt",
