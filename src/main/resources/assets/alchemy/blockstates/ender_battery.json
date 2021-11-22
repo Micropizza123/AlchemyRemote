@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemy:block/ender_battery"
+    }
+  }
+}

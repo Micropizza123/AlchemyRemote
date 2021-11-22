@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alchemy:blocks/solar3",
+    "top": "alchemy:blocks/solar1",
+    "side": "alchemy:blocks/solar2"
+  }
+}

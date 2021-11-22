@@ -6158,6 +6158,153 @@
       "ids": {},
       "registry_name": "retenative",
       "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "EnderSolarPanelUpdateTick",
+      "type": "procedure",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_solar_panel_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderSolarPanel",
+      "type": "block",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_solar_panel",
+      "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "EnderFanUpdateTick",
+      "type": "procedure",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_fan_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "EnderFan",
+      "type": "block",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_fan",
+      "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "EnderenergymeterRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderenergymeter_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderenergymeter",
+      "type": "item",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderenergymeter",
+      "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "EnderBatteryUpdateTick",
+      "type": "procedure",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_battery_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderBattery",
+      "type": "block",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_battery",
+      "path": "~/Alchemy/Magical Dust/Tech"
     }
   ],
   "variable_elements": [
@@ -6320,6 +6467,7 @@
       "block.alchemy.sakura_fence_gate": "Sakura Fence Gate",
       "enchantment.alchemy.rod_of_fighting": "Rod Of Fighting",
       "item.alchemy.snowflake": "§4Snowflake",
+      "block.alchemy.ender_fan": "Ender Fan",
       "item.alchemy.backpack": "Backpack",
       "item.alchemy.magenta_crystal_shard": "Amethyst Shard",
       "item.alchemy.retenateflesh": "Retenateflesh",
@@ -6363,17 +6511,20 @@
       "item.alchemy.magic_rune": "Magic Rune",
       "enchantment.alchemy.wither": "Wither",
       "item.alchemy.xp_boost_gem": "XP Boost Shard",
+      "block.alchemy.ender_battery": "Ender Battery",
       "item.alchemy.ice_stagalite_power": "Icestaff",
       "item.alchemy.potion_of_defence": "Potion Of Defence",
       "item.alchemy.airs_spellbook": "Air\u0027s SpellBook",
       "item.alchemy.philosophersstone": "Philosopher\u0027s Stone",
       "item.alchemy.reteniteingot": "Retenate ingot",
       "block.alchemy.ruby_block": "Block of Ruby",
+      "block.alchemy.ender_solar_panel": "Ender Solar Panel",
       "item.alchemy.lightning_strike_power": "Lightningstaff",
       "fluid.alchemy.cold_lava": "Cold Lava",
       "item.alchemy.malysium_armor_boots": "Malysium Boots",
       "item.alchemy.hero_brine_spawn_egg": "Herobrine Spawn Egg",
       "item.minecraft.splash_potion.effect.mana_regeneration_potion_item": "Splash Mana Regeneration",
+      "item.alchemy.enderenergymeter": "Ender energy-meter",
       "block.alchemy.ablanian_stairs": "Ablanian Stairs",
       "item.alchemy.magenta_diamond_armor_chestplate": "Amethyst Chestplate",
       "item.alchemy.steel_magichandle": "Steel Magic handle",
@@ -6547,6 +6698,10 @@
               },
               {
                 "name": "Retenate",
+                "children": []
+              },
+              {
+                "name": "Tech",
                 "children": []
               }
             ]

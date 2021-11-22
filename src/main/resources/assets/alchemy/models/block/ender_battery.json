@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemy:blocks/battery1",
+    "up": "alchemy:blocks/battery2",
+    "north": "alchemy:blocks/battery1",
+    "east": "alchemy:blocks/battery1",
+    "south": "alchemy:blocks/battery1",
+    "west": "alchemy:blocks/battery1",
+    "particle": "alchemy:blocks/battery1"
+  }
+}

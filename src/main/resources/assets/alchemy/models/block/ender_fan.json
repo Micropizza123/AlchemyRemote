@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemy:blocks/solar3",
+    "up": "alchemy:blocks/solar3",
+    "north": "alchemy:blocks/fan",
+    "east": "alchemy:blocks/solar2",
+    "south": "alchemy:blocks/solar2",
+    "west": "alchemy:blocks/solar2",
+    "particle": "alchemy:blocks/solar3"
+  }
+}

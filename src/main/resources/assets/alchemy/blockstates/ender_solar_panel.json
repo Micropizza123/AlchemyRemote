@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alchemy:block/ender_solar_panel"
+    },
+    "type=top": {
+      "model": "alchemy:block/ender_solar_panel_top"
+    },
+    "type=double": {
+      "model": "alchemy:block/ender_solar_panel_full"
+    }
+  }
+}
