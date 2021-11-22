@@ -142,6 +142,10 @@ public class EnderFanBlock extends AlchemyModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				EnderFanUpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);

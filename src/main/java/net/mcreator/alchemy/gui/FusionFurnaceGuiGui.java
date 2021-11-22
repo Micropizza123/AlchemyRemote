@@ -113,9 +113,7 @@ public class FusionFurnaceGuiGui extends AlchemyModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 9, 19) {
-			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 9, 47) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 13, 18) {
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 109, 19) {
 				@Override
@@ -154,18 +152,18 @@ public class FusionFurnaceGuiGui extends AlchemyModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 4) {
-					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
+				if (index < 3) {
+					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
-					if (index < 4 + 27) {
-						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
+					if (index < 3 + 27) {
+						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -273,8 +271,6 @@ public class FusionFurnaceGuiGui extends AlchemyModElements.ModElement {
 					for (int j = 0; j < internal.getSlots(); ++j) {
 						if (j == 0)
 							continue;
-						if (j == 1)
-							continue;
 						if (j == 3)
 							continue;
 						if (j == 4)
@@ -284,8 +280,6 @@ public class FusionFurnaceGuiGui extends AlchemyModElements.ModElement {
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
 						if (i == 0)
-							continue;
-						if (i == 1)
 							continue;
 						if (i == 3)
 							continue;

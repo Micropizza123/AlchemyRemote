@@ -1052,7 +1052,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_furnace",
-      "path": "~/Blocks/FusionFurnace"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace"
     },
     {
       "name": "FusionFurnaceGui",
@@ -1062,7 +1062,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_furnace_gui",
-      "path": "~/Blocks/FusionFurnace"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace"
     },
     {
       "name": "FusionFurnaceProc",
@@ -1092,7 +1092,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace"
     },
     {
       "name": "ProgressbarEmpty",
@@ -1123,7 +1123,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress2",
@@ -1154,7 +1154,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress3",
@@ -1185,7 +1185,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress4",
@@ -1216,7 +1216,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress5",
@@ -1247,7 +1247,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress6",
@@ -1278,7 +1278,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress7",
@@ -1309,7 +1309,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress8",
@@ -1340,7 +1340,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress9",
@@ -1371,7 +1371,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "Progress10",
@@ -1402,7 +1402,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionFurnace/bars"
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     },
     {
       "name": "ColdLava",
@@ -6186,7 +6186,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alchemy/Magical Dust/Tech"
     },
     {
       "name": "EnderSolarPanel",
@@ -6207,8 +6208,26 @@
       "ids": {},
       "registry_name": "ender_fan_update_tick",
       "metadata": {
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech"
     },
     {
       "name": "EnderFan",
@@ -6255,7 +6274,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alchemy/Magical Dust/Tech"
     },
     {
       "name": "Enderenergymeter",
@@ -6294,7 +6314,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alchemy/Magical Dust/Tech"
     },
     {
       "name": "EnderBattery",
@@ -6305,6 +6326,336 @@
       "ids": {},
       "registry_name": "ender_battery",
       "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "EnderTechBook",
+      "type": "item",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_tech_book",
+      "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "EnderTechBookRecipe",
+      "type": "recipe",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_tech_book_recipe",
+      "path": "~/Alchemy/Magical Dust/Tech"
+    },
+    {
+      "name": "AProgress10",
+      "type": "procedure",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_progress_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "AProgress2",
+      "type": "procedure",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_progress_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "AProgress3",
+      "type": "procedure",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_progress_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "Aprogress4",
+      "type": "procedure",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogress_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "AProgress5",
+      "type": "procedure",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_progress_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "Aprogress6",
+      "type": "procedure",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogress_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "Aprogress7",
+      "type": "procedure",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogress_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "Aprogress8",
+      "type": "procedure",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogress_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "Aprogress9",
+      "type": "procedure",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogress_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "AprogressbarEmpty",
+      "type": "procedure",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aprogressbar_empty",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
     }
   ],
   "variable_elements": [
@@ -6348,17 +6699,17 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
       "recipe_book.pagetext": "Page",
-      "item.alchemy.earth_element": "Earth Element",
+      "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
       "item.alchemy.magenta_diamond": "NetherAmethyst",
+      "item.alchemy.earth_element": "Earth Element",
       "item.alchemy.steel_ingot": "Steel Ingot",
       "item.alchemy.genesis_armor_boots": "Genesis Boots",
       "biome.alchemy.ablanian_forest": "Ablanian Forest",
       "block.alchemy.cold_lava": "Cold Lava",
       "item.alchemy.genesis_armor_helmet": "Genesis Helmet",
-      "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
       "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
+      "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
       "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
       "advancements.ice.descr": "New Elements...",
       "item.alchemy.soul_fragment": "Fossil",
@@ -6377,8 +6728,8 @@
       "item.alchemy.red_crystal_shard": "Red Crystal Shard",
       "item.alchemy.magic_rune_stage_5": "Magic Rune",
       "item.alchemy.asi": "§cAsi",
-      "item.alchemy.magic_rune_stage_4": "Magic Rune",
       "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.alchemy.magic_rune_stage_4": "Magic Rune",
       "item.alchemy.magic_rune_stage_6": "Magic Rune",
       "item.alchemy.warpingpearl": "Warping Pearl",
       "block.alchemy.ablanian_stone": "Ablanian Stone",
@@ -6402,8 +6753,8 @@
       "item.alchemy.retenatestick": "Retenate stick",
       "item.alchemy.spell_book": "SpellBook",
       "block.alchemy.red_crystal_block": "Red Crystal Block",
-      "block.alchemy.ablanian_fence_gate": "Ablanian Fence Gate",
       "block.alchemy.green_crystal_block": "Green Crystal Block",
+      "block.alchemy.ablanian_fence_gate": "Ablanian Fence Gate",
       "item.alchemy.potion_of_life": "Potion Of Life",
       "block.alchemy.infestedgrass": "Infestedgrass",
       "item.alchemy.retenate_gem": "Retenate Gem",
@@ -6412,24 +6763,25 @@
       "item.alchemy.ruby_sword": "Ruby Sword",
       "item.alchemy.magenta_diamond_hoe": "Amethyst Hoe",
       "item.alchemy.magicalsteel": "Magical steel",
-      "advancements.recipes.descr": "Loading into a world first time",
       "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
+      "advancements.recipes.descr": "Loading into a world first time",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
-      "effect.mana_regeneration": "Mana Regeneration Potion",
-      "item.alchemy.dimensional_key": "Dimensional Key",
       "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
+      "item.alchemy.dimensional_key": "Dimensional Key",
+      "effect.mana_regeneration": "Mana Regeneration Potion",
       "item.alchemy.blue_crystal_shard": "Blue Crystal Shard",
-      "item.alchemy.ruby_shovel": "Ruby Shovel",
       "item.alchemy.water_power_ranged": "Water Power Ranged",
+      "item.alchemy.ruby_shovel": "Ruby Shovel",
       "advancements.more_advanced.descr": "Advanced Crafting",
       "advancements.relic_recipes.descr": "Relics",
       "item.alchemy.obsidian_ingot": "Obsidian Ingot",
       "item.alchemy.retenateeye": "Retenate Eye",
       "item.alchemy.cold_lava_bucket": "Cold Lava Bucket",
+      "item.alchemy.ender_tech_book": "EnderTech Book",
       "item.alchemy.black_diamond": "Black Diamond",
       "item.alchemy.ruby_armor_leggings": "Ruby Leggings",
       "item.alchemy.green_crystal_shard": "Green Crystal Shard",
@@ -6588,15 +6940,6 @@
         "name": "Blocks",
         "children": [
           {
-            "name": "FusionFurnace",
-            "children": [
-              {
-                "name": "bars",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "FusionTable",
             "children": []
           },
@@ -6702,7 +7045,21 @@
               },
               {
                 "name": "Tech",
-                "children": []
+                "children": [
+                  {
+                    "name": "FusionFurnace",
+                    "children": [
+                      {
+                        "name": "bars",
+                        "children": []
+                      },
+                      {
+                        "name": "bars2",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
