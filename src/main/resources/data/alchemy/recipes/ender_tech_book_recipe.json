@@ -1,0 +1,19 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:ender_dust"
+    },
+    {
+      "item": "alchemy:ender_dust"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "item": "alchemy:ender_tech_book",
+    "count": 1
+  }
+}
