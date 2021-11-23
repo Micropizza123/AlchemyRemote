@@ -1,7 +1,7 @@
 {
-  "parent": "block/crop",
+  "parent": "block/cross",
   "textures": {
-    "crop": "alchemy:blocks/ginseng_",
+    "cross": "alchemy:blocks/ginseng_",
     "particle": "alchemy:blocks/ginseng_"
   }
 }

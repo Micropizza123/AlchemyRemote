@@ -62,7 +62,7 @@ public class TotemOfStrengthProcProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 1.5)) {
+		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 2)) {
 			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 					.getItem() == TotemOfStrengthItem.block)) {
 				if (world.isRemote()) {
@@ -94,7 +94,7 @@ public class TotemOfStrengthProcProcedure {
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 300, (int) 10, (false), (false)));
 			}
 		}
-		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 1.5)) {
+		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 2)) {
 			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 					.getItem() == TotemOfResistanceItem.block)) {
 				if (world.isRemote()) {

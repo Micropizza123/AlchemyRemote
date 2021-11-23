@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "plant",
   "definition": {
-    "renderType": 13,
+    "renderType": 12,
     "texture": "ginseng_",
     "textureBottom": "",
-    "customModelName": "Crop model",
+    "customModelName": "Cross model",
     "itemTexture": "ginseng_",
     "particleTexture": "",
     "tintType": "No tint",
