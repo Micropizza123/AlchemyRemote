@@ -16,19 +16,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MagicalDust"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.BOOK"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Magicalsteel"
+        "value": "CUSTOM:GemOfIce"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Magicswordshandle"
+      "value": "CUSTOM:BookOfIcegem"
     },
-    "name": "sword_handle_recipe",
+    "name": "bookoficegemrecipe",
     "namespace": "mod"
   }
 }

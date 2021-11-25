@@ -6656,6 +6656,66 @@
         ]
       },
       "path": "~/Alchemy/Magical Dust/Tech/FusionFurnace/bars"
+    },
+    {
+      "name": "PrismarineGem",
+      "type": "item",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_gem",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "PrismarineGemRecipe",
+      "type": "recipe",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_gem_recipe",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "GemOfIce",
+      "type": "item",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gem_of_ice",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "GemOfIceRecipe",
+      "type": "recipe",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gem_of_ice_recipe",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "BookOfIcegem",
+      "type": "item",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_of_icegem",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "Bookoficegemrecipe",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bookoficegemrecipe",
+      "path": "~/Alchemy/Magical Dust/PrismarineGem"
     }
   ],
   "variable_elements": [
@@ -6699,17 +6759,17 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "recipe_book.pagetext": "Page",
       "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
-      "item.alchemy.magenta_diamond": "NetherAmethyst",
+      "recipe_book.pagetext": "Page",
       "item.alchemy.earth_element": "Earth Element",
+      "item.alchemy.magenta_diamond": "NetherAmethyst",
       "item.alchemy.steel_ingot": "Steel Ingot",
       "item.alchemy.genesis_armor_boots": "Genesis Boots",
       "biome.alchemy.ablanian_forest": "Ablanian Forest",
       "block.alchemy.cold_lava": "Cold Lava",
       "item.alchemy.genesis_armor_helmet": "Genesis Helmet",
-      "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
+      "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
       "advancements.ice.descr": "New Elements...",
       "item.alchemy.soul_fragment": "Fossil",
@@ -6728,8 +6788,8 @@
       "item.alchemy.red_crystal_shard": "Red Crystal Shard",
       "item.alchemy.magic_rune_stage_5": "Magic Rune",
       "item.alchemy.asi": "§cAsi",
-      "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
       "item.alchemy.magic_rune_stage_4": "Magic Rune",
+      "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
       "item.alchemy.magic_rune_stage_6": "Magic Rune",
       "item.alchemy.warpingpearl": "Warping Pearl",
       "block.alchemy.ablanian_stone": "Ablanian Stone",
@@ -6753,29 +6813,29 @@
       "item.alchemy.retenatestick": "Retenate stick",
       "item.alchemy.spell_book": "SpellBook",
       "block.alchemy.red_crystal_block": "Red Crystal Block",
-      "block.alchemy.green_crystal_block": "Green Crystal Block",
       "block.alchemy.ablanian_fence_gate": "Ablanian Fence Gate",
+      "block.alchemy.green_crystal_block": "Green Crystal Block",
       "item.alchemy.potion_of_life": "Potion Of Life",
       "block.alchemy.infestedgrass": "Infestedgrass",
       "item.alchemy.retenate_gem": "Retenate Gem",
       "item.alchemy.rainbow_ingot": "Rainbow Ingot",
       "item.alchemy.enchanted_g_olden_carrot": "Enchanted Golden Carrot",
-      "item.alchemy.ruby_sword": "Ruby Sword",
       "item.alchemy.magenta_diamond_hoe": "Amethyst Hoe",
+      "item.alchemy.ruby_sword": "Ruby Sword",
       "item.alchemy.magicalsteel": "Magical steel",
-      "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.recipes.descr": "Loading into a world first time",
+      "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
-      "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
-      "item.alchemy.dimensional_key": "Dimensional Key",
       "effect.mana_regeneration": "Mana Regeneration Potion",
+      "item.alchemy.dimensional_key": "Dimensional Key",
+      "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
       "item.alchemy.blue_crystal_shard": "Blue Crystal Shard",
-      "item.alchemy.water_power_ranged": "Water Power Ranged",
       "item.alchemy.ruby_shovel": "Ruby Shovel",
+      "item.alchemy.water_power_ranged": "Water Power Ranged",
       "advancements.more_advanced.descr": "Advanced Crafting",
       "advancements.relic_recipes.descr": "Relics",
       "item.alchemy.obsidian_ingot": "Obsidian Ingot",
@@ -6812,6 +6872,7 @@
       "item.alchemy.asired": "§9Asi",
       "item.alchemy.ruby_hoe": "Ruby Hoe",
       "item.alchemy.earths_spellbook": "Earth\u0027s Spellbook",
+      "item.alchemy.book_of_icegem": "Book Of Icegem",
       "item.alchemy.relic_of_defence": "Relic Of Defence",
       "item.alchemy.retenatearmor_leggings": "Retenate Leggings",
       "entity.alchemy.hero_brine": "Herobrine",
@@ -6835,6 +6896,7 @@
       "item.alchemy.netherrack_ingot": "Netherrack Ingot",
       "block.alchemy.ablanian_planks": "Ablanian Planks",
       "item.alchemy.enderswordshandle": "Ender handle",
+      "item.alchemy.prismarine_gem": "Prismarine Gem",
       "advancements.mana.title": "Mana!",
       "block.alchemy.magenta_diamond_ore": "NetherAmethyst Ore",
       "item.alchemy.golden_fishing_rod": "Golden Fishing Rod",
@@ -6862,6 +6924,7 @@
       "item.alchemy.pulverized_netherrack": "Pulverized Netherrack",
       "item.alchemy.magic_rune": "Magic Rune",
       "enchantment.alchemy.wither": "Wither",
+      "item.alchemy.gem_of_ice": "Gem Of Ice",
       "item.alchemy.xp_boost_gem": "XP Boost Shard",
       "block.alchemy.ender_battery": "Ender Battery",
       "item.alchemy.ice_stagalite_power": "Icestaff",
@@ -7060,6 +7123,10 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "PrismarineGem",
+                "children": []
               }
             ]
           },

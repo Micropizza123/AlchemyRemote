@@ -67,12 +67,15 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 80,
+          "weight": 90,
           "functions": [
             {
               "function": "set_count",
@@ -86,7 +89,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenate_sword",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -100,7 +103,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenateaxe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -114,7 +117,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenate_hoe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -128,7 +131,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenate_pickaxe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -142,7 +145,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenate_showel",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -156,7 +159,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenatearmor_helmet",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -170,7 +173,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenatearmor_chestplate",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -184,7 +187,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenatearmor_leggings",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -198,7 +201,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:retenatearmor_boots",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -212,7 +215,7 @@
         {
           "type": "minecraft:item",
           "name": "alchemy:reteniteingot",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

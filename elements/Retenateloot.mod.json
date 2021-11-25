@@ -70,7 +70,7 @@
         ]
       },
       {
-        "minrolls": 1,
+        "minrolls": 0,
         "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
@@ -81,7 +81,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 80,
+            "weight": 90,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -95,7 +95,7 @@
             "item": {
               "value": "CUSTOM:RetenateSword"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -109,7 +109,7 @@
             "item": {
               "value": "CUSTOM:Retenateaxe"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -123,7 +123,7 @@
             "item": {
               "value": "CUSTOM:RetenateHoe"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -137,7 +137,7 @@
             "item": {
               "value": "CUSTOM:RetenatePickaxe"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -151,7 +151,7 @@
             "item": {
               "value": "CUSTOM:RetenateShowel"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -165,7 +165,7 @@
             "item": {
               "value": "CUSTOM:Retenatearmor.helmet"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -179,7 +179,7 @@
             "item": {
               "value": "CUSTOM:Retenatearmor.body"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -193,7 +193,7 @@
             "item": {
               "value": "CUSTOM:Retenatearmor.legs"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -207,7 +207,7 @@
             "item": {
               "value": "CUSTOM:Retenatearmor.boots"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -221,7 +221,7 @@
             "item": {
               "value": "CUSTOM:Reteniteingot"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

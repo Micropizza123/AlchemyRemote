@@ -7,28 +7,28 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagicalDust"
+        "value": "Items.PRISMARINE_SHARD"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.PRISMARINE_CRYSTALS"
+      },
+      {
+        "value": "Items.QUARTZ"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Magicalsteel"
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Magicswordshandle"
+      "value": "CUSTOM:PrismarineGem"
     },
-    "name": "sword_handle_recipe",
+    "name": "prismarine_gem_recipe",
     "namespace": "mod"
   }
 }

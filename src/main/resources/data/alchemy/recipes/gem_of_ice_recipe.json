@@ -1,0 +1,16 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alchemy:retenate_gem"
+    },
+    {
+      "item": "alchemy:prismarine_gem"
+    }
+  ],
+  "result": {
+    "item": "alchemy:gem_of_ice",
+    "count": 1
+  }
+}
