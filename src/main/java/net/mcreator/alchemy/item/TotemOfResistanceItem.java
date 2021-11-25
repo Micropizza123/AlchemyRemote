@@ -53,7 +53,7 @@ public class TotemOfResistanceItem extends AlchemyModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("If your health gets low you get resistance 10"));
+			list.add(new StringTextComponent("If your health lower than 3 you get resistance 10"));
 		}
 	}
 }
