@@ -14,6 +14,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.alchemy.entity.HeroBrineEntity;
 import net.mcreator.alchemy.AlchemyMod;
 
 import java.util.function.Function;
@@ -212,7 +213,7 @@ public class EnderFanUpdateTickProcedure {
 					}
 				}
 			}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH)) {
-				if ((((Entity) world.getEntitiesWithinAABB(LivingEntity.class,
+				if ((((Entity) world.getEntitiesWithinAABB(HeroBrineEntity.CustomEntity.class,
 						new AxisAlignedBB(x - (6 / 2d), y - (6 / 2d), (z + 3) - (6 / 2d), x + (6 / 2d), y + (6 / 2d), (z + 3) + (6 / 2d)), null)
 						.stream().sorted(new Object() {
 							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
