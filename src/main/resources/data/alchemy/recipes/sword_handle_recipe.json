@@ -1,14 +1,22 @@
 {
   "group": "alchemy",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "alchemy:magical_dust"
+    },
+    "4": {
       "item": "minecraft:stick"
     },
-    {
-      "item": "alchemy:magical_dust"
+    "6": {
+      "item": "alchemy:magicalsteel"
     }
-  ],
+  },
   "result": {
     "item": "alchemy:magicswordshandle",
     "count": 1

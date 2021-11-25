@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -16,19 +16,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MagicalDust"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:RetenateGem"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Magicalsteel"
+        "value": "CUSTOM:PrismarineGem"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Magicswordshandle"
+      "value": "CUSTOM:GemOfIce"
     },
-    "name": "sword_handle_recipe",
+    "name": "gem_of_ice_recipe",
     "namespace": "mod"
   }
 }
