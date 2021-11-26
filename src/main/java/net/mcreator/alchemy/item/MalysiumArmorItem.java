@@ -34,7 +34,7 @@ public class MalysiumArmorItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:malysium_armor_boots")
 	public static final Item boots = null;
 	public MalysiumArmorItem(AlchemyModElements instance) {
-		super(instance, 240);
+		super(instance, 273);
 	}
 
 	@Override

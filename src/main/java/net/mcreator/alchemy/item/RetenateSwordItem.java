@@ -16,7 +16,7 @@ public class RetenateSwordItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenate_sword")
 	public static final Item block = null;
 	public RetenateSwordItem(AlchemyModElements instance) {
-		super(instance, 446);
+		super(instance, 160);
 	}
 
 	@Override

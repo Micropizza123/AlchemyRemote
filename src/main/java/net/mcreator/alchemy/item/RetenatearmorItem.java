@@ -29,7 +29,7 @@ public class RetenatearmorItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenatearmor_boots")
 	public static final Item boots = null;
 	public RetenatearmorItem(AlchemyModElements instance) {
-		super(instance, 451);
+		super(instance, 165);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class AblanianPressurePlateBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_pressure_plate")
 	public static final Block block = null;
 	public AblanianPressurePlateBlock(AlchemyModElements instance) {
-		super(instance, 95);
+		super(instance, 96);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class TotemOfStrengthItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:totem_of_strength")
 	public static final Item block = null;
 	public TotemOfStrengthItem(AlchemyModElements instance) {
-		super(instance, 437);
+		super(instance, 154);
 	}
 
 	@Override

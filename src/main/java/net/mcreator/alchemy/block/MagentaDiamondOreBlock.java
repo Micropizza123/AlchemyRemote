@@ -47,7 +47,7 @@ public class MagentaDiamondOreBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_ore")
 	public static final Block block = null;
 	public MagentaDiamondOreBlock(AlchemyModElements instance) {
-		super(instance, 63);
+		super(instance, 64);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -59,7 +59,7 @@ public class MagentaDiamondOreBlock extends AlchemyModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("magenta_diamond_ore");
 		}

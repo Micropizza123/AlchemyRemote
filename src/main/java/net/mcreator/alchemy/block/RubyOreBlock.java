@@ -47,7 +47,7 @@ public class RubyOreBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_ore")
 	public static final Block block = null;
 	public RubyOreBlock(AlchemyModElements instance) {
-		super(instance, 76);
+		super(instance, 77);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

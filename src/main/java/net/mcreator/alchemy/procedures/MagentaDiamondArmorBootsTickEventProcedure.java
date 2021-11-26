@@ -13,6 +13,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.alchemy.potion.ManaRegenerationPotionEffect;
 import net.mcreator.alchemy.AlchemyMod;
 
 import java.util.Random;
@@ -91,7 +92,8 @@ public class MagentaDiamondArmorBootsTickEventProcedure {
 			if (((((world.getBlockState(new BlockPos((int) x, (int) (y - 6), (int) z))).getBlock() == Blocks.AIR)
 					|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 6), (int) z))).getBlock() == Blocks.CAVE_AIR)) == (false))) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 1, (int) 3, (false), (false)));
+					((LivingEntity) entity)
+							.addPotionEffect(new EffectInstance(ManaRegenerationPotionEffect.potion, (int) 1, (int) 3, (false), (false)));
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 30, (int) 0, (false), (false)));
 				{

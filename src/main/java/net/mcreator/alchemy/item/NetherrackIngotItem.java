@@ -16,7 +16,7 @@ public class NetherrackIngotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:netherrack_ingot")
 	public static final Item block = null;
 	public NetherrackIngotItem(AlchemyModElements instance) {
-		super(instance, 440);
+		super(instance, 156);
 	}
 
 	@Override

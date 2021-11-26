@@ -16,7 +16,7 @@ public class RainbowPowderItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:rainbow_powder")
 	public static final Item block = null;
 	public RainbowPowderItem(AlchemyModElements instance) {
-		super(instance, 21);
+		super(instance, 22);
 	}
 
 	@Override

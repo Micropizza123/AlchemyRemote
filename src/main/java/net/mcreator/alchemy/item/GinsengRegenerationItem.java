@@ -26,7 +26,7 @@ public class GinsengRegenerationItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ginseng_regeneration")
 	public static final Item block = null;
 	public GinsengRegenerationItem(AlchemyModElements instance) {
-		super(instance, 141);
+		super(instance, 146);
 	}
 
 	@Override

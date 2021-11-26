@@ -17,7 +17,7 @@ public class RubyPickaxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_pickaxe")
 	public static final Item block = null;
 	public RubyPickaxeItem(AlchemyModElements instance) {
-		super(instance, 81);
+		super(instance, 82);
 	}
 
 	@Override

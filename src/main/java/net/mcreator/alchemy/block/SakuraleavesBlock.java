@@ -36,7 +36,7 @@ public class SakuraleavesBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakuraleaves")
 	public static final Block block = null;
 	public SakuraleavesBlock(AlchemyModElements instance) {
-		super(instance, 96);
+		super(instance, 97);
 	}
 
 	@Override

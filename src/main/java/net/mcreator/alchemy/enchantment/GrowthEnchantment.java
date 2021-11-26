@@ -14,7 +14,7 @@ public class GrowthEnchantment extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:growth")
 	public static final Enchantment enchantment = null;
 	public GrowthEnchantment(AlchemyModElements instance) {
-		super(instance, 242);
+		super(instance, 275);
 	}
 
 	@Override

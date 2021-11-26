@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "alchemy:netherarrow"
+    "alchemy:netherarrow",
+    "alchemy:ice_arrow"
   ]
 }

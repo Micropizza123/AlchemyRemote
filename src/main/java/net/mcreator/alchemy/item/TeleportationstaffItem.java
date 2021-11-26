@@ -50,7 +50,7 @@ public class TeleportationstaffItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletteleportationstaff").setRegistryName("entitybulletteleportationstaff");
 	public TeleportationstaffItem(AlchemyModElements instance) {
-		super(instance, 301);
+		super(instance, 334);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TeleportationstaffRenderer.ModelRegisterHandler());
 	}
 

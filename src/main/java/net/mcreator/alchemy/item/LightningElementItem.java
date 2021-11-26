@@ -16,7 +16,7 @@ public class LightningElementItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:lightning_element")
 	public static final Item block = null;
 	public LightningElementItem(AlchemyModElements instance) {
-		super(instance, 74);
+		super(instance, 75);
 	}
 
 	@Override

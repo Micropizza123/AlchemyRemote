@@ -41,7 +41,7 @@ import net.mcreator.alchemy.AlchemyModElements;
 public class AblanianForestBiome extends AlchemyModElements.ModElement {
 	public static Biome biome;
 	public AblanianForestBiome(AlchemyModElements instance) {
-		super(instance, 186);
+		super(instance, 219);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

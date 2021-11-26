@@ -16,7 +16,7 @@ public class ObsidianIngotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:obsidian_ingot")
 	public static final Item block = null;
 	public ObsidianIngotItem(AlchemyModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

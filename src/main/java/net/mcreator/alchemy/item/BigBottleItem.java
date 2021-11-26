@@ -16,7 +16,7 @@ public class BigBottleItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:big_bottle")
 	public static final Item block = null;
 	public BigBottleItem(AlchemyModElements instance) {
-		super(instance, 138);
+		super(instance, 143);
 	}
 
 	@Override

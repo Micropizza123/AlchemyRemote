@@ -16,7 +16,7 @@ public class RetenateShowelItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenate_showel")
 	public static final Item block = null;
 	public RetenateShowelItem(AlchemyModElements instance) {
-		super(instance, 450);
+		super(instance, 164);
 	}
 
 	@Override

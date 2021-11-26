@@ -41,7 +41,7 @@ import net.mcreator.alchemy.AlchemyModElements;
 public class SakuraforestBiome extends AlchemyModElements.ModElement {
 	public static Biome biome;
 	public SakuraforestBiome(AlchemyModElements instance) {
-		super(instance, 275);
+		super(instance, 308);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

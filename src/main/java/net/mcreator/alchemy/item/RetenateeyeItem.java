@@ -16,7 +16,7 @@ public class RetenateeyeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenateeye")
 	public static final Item block = null;
 	public RetenateeyeItem(AlchemyModElements instance) {
-		super(instance, 444);
+		super(instance, 159);
 	}
 
 	@Override

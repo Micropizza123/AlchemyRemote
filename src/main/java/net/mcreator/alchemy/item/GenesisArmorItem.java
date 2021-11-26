@@ -29,7 +29,7 @@ public class GenesisArmorItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:genesis_armor_boots")
 	public static final Item boots = null;
 	public GenesisArmorItem(AlchemyModElements instance) {
-		super(instance, 108);
+		super(instance, 109);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class GambanteinnItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:gambanteinn")
 	public static final Item block = null;
 	public GambanteinnItem(AlchemyModElements instance) {
-		super(instance, 121);
+		super(instance, 122);
 	}
 
 	@Override

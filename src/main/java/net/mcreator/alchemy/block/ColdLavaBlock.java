@@ -47,7 +47,7 @@ public class ColdLavaBlock extends AlchemyModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public ColdLavaBlock(AlchemyModElements instance) {
-		super(instance, 38);
+		super(instance, 39);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 	private static class FluidRegisterHandler {

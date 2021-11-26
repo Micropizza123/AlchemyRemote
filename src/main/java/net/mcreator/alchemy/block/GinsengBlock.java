@@ -59,7 +59,7 @@ public class GinsengBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ginseng")
 	public static final Block block = null;
 	public GinsengBlock(AlchemyModElements instance) {
-		super(instance, 140);
+		super(instance, 145);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

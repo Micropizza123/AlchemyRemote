@@ -16,7 +16,7 @@ public class RainbowIngotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:rainbow_ingot")
 	public static final Item block = null;
 	public RainbowIngotItem(AlchemyModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override

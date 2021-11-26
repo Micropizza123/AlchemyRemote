@@ -16,7 +16,7 @@ public class MagentaCrystalShardItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_crystal_shard")
 	public static final Item block = null;
 	public MagentaCrystalShardItem(AlchemyModElements instance) {
-		super(instance, 52);
+		super(instance, 53);
 	}
 
 	@Override

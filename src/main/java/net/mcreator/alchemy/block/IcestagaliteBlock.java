@@ -38,7 +38,7 @@ public class IcestagaliteBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:icestagalite")
 	public static final Block block = null;
 	public IcestagaliteBlock(AlchemyModElements instance) {
-		super(instance, 107);
+		super(instance, 108);
 	}
 
 	@Override

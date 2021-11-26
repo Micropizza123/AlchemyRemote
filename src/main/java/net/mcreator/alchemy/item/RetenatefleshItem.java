@@ -16,7 +16,7 @@ public class RetenatefleshItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenateflesh")
 	public static final Item block = null;
 	public RetenatefleshItem(AlchemyModElements instance) {
-		super(instance, 454);
+		super(instance, 168);
 	}
 
 	@Override

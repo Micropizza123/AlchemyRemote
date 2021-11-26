@@ -14,7 +14,7 @@ public class LifeStealEnchantment extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:life_steal")
 	public static final Enchantment enchantment = null;
 	public LifeStealEnchantment(AlchemyModElements instance) {
-		super(instance, 302);
+		super(instance, 335);
 	}
 
 	@Override

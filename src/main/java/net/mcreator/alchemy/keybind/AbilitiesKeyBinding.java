@@ -31,7 +31,7 @@ public class AbilitiesKeyBinding extends AlchemyModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public AbilitiesKeyBinding(AlchemyModElements instance) {
-		super(instance, 251);
+		super(instance, 284);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

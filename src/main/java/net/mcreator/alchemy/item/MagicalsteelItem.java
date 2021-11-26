@@ -16,7 +16,7 @@ public class MagicalsteelItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magicalsteel")
 	public static final Item block = null;
 	public MagicalsteelItem(AlchemyModElements instance) {
-		super(instance, 113);
+		super(instance, 114);
 	}
 
 	@Override

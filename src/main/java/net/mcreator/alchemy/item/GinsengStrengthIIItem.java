@@ -29,7 +29,7 @@ public class GinsengStrengthIIItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ginseng_strength_ii")
 	public static final Item block = null;
 	public GinsengStrengthIIItem(AlchemyModElements instance) {
-		super(instance, 144);
+		super(instance, 149);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class SteelMagichandleItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:steel_magichandle")
 	public static final Item block = null;
 	public SteelMagichandleItem(AlchemyModElements instance) {
-		super(instance, 114);
+		super(instance, 115);
 	}
 
 	@Override

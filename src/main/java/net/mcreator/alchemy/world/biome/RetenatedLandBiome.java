@@ -37,7 +37,7 @@ import net.mcreator.alchemy.AlchemyModElements;
 public class RetenatedLandBiome extends AlchemyModElements.ModElement {
 	public static Biome biome;
 	public RetenatedLandBiome(AlchemyModElements instance) {
-		super(instance, 469);
+		super(instance, 481);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

@@ -41,7 +41,7 @@ public class RetenateEntity extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("retenate").setRegistryName("retenate");
 	public RetenateEntity(AlchemyModElements instance) {
-		super(instance, 442);
+		super(instance, 157);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RetenateRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

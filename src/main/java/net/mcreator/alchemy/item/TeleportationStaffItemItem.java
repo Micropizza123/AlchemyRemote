@@ -28,7 +28,7 @@ public class TeleportationStaffItemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:teleportation_staff_item")
 	public static final Item block = null;
 	public TeleportationStaffItemItem(AlchemyModElements instance) {
-		super(instance, 119);
+		super(instance, 120);
 	}
 
 	@Override

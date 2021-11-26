@@ -16,7 +16,7 @@ public class PrismarineGemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:prismarine_gem")
 	public static final Item block = null;
 	public PrismarineGemItem(AlchemyModElements instance) {
-		super(instance, 487);
+		super(instance, 171);
 	}
 
 	@Override

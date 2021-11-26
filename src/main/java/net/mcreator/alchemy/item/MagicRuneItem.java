@@ -22,7 +22,7 @@ public class MagicRuneItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magic_rune")
 	public static final Item block = null;
 	public MagicRuneItem(AlchemyModElements instance) {
-		super(instance, 32);
+		super(instance, 33);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class EnderTechBookItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ender_tech_book")
 	public static final Item block = null;
 	public EnderTechBookItem(AlchemyModElements instance) {
-		super(instance, 475);
+		super(instance, 142);
 	}
 
 	@Override

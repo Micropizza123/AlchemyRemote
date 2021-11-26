@@ -16,7 +16,7 @@ public class IceElementItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ice_element")
 	public static final Item block = null;
 	public IceElementItem(AlchemyModElements instance) {
-		super(instance, 73);
+		super(instance, 74);
 	}
 
 	@Override

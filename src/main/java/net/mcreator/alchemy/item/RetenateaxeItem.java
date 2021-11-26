@@ -16,7 +16,7 @@ public class RetenateaxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenateaxe")
 	public static final Item block = null;
 	public RetenateaxeItem(AlchemyModElements instance) {
-		super(instance, 447);
+		super(instance, 161);
 	}
 
 	@Override

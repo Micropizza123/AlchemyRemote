@@ -25,7 +25,7 @@ public class ExcaliburItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:excalibur")
 	public static final Item block = null;
 	public ExcaliburItem(AlchemyModElements instance) {
-		super(instance, 28);
+		super(instance, 29);
 	}
 
 	@Override

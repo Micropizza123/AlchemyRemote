@@ -14,7 +14,7 @@ public class WitherEnchantment extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:wither")
 	public static final Enchantment enchantment = null;
 	public WitherEnchantment(AlchemyModElements instance) {
-		super(instance, 243);
+		super(instance, 276);
 	}
 
 	@Override

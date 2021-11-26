@@ -24,7 +24,7 @@ public class WarpingpearlItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:warpingpearl")
 	public static final Item block = null;
 	public WarpingpearlItem(AlchemyModElements instance) {
-		super(instance, 54);
+		super(instance, 55);
 	}
 
 	@Override

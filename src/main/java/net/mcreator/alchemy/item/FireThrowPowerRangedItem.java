@@ -48,7 +48,7 @@ public class FireThrowPowerRangedItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletfire_throw_power_ranged").setRegistryName("entitybulletfire_throw_power_ranged");
 	public FireThrowPowerRangedItem(AlchemyModElements instance) {
-		super(instance, 309);
+		super(instance, 342);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FireThrowPowerRangedRenderer.ModelRegisterHandler());
 	}
 

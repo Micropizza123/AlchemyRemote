@@ -28,7 +28,7 @@ public class IceStagalitePowerItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ice_stagalite_power")
 	public static final Item block = null;
 	public IceStagalitePowerItem(AlchemyModElements instance) {
-		super(instance, 117);
+		super(instance, 118);
 	}
 
 	@Override

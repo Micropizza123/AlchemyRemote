@@ -27,7 +27,7 @@ public class ManaPotionItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:mana_potion")
 	public static final Item block = null;
 	public ManaPotionItem(AlchemyModElements instance) {
-		super(instance, 139);
+		super(instance, 144);
 	}
 
 	@Override

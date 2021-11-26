@@ -28,7 +28,7 @@ public class LightningStrikePowerItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:lightning_strike_power")
 	public static final Item block = null;
 	public LightningStrikePowerItem(AlchemyModElements instance) {
-		super(instance, 116);
+		super(instance, 117);
 	}
 
 	@Override

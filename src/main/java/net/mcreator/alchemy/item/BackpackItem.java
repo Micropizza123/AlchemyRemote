@@ -53,7 +53,7 @@ public class BackpackItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:backpack")
 	public static final Item block = null;
 	public BackpackItem(AlchemyModElements instance) {
-		super(instance, 30);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -16,7 +16,7 @@ public class PulverizedNetherrackItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:pulverized_netherrack")
 	public static final Item block = null;
 	public PulverizedNetherrackItem(AlchemyModElements instance) {
-		super(instance, 146);
+		super(instance, 151);
 	}
 
 	@Override

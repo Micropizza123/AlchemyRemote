@@ -29,7 +29,7 @@ public class GinsengStenghtItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ginseng_stenght")
 	public static final Item block = null;
 	public GinsengStenghtItem(AlchemyModElements instance) {
-		super(instance, 143);
+		super(instance, 148);
 	}
 
 	@Override

@@ -76,7 +76,7 @@ public class WeaponWorktableBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:weapon_worktable")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public WeaponWorktableBlock(AlchemyModElements instance) {
-		super(instance, 49);
+		super(instance, 50);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

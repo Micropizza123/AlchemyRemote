@@ -25,7 +25,7 @@ public class AblanianCobblestoneBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_cobblestone")
 	public static final Block block = null;
 	public AblanianCobblestoneBlock(AlchemyModElements instance) {
-		super(instance, 75);
+		super(instance, 76);
 	}
 
 	@Override

@@ -25,7 +25,7 @@ public class SharurItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sharur")
 	public static final Item block = null;
 	public SharurItem(AlchemyModElements instance) {
-		super(instance, 122);
+		super(instance, 123);
 	}
 
 	@Override

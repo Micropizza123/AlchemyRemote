@@ -42,7 +42,7 @@ public class CrystalBerryBushStage4Block extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:crystal_berry_bush_stage_4")
 	public static final Block block = null;
 	public CrystalBerryBushStage4Block(AlchemyModElements instance) {
-		super(instance, 293);
+		super(instance, 326);
 	}
 
 	@Override

@@ -32,7 +32,7 @@ public class SakuraLogBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakura_log")
 	public static final Block block = null;
 	public SakuraLogBlock(AlchemyModElements instance) {
-		super(instance, 97);
+		super(instance, 98);
 	}
 
 	@Override

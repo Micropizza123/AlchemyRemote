@@ -16,7 +16,7 @@ public class GemOfIceItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:gem_of_ice")
 	public static final Item block = null;
 	public GemOfIceItem(AlchemyModElements instance) {
-		super(instance, 489);
+		super(instance, 172);
 	}
 
 	@Override

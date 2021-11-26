@@ -22,7 +22,7 @@ public class SteelIngotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:steel_ingot")
 	public static final Item block = null;
 	public SteelIngotItem(AlchemyModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

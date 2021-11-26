@@ -16,7 +16,7 @@ public class RetenatePickaxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenate_pickaxe")
 	public static final Item block = null;
 	public RetenatePickaxeItem(AlchemyModElements instance) {
-		super(instance, 449);
+		super(instance, 163);
 	}
 
 	@Override

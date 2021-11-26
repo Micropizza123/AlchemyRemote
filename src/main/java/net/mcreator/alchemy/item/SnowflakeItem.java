@@ -44,7 +44,7 @@ public class SnowflakeItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletsnowflake").setRegistryName("entitybulletsnowflake");
 	public SnowflakeItem(AlchemyModElements instance) {
-		super(instance, 27);
+		super(instance, 28);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SnowflakeRenderer.ModelRegisterHandler());
 	}
 

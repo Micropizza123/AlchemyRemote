@@ -17,7 +17,7 @@ public class MagentaDiamondSwordItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_sword")
 	public static final Item block = null;
 	public MagentaDiamondSwordItem(AlchemyModElements instance) {
-		super(instance, 56);
+		super(instance, 57);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class RetenatestickItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenatestick")
 	public static final Item block = null;
 	public RetenatestickItem(AlchemyModElements instance) {
-		super(instance, 453);
+		super(instance, 167);
 	}
 
 	@Override

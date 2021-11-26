@@ -16,7 +16,7 @@ public class SteelStickItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:steel_stick")
 	public static final Item block = null;
 	public SteelStickItem(AlchemyModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override

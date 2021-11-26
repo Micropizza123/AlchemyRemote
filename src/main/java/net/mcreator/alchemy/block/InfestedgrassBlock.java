@@ -35,7 +35,7 @@ public class InfestedgrassBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:infestedgrass")
 	public static final Block block = null;
 	public InfestedgrassBlock(AlchemyModElements instance) {
-		super(instance, 445);
+		super(instance, 158);
 	}
 
 	@Override

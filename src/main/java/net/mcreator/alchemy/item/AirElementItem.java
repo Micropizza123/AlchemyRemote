@@ -16,7 +16,7 @@ public class AirElementItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:air_element")
 	public static final Item block = null;
 	public AirElementItem(AlchemyModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class DimensionalKeyItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:dimensional_key")
 	public static final Item block = null;
 	public DimensionalKeyItem(AlchemyModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override

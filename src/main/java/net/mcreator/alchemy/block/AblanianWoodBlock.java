@@ -32,7 +32,7 @@ public class AblanianWoodBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_wood")
 	public static final Block block = null;
 	public AblanianWoodBlock(AlchemyModElements instance) {
-		super(instance, 87);
+		super(instance, 88);
 	}
 
 	@Override

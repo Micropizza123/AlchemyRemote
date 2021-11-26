@@ -22,7 +22,7 @@ public class DemonicStaffItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:demonic_staff")
 	public static final Item block = null;
 	public DemonicStaffItem(AlchemyModElements instance) {
-		super(instance, 434);
+		super(instance, 152);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class SakuraButtonBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakura_button")
 	public static final Block block = null;
 	public SakuraButtonBlock(AlchemyModElements instance) {
-		super(instance, 104);
+		super(instance, 105);
 	}
 
 	@Override

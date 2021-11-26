@@ -22,7 +22,7 @@ public class EarthsSpellbookItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:earths_spellbook")
 	public static final Item block = null;
 	public EarthsSpellbookItem(AlchemyModElements instance) {
-		super(instance, 65);
+		super(instance, 66);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class MalysiunRuneDisablerItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:malysiun_rune_disabler")
 	public static final Item block = null;
 	public MalysiunRuneDisablerItem(AlchemyModElements instance) {
-		super(instance, 260);
+		super(instance, 293);
 	}
 
 	@Override

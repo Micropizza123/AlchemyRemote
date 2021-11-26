@@ -16,7 +16,7 @@ public class DiamondDustItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:diamond_dust")
 	public static final Item block = null;
 	public DiamondDustItem(AlchemyModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class WhiteDiamondItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:white_diamond")
 	public static final Item block = null;
 	public WhiteDiamondItem(AlchemyModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override

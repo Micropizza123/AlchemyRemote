@@ -25,7 +25,7 @@ public class MagentaHammerItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_hammer")
 	public static final Item block = null;
 	public MagentaHammerItem(AlchemyModElements instance) {
-		super(instance, 58);
+		super(instance, 59);
 	}
 
 	@Override

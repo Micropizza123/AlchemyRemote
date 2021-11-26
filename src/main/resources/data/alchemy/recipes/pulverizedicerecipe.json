@@ -1,0 +1,9 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:ice"
+  },
+  "result": "alchemy:pulverizedice"
+}

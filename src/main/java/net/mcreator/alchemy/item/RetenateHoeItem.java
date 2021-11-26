@@ -16,7 +16,7 @@ public class RetenateHoeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenate_hoe")
 	public static final Item block = null;
 	public RetenateHoeItem(AlchemyModElements instance) {
-		super(instance, 448);
+		super(instance, 162);
 	}
 
 	@Override

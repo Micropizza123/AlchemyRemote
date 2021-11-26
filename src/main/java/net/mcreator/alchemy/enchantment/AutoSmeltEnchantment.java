@@ -14,7 +14,7 @@ public class AutoSmeltEnchantment extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:auto_smelt")
 	public static final Enchantment enchantment = null;
 	public AutoSmeltEnchantment(AlchemyModElements instance) {
-		super(instance, 383);
+		super(instance, 415);
 	}
 
 	@Override

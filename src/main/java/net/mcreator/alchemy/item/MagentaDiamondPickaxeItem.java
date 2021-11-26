@@ -17,7 +17,7 @@ public class MagentaDiamondPickaxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_pickaxe")
 	public static final Item block = null;
 	public MagentaDiamondPickaxeItem(AlchemyModElements instance) {
-		super(instance, 57);
+		super(instance, 58);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class MagentaDiamondPickaxeItem extends AlchemyModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantability() {

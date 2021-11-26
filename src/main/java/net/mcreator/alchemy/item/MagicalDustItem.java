@@ -16,7 +16,7 @@ public class MagicalDustItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magical_dust")
 	public static final Item block = null;
 	public MagicalDustItem(AlchemyModElements instance) {
-		super(instance, 112);
+		super(instance, 113);
 	}
 
 	@Override

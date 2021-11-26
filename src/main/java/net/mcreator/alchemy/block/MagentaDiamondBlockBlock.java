@@ -26,7 +26,7 @@ public class MagentaDiamondBlockBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_block")
 	public static final Block block = null;
 	public MagentaDiamondBlockBlock(AlchemyModElements instance) {
-		super(instance, 64);
+		super(instance, 65);
 	}
 
 	@Override

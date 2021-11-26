@@ -48,7 +48,7 @@ public class GlockItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletglock").setRegistryName("entitybulletglock");
 	public GlockItem(AlchemyModElements instance) {
-		super(instance, 29);
+		super(instance, 30);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlockRenderer.ModelRegisterHandler());
 	}
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "alchemy:ice_dagger"
+  },
+  "addition": {
+    "item": "alchemy:book_of_icegem"
+  },
+  "result": {
+    "item": "alchemy:advanced_ice_dagger"
+  }
+}

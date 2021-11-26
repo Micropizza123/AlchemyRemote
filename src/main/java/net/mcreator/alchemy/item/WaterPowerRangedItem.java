@@ -47,7 +47,7 @@ public class WaterPowerRangedItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletwater_power_ranged").setRegistryName("entitybulletwater_power_ranged");
 	public WaterPowerRangedItem(AlchemyModElements instance) {
-		super(instance, 320);
+		super(instance, 353);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WaterPowerRangedRenderer.ModelRegisterHandler());
 	}
 

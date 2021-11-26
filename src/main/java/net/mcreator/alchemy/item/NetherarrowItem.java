@@ -16,7 +16,7 @@ public class NetherarrowItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:netherarrow")
 	public static final Item block = null;
 	public NetherarrowItem(AlchemyModElements instance) {
-		super(instance, 145);
+		super(instance, 150);
 	}
 
 	@Override

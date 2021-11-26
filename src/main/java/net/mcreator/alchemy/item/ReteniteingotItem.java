@@ -16,7 +16,7 @@ public class ReteniteingotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:reteniteingot")
 	public static final Item block = null;
 	public ReteniteingotItem(AlchemyModElements instance) {
-		super(instance, 456);
+		super(instance, 169);
 	}
 
 	@Override

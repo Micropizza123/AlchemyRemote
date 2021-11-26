@@ -18,7 +18,7 @@ public class RodOfFightingEnchantment extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:rod_of_fighting")
 	public static final Enchantment enchantment = null;
 	public RodOfFightingEnchantment(AlchemyModElements instance) {
-		super(instance, 287);
+		super(instance, 320);
 	}
 
 	@Override

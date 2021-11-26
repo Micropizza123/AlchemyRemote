@@ -16,7 +16,7 @@ public class BookOfIcegemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:book_of_icegem")
 	public static final Item block = null;
 	public BookOfIcegemItem(AlchemyModElements instance) {
-		super(instance, 491);
+		super(instance, 174);
 	}
 
 	@Override

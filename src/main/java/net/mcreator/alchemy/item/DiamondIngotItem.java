@@ -16,7 +16,7 @@ public class DiamondIngotItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:diamond_ingot")
 	public static final Item block = null;
 	public DiamondIngotItem(AlchemyModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class SteelnuggetItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:steelnugget")
 	public static final Item block = null;
 	public SteelnuggetItem(AlchemyModElements instance) {
-		super(instance, 25);
+		super(instance, 26);
 	}
 
 	@Override

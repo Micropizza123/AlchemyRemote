@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:Netherarrow"
+      },
+      {
+        "value": "CUSTOM:IceArrow"
       }
     ],
     "blocks": [],

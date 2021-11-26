@@ -16,7 +16,7 @@ public class RetenateGemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenate_gem")
 	public static final Item block = null;
 	public RetenateGemItem(AlchemyModElements instance) {
-		super(instance, 452);
+		super(instance, 166);
 	}
 
 	@Override

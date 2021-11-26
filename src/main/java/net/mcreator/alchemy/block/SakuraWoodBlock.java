@@ -32,7 +32,7 @@ public class SakuraWoodBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakura_wood")
 	public static final Block block = null;
 	public SakuraWoodBlock(AlchemyModElements instance) {
-		super(instance, 99);
+		super(instance, 100);
 	}
 
 	@Override

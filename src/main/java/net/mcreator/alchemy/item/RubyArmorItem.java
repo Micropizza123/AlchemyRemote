@@ -29,7 +29,7 @@ public class RubyArmorItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_armor_boots")
 	public static final Item boots = null;
 	public RubyArmorItem(AlchemyModElements instance) {
-		super(instance, 84);
+		super(instance, 85);
 	}
 
 	@Override

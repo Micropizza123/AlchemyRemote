@@ -22,7 +22,7 @@ public class XPBoostGemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:xp_boost_gem")
 	public static final Item block = null;
 	public XPBoostGemItem(AlchemyModElements instance) {
-		super(instance, 109);
+		super(instance, 110);
 	}
 
 	@Override
