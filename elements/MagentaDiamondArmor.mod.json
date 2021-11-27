@@ -10,9 +10,6 @@
     "textureLeggings": "magentadiamond_leggings",
     "enableBoots": true,
     "textureBoots": "magentadiamond_boots",
-    "onBootsTick": {
-      "name": "MagentaDiamondArmorBootsTickEvent"
-    },
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

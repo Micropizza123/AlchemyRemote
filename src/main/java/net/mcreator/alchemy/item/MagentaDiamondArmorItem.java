@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -14,15 +13,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.alchemy.procedures.MagentaDiamondArmorBootsTickEventProcedure;
 import net.mcreator.alchemy.itemgroup.AlchemyItemGroup;
 import net.mcreator.alchemy.AlchemyModElements;
-
-import java.util.Map;
-import java.util.HashMap;
 
 @AlchemyModElements.ModElement.Tag
 public class MagentaDiamondArmorItem extends AlchemyModElements.ModElement {
@@ -104,23 +98,6 @@ public class MagentaDiamondArmorItem extends AlchemyModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "alchemy:textures/models/armor/magentadiamond_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-
-			@Override
-			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					$_dependencies.put("itemstack", itemstack);
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					MagentaDiamondArmorBootsTickEventProcedure.executeProcedure($_dependencies);
-				}
 			}
 		}.setRegistryName("magenta_diamond_armor_boots"));
 	}

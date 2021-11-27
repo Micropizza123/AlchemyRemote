@@ -1944,44 +1944,6 @@
       "path": "~/Alchemy/Crystals/Amethyst"
     },
     {
-      "name": "MagentaDiamondArmorBootsTickEvent",
-      "type": "procedure",
-      "sortid": 268,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magenta_diamond_armor_boots_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Alchemy/Crystals/Amethyst"
-    },
-    {
       "name": "MagentaDiamondPickaxeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 269,
