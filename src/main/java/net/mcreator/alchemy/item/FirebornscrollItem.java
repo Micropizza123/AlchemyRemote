@@ -2,6 +2,8 @@
 package net.mcreator.alchemy.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -19,7 +21,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.alchemy.procedures.HeartOfTheMoonRightClickedInAirProcedure;
+import net.mcreator.alchemy.procedures.FirebornscrolluseProcedure;
 import net.mcreator.alchemy.itemgroup.AlchemyItemGroup;
 import net.mcreator.alchemy.AlchemyModElements;
 
@@ -28,11 +30,11 @@ import java.util.List;
 import java.util.HashMap;
 
 @AlchemyModElements.ModElement.Tag
-public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
-	@ObjectHolder("alchemy:heart_of_the_moon")
+public class FirebornscrollItem extends AlchemyModElements.ModElement {
+	@ObjectHolder("alchemy:firebornscroll")
 	public static final Item block = null;
-	public HeartOfTheMoonItem(AlchemyModElements instance) {
-		super(instance, 515);
+	public FirebornscrollItem(AlchemyModElements instance) {
+		super(instance, 519);
 	}
 
 	@Override
@@ -41,8 +43,8 @@ public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AlchemyItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("heart_of_the_moon");
+			super(new Item.Properties().group(AlchemyItemGroup.tab).maxStackSize(1).rarity(Rarity.EPIC));
+			setRegistryName("firebornscroll");
 		}
 
 		@Override
@@ -52,7 +54,7 @@ public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
-			return 0;
+			return 2;
 		}
 
 		@Override
@@ -61,11 +63,17 @@ public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
 		}
 
 		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
+		}
+
+		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Right click:"));
-			list.add(new StringTextComponent("Set to day (Must be Night)"));
-			list.add(new StringTextComponent("\u00A76Mythical item"));
+			list.add(new StringTextComponent("Right-click:"));
+			list.add(new StringTextComponent("Set on/Set off fireborn's abilities"));
+			list.add(new StringTextComponent("\u00A75 Epic artifact"));
 		}
 
 		@Override
@@ -77,8 +85,9 @@ public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
 			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
-				HeartOfTheMoonRightClickedInAirProcedure.executeProcedure($_dependencies);
+				FirebornscrolluseProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
@@ -97,8 +106,9 @@ public class HeartOfTheMoonItem extends AlchemyModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
-				HeartOfTheMoonRightClickedInAirProcedure.executeProcedure($_dependencies);
+				FirebornscrolluseProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

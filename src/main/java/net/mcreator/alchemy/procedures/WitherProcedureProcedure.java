@@ -13,6 +13,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.alchemy.enchantment.WitherEnchantment;
+import net.mcreator.alchemy.enchantment.LifeStealEnchantment;
 import net.mcreator.alchemy.AlchemyMod;
 
 import java.util.Map;
@@ -67,6 +68,15 @@ public class WitherProcedureProcedure {
 						(int) ((EnchantmentHelper.getEnchantmentLevel(WitherEnchantment.enchantment,
 								((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)))
 								- 1)));
+		}
+		if (((EnchantmentHelper.getEnchantmentLevel(LifeStealEnchantment.enchantment,
+				((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY))) > 0)) {
+			if (sourceentity instanceof LivingEntity)
+				((LivingEntity) sourceentity).setHealth((float) (((sourceentity instanceof LivingEntity)
+						? ((LivingEntity) sourceentity).getHealth()
+						: -1)
+						+ (EnchantmentHelper.getEnchantmentLevel(LifeStealEnchantment.enchantment,
+								((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)))));
 		}
 	}
 }

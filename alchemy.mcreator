@@ -2206,24 +2206,6 @@
       "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
     },
     {
-      "name": "GrowthProcedure",
-      "type": "procedure",
-      "sortid": 282,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "growth_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Alchemy/Enchantments"
-    },
-    {
       "name": "GoldenFishingRod",
       "type": "tool",
       "sortid": 46,
@@ -2382,24 +2364,6 @@
       "registry_name": "life_in_invetory",
       "metadata": {
         "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Alchemy/Abilities/PassiveAilities"
-    },
-    {
-      "name": "TickProcedure",
-      "type": "procedure",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tick_procedure",
-      "metadata": {
         "dependencies": [
           {
             "name": "entity",
@@ -3930,40 +3894,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "xp_boost_gem",
-      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
-    },
-    {
-      "name": "PlayerTick",
-      "type": "procedure",
-      "sortid": 358,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "player_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Alchemy/Magical Dust/MagicStaffProject"
     },
     {
@@ -7051,6 +6981,102 @@
       "ids": {},
       "registry_name": "heart_of_the_moon",
       "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Darkscroll",
+      "type": "item",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Magicalscroll",
+      "type": "item",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicalscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Firebornscroll",
+      "type": "item",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebornscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Firebornscrolluse",
+      "type": "procedure",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebornscrolluse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/MagicStaffProject"
     }
   ],
   "variable_elements": [
@@ -7089,6 +7115,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Fireborns_abilities",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -7168,6 +7200,7 @@
       "advancements.recipes.descr": "Loading into a world first time",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
+      "item.alchemy.magicalscroll": "Magical scroll",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
@@ -7199,6 +7232,7 @@
       "item.alchemy.retenate_sword": "Retenate Sword",
       "item.alchemy.diamond_dust": "Diamond Dust",
       "advancements.retenative.descr": "Retenative!",
+      "item.alchemy.scroll": "Scroll",
       "item.alchemy.fires_spellbook": "Fire\u0027s SpellBook",
       "block.alchemy.fusiontable": "Fusiontable",
       "item.alchemy.malysiun_rune_disabler": "Malysiun Rune",
@@ -7234,7 +7268,9 @@
       "block.alchemy.sakura_stairs": "Sakura Stairs",
       "item.alchemy.pulverizedice": "Pulverized ice",
       "item.alchemy.ice_element": "Ice Element",
+      "item.alchemy.darkscroll": "Dark scroll",
       "item.alchemy.netherrack_ingot": "Netherrack Ingot",
+      "item.alchemy.firebornscroll": "§4Fireborn\u0027s Scroll",
       "block.alchemy.ablanian_planks": "Ablanian Planks",
       "item.alchemy.enderswordshandle": "Ender handle",
       "item.alchemy.prismarine_gem": "Prismarine Gem",
@@ -7471,6 +7507,10 @@
               },
               {
                 "name": "PrismarineGem",
+                "children": []
+              },
+              {
+                "name": "scrolls",
                 "children": []
               }
             ]

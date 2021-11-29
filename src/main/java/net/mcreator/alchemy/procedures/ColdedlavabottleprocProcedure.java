@@ -20,11 +20,15 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
+import net.mcreator.alchemy.item.FireThrowPowerRangedItem;
 import net.mcreator.alchemy.item.ColdedlavabottleItem;
 import net.mcreator.alchemy.block.ColdLavaBlock;
+import net.mcreator.alchemy.AlchemyModVariables;
 import net.mcreator.alchemy.AlchemyMod;
 
+import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -135,6 +139,15 @@ public class ColdedlavabottleprocProcedure {
 					((World) world).playSound(x, y, z,
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")),
 							SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+				}
+			}
+		}
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem())
+				&& (AlchemyModVariables.MapVariables.get(world).Fireborns_abilities == 1))) {
+			if (entity instanceof LivingEntity) {
+				Entity _ent = entity;
+				if (!_ent.world.isRemote()) {
+					FireThrowPowerRangedItem.shoot(_ent.world, (LivingEntity) entity, new Random(), (float) 1, (float) 10, (int) 1);
 				}
 			}
 		}
