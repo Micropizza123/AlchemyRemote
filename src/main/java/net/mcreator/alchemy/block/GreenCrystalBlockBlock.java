@@ -60,7 +60,7 @@ public class GreenCrystalBlockBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:green_crystal_block")
 	public static final Block block = null;
 	public GreenCrystalBlockBlock(AlchemyModElements instance) {
-		super(instance, 47);
+		super(instance, 48);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

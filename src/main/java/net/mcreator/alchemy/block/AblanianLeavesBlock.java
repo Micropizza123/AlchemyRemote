@@ -27,7 +27,7 @@ public class AblanianLeavesBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_leaves")
 	public static final Block block = null;
 	public AblanianLeavesBlock(AlchemyModElements instance) {
-		super(instance, 87);
+		super(instance, 89);
 	}
 
 	@Override

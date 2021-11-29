@@ -16,7 +16,7 @@ public class RubyItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby")
 	public static final Item block = null;
 	public RubyItem(AlchemyModElements instance) {
-		super(instance, 79);
+		super(instance, 81);
 	}
 
 	@Override

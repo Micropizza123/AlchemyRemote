@@ -18,10 +18,26 @@
     "bodyName": "Retenate Chestplate",
     "leggingsName": "Retenate Leggings",
     "bootsName": "Retenate Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInfo": [
+      "§6Mythical Armor peace",
+      "Full set bonus:",
+      "Resistance I"
+    ],
+    "bodySpecialInfo": [
+      "§6Mythical Armor peace",
+      "Full set bonus:",
+      "Resistance I"
+    ],
+    "leggingsSpecialInfo": [
+      "§6Mythical Armor peace",
+      "Full set bonus:",
+      "Resistance I"
+    ],
+    "bootsSpecialInfo": [
+      "§6Mythical Armor peace",
+      "Full set bonus:",
+      "Resistance I"
+    ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -32,7 +32,7 @@ public class AblanianLogBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_log")
 	public static final Block block = null;
 	public AblanianLogBlock(AlchemyModElements instance) {
-		super(instance, 89);
+		super(instance, 91);
 	}
 
 	@Override

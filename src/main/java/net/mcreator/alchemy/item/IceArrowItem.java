@@ -22,7 +22,7 @@ public class IceArrowItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ice_arrow")
 	public static final Item block = null;
 	public IceArrowItem(AlchemyModElements instance) {
-		super(instance, 175);
+		super(instance, 176);
 	}
 
 	@Override

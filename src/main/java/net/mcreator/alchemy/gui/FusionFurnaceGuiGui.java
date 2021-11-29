@@ -40,7 +40,7 @@ public class FusionFurnaceGuiGui extends AlchemyModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public FusionFurnaceGuiGui(AlchemyModElements instance) {
-		super(instance, 232);
+		super(instance, 233);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

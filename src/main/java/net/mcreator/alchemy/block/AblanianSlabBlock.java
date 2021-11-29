@@ -28,7 +28,7 @@ public class AblanianSlabBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_slab")
 	public static final Block block = null;
 	public AblanianSlabBlock(AlchemyModElements instance) {
-		super(instance, 92);
+		super(instance, 94);
 	}
 
 	@Override

@@ -2,6 +2,7 @@
 package net.mcreator.alchemy.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -68,8 +69,9 @@ public class ColdLavaBlock extends AlchemyModElements.ModElement {
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes.builder(new ResourceLocation("alchemy:blocks/lava_still"), new ResourceLocation("alchemy:blocks/lava_flow"))
-						.luminosity(0).density(1000).viscosity(1000).temperature(800).rarity(Rarity.RARE)).explosionResistance(100f).tickRate(5)
-								.levelDecreasePerBlock(1).slopeFindDistance(4).bucket(() -> bucket).block(() -> block);
+						.luminosity(0).density(1000).viscosity(1000).temperature(800).rarity(Rarity.RARE)
+						.sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty")))).explosionResistance(100f)
+								.tickRate(5).levelDecreasePerBlock(1).slopeFindDistance(4).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("cold_lava");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("cold_lava_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.LAVA).hardnessAndResistance(100f)

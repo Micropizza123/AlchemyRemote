@@ -6,7 +6,9 @@
     "texture": "gambanteinn",
     "customModelName": "Normal",
     "name": "§4Gambanteinn",
-    "specialInfo": [],
+    "specialInfo": [
+      "§6Mythical Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

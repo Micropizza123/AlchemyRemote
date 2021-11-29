@@ -28,7 +28,7 @@ public class EnderStaffItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ender_staff")
 	public static final Item block = null;
 	public EnderStaffItem(AlchemyModElements instance) {
-		super(instance, 137);
+		super(instance, 139);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class WaterPowerItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:water_power")
 	public static final Item block = null;
 	public WaterPowerItem(AlchemyModElements instance) {
-		super(instance, 119);
+		super(instance, 121);
 	}
 
 	@Override

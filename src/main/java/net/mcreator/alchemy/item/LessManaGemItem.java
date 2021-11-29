@@ -22,7 +22,7 @@ public class LessManaGemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:less_mana_gem")
 	public static final Item block = null;
 	public LessManaGemItem(AlchemyModElements instance) {
-		super(instance, 112);
+		super(instance, 114);
 	}
 
 	@Override

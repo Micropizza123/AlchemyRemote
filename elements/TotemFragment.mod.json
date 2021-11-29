@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Totem"
+      "Totem",
+      "§5Epic item"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

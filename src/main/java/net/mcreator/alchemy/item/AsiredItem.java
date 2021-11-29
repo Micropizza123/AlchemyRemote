@@ -24,7 +24,7 @@ public class AsiredItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:asired")
 	public static final Item block = null;
 	public AsiredItem(AlchemyModElements instance) {
-		super(instance, 131);
+		super(instance, 133);
 	}
 
 	@Override
@@ -58,6 +58,7 @@ public class AsiredItem extends AlchemyModElements.ModElement {
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("Red"));
+				list.add(new StringTextComponent("\u00A75Epic Weapon"));
 			}
 		}.setRegistryName("asired"));
 	}

@@ -10,6 +10,8 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.vector.Vector2f;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.LivingEntity;
@@ -17,6 +19,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.command.ICommandSource;
 import net.minecraft.command.CommandSource;
 
+import net.mcreator.alchemy.item.RubyArmorItem;
 import net.mcreator.alchemy.item.RetenatearmorItem;
 import net.mcreator.alchemy.AlchemyMod;
 
@@ -101,6 +104,8 @@ public class PlayerTickProcedure {
 										? ((LivingEntity) entity)
 												.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
 										: ItemStack.EMPTY).getItem() == RetenatearmorItem.helmet))))) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 20, (int) 1, (false), (false)));
 			if (world instanceof ServerWorld) {
 				((World) world).getServer().getCommandManager().handleCommand(
 						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
@@ -113,6 +118,23 @@ public class PlayerTickProcedure {
 								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 						"execute at @p unless block ~ ~-1 ~ air run particle flame ~ ~.125 ~ .15 0 .15 0.01 1");
 			}
+		}
+		if (((((entity instanceof LivingEntity)
+				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+				: ItemStack.EMPTY).getItem() == RubyArmorItem.boots)
+				&& ((((entity instanceof LivingEntity)
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
+						: ItemStack.EMPTY).getItem() == RubyArmorItem.legs)
+						&& ((((entity instanceof LivingEntity)
+								? ((LivingEntity) entity)
+										.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+								: ItemStack.EMPTY).getItem() == RubyArmorItem.body)
+								&& (((entity instanceof LivingEntity)
+										? ((LivingEntity) entity)
+												.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
+										: ItemStack.EMPTY).getItem() == RubyArmorItem.helmet))))) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 20, (int) 3, (false), (false)));
 		}
 	}
 }

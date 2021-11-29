@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "alchemy:waters_spellbook",
+            "item": "alchemy:book_of_icegem",
             "count": {
               "min": 1,
               "max": 1

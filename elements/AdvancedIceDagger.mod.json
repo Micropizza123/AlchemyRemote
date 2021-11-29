@@ -6,7 +6,9 @@
     "texture": "advanced_ice_dagger",
     "customModelName": "Normal",
     "name": "Advanced Ice Dagger",
-    "specialInfo": [],
+    "specialInfo": [
+      "§6Mythical Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

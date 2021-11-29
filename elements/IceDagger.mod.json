@@ -6,7 +6,9 @@
     "texture": "ice_dagger",
     "customModelName": "Normal",
     "name": "Ice Prismarine Dagger",
-    "specialInfo": [],
+    "specialInfo": [
+      "§5Epic Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

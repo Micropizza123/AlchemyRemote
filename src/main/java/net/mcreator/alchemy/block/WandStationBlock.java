@@ -45,7 +45,7 @@ public class WandStationBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:wand_station")
 	public static final Block block = null;
 	public WandStationBlock(AlchemyModElements instance) {
-		super(instance, 107);
+		super(instance, 109);
 	}
 
 	@Override

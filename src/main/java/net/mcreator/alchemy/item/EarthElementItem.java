@@ -16,7 +16,7 @@ public class EarthElementItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:earth_element")
 	public static final Item block = null;
 	public EarthElementItem(AlchemyModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 	}
 
 	@Override

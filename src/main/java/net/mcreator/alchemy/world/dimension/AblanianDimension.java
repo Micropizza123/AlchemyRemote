@@ -76,7 +76,7 @@ public class AblanianDimension extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_portal")
 	public static final CustomPortalBlock portal = null;
 	public AblanianDimension(AlchemyModElements instance) {
-		super(instance, 220);
+		super(instance, 221);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

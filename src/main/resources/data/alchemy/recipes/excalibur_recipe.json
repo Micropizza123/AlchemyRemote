@@ -1,0 +1,36 @@
+{
+  "group": "alchemy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "alchemy:golden_crystal_shard"
+    },
+    "2": {
+      "item": "alchemy:retenate_gem"
+    },
+    "3": {
+      "item": "alchemy:obsidian_ingot"
+    },
+    "4": {
+      "item": "alchemy:netherrack_ingot"
+    },
+    "5": {
+      "item": "alchemy:golden_crystal_shard"
+    },
+    "6": {
+      "item": "alchemy:excaliburfragment"
+    },
+    "7": {
+      "item": "alchemy:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "alchemy:excalibur",
+    "count": 1
+  }
+}

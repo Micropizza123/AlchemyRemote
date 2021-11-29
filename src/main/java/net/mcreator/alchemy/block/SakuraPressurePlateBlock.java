@@ -30,7 +30,7 @@ public class SakuraPressurePlateBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakura_pressure_plate")
 	public static final Block block = null;
 	public SakuraPressurePlateBlock(AlchemyModElements instance) {
-		super(instance, 106);
+		super(instance, 108);
 	}
 
 	@Override

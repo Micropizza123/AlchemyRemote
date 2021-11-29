@@ -17,7 +17,7 @@ public class RubySwordItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_sword")
 	public static final Item block = null;
 	public RubySwordItem(AlchemyModElements instance) {
-		super(instance, 80);
+		super(instance, 82);
 	}
 
 	@Override

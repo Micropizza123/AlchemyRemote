@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "book",
     "customModelName": "Normal",
-    "name": "Alchemy Guide",
+    "name": "§4Alchemy Guide",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
@@ -25,7 +25,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Recipes"
+      "Recipes",
+      "§6Mythical item",
+      "§4Story item"
     ],
     "hasGlow": false,
     "guiBoundTo": "FusionGuide",

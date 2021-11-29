@@ -77,6 +77,7 @@ public class DimensionalKeyItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Also used to craft materials"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
 		}
 
 		@Override

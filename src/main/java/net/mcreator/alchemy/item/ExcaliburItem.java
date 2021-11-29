@@ -32,7 +32,7 @@ public class ExcaliburItem extends AlchemyModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 4000;
+				return 8014;
 			}
 
 			public float getEfficiency() {
@@ -40,7 +40,7 @@ public class ExcaliburItem extends AlchemyModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 10f;
+				return 12.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -54,11 +54,12 @@ public class ExcaliburItem extends AlchemyModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ObsidianIngotItem.block));
 			}
-		}, 3, -0.8f, new Item.Properties().group(AlchemyItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2.4f, new Item.Properties().group(AlchemyItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("Made By Gods"));
+				list.add(new StringTextComponent("\u00A76Mythical Weapon"));
 			}
 
 			@Override

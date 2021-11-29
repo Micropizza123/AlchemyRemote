@@ -69,7 +69,7 @@ public class EnderFanBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ender_fan")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public EnderFanBlock(AlchemyModElements instance) {
-		super(instance, 139);
+		super(instance, 141);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

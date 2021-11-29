@@ -122,16 +122,16 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Ablanian"
+      "CUSTOM:Ablanian",
+      "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:AblanianForest"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "CUSTOM:AblanianStone"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "frequencyPerChunks": 11,

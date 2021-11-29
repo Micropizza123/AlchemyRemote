@@ -17,7 +17,7 @@ public class RubyShovelItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_shovel")
 	public static final Item block = null;
 	public RubyShovelItem(AlchemyModElements instance) {
-		super(instance, 83);
+		super(instance, 85);
 	}
 
 	@Override

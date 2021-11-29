@@ -10,6 +10,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
@@ -29,12 +31,14 @@ import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.alchemy.itemgroup.AlchemyItemGroup;
 import net.mcreator.alchemy.entity.renderer.IcePrismarineBowRenderer;
 import net.mcreator.alchemy.AlchemyModElements;
 
 import java.util.Random;
+import java.util.List;
 
 @AlchemyModElements.ModElement.Tag
 public class IcePrismarineBowItem extends AlchemyModElements.ModElement {
@@ -44,7 +48,7 @@ public class IcePrismarineBowItem extends AlchemyModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletice_prismarine_bow").setRegistryName("entitybulletice_prismarine_bow");
 	public IcePrismarineBowItem(AlchemyModElements instance) {
-		super(instance, 176);
+		super(instance, 177);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IcePrismarineBowRenderer.ModelRegisterHandler());
 	}
 
@@ -63,6 +67,12 @@ public class IcePrismarineBowItem extends AlchemyModElements.ModElement {
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			entity.setActiveHand(hand);
 			return new ActionResult(ActionResultType.SUCCESS, entity.getHeldItem(hand));
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A75Epic Weapon"));
 		}
 
 		@Override

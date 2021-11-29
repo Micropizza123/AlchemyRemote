@@ -16,7 +16,7 @@ public class GoldenFishingRodItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:golden_fishing_rod")
 	public static final Item block = null;
 	public GoldenFishingRodItem(AlchemyModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override

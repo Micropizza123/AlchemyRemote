@@ -16,7 +16,7 @@ public class GreenCrystalShardItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:green_crystal_shard")
 	public static final Item block = null;
 	public GreenCrystalShardItem(AlchemyModElements instance) {
-		super(instance, 46);
+		super(instance, 47);
 	}
 
 	@Override

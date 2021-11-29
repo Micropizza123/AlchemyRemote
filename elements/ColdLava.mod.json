@@ -28,7 +28,7 @@
       "value": "CUSTOM:Alchemy"
     },
     "emptySound": {
-      "value": ""
+      "value": "item.bucket.empty"
     },
     "rarity": "RARE",
     "specialInfo": [

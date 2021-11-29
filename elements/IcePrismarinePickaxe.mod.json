@@ -6,12 +6,14 @@
     "texture": "ice_prismarine_pickaxe",
     "customModelName": "Normal",
     "name": "Ice Prismarine Pickaxe",
-    "specialInfo": [],
+    "specialInfo": [
+      "§5Epic Tool"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
+    "harvestLevel": 4,
     "efficiency": 10.0,
     "attackSpeed": 1.2000000000000002,
     "enchantability": 44,

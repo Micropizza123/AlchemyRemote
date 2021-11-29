@@ -22,7 +22,7 @@ public class TotemOfStrengthItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:totem_of_strength")
 	public static final Item block = null;
 	public TotemOfStrengthItem(AlchemyModElements instance) {
-		super(instance, 154);
+		super(instance, 156);
 	}
 
 	@Override
@@ -54,6 +54,7 @@ public class TotemOfStrengthItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("If your health gets lower that 3 you get strength 10"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
 		}
 	}
 }

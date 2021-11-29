@@ -17,7 +17,7 @@ public class RubyHoeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_hoe")
 	public static final Item block = null;
 	public RubyHoeItem(AlchemyModElements instance) {
-		super(instance, 84);
+		super(instance, 86);
 	}
 
 	@Override

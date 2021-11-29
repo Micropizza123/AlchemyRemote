@@ -6,7 +6,9 @@
     "texture": "magentadiamondhammer",
     "customModelName": "Normal",
     "name": "Amethyst Hammer",
-    "specialInfo": [],
+    "specialInfo": [
+      "§5Epic Tool"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

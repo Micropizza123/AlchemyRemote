@@ -26,7 +26,7 @@ public class RubyBlockBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_block")
 	public static final Block block = null;
 	public RubyBlockBlock(AlchemyModElements instance) {
-		super(instance, 78);
+		super(instance, 79);
 	}
 
 	@Override

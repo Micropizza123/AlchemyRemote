@@ -37,8 +37,8 @@
             "falpha": 0.0
           },
           "name": "Fusion Table",
-          "x": 237,
-          "y": 39
+          "x": 129,
+          "y": 41
         }
       },
       {
@@ -222,6 +222,51 @@
           "name": "Fuse",
           "x": 202,
           "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "demo_background1.png",
+          "use1Xscale": false,
+          "name": "demo_background1.png",
+          "x": 14,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fusion",
+          "width": 55,
+          "height": 20,
+          "name": "Fusion",
+          "x": 58,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "demo123.png",
+          "use1Xscale": false,
+          "name": "demo123.png",
+          "x": 31,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Enchant",
+          "onClick": {
+            "name": "FusionGuiproc2"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Enchant",
+          "x": 58,
+          "y": 86
         }
       }
     ],

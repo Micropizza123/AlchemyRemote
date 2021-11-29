@@ -21,7 +21,7 @@ public class AmethystFishingRodItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:amethyst_fishing_rod")
 	public static final Item block = null;
 	public AmethystFishingRodItem(AlchemyModElements instance) {
-		super(instance, 56);
+		super(instance, 57);
 	}
 
 	@Override

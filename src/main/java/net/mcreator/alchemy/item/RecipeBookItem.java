@@ -96,6 +96,8 @@ public class RecipeBookItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Recipes"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
+			list.add(new StringTextComponent("\u00A74Story item"));
 		}
 
 		@Override
@@ -109,7 +111,7 @@ public class RecipeBookItem extends AlchemyModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Alchemy Guide");
+						return new StringTextComponent("§4Alchemy Guide");
 					}
 
 					@Override

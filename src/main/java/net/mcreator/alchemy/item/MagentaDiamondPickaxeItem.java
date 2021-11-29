@@ -17,7 +17,7 @@ public class MagentaDiamondPickaxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_pickaxe")
 	public static final Item block = null;
 	public MagentaDiamondPickaxeItem(AlchemyModElements instance) {
-		super(instance, 58);
+		super(instance, 59);
 	}
 
 	@Override

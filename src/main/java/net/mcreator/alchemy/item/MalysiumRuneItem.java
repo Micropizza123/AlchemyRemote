@@ -28,7 +28,7 @@ public class MalysiumRuneItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:malysium_rune")
 	public static final Item block = null;
 	public MalysiumRuneItem(AlchemyModElements instance) {
-		super(instance, 51);
+		super(instance, 52);
 	}
 
 	@Override

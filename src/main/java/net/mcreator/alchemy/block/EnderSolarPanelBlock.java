@@ -32,7 +32,7 @@ public class EnderSolarPanelBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ender_solar_panel")
 	public static final Block block = null;
 	public EnderSolarPanelBlock(AlchemyModElements instance) {
-		super(instance, 138);
+		super(instance, 140);
 	}
 
 	@Override

@@ -31,7 +31,9 @@
       }
     ],
     "name": "Ginseng",
-    "specialInfo": [],
+    "specialInfo": [
+      "§6Mythical item"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

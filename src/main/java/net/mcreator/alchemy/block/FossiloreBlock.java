@@ -43,7 +43,7 @@ public class FossiloreBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:fossilore")
 	public static final Block block = null;
 	public FossiloreBlock(AlchemyModElements instance) {
-		super(instance, 125);
+		super(instance, 127);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

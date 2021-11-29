@@ -17,7 +17,7 @@ public class RubyAxeItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_axe")
 	public static final Item block = null;
 	public RubyAxeItem(AlchemyModElements instance) {
-		super(instance, 81);
+		super(instance, 83);
 	}
 
 	@Override

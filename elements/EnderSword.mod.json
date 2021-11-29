@@ -6,7 +6,9 @@
     "texture": "ender_sword",
     "customModelName": "Normal",
     "name": "§4Ender Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§5Epic Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

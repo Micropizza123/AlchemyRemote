@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Red Asi"
+      "Red Asi",
+      "§6Mythical item"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

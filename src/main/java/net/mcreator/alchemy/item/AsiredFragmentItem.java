@@ -22,7 +22,7 @@ public class AsiredFragmentItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:asired_fragment")
 	public static final Item block = null;
 	public AsiredFragmentItem(AlchemyModElements instance) {
-		super(instance, 132);
+		super(instance, 134);
 	}
 
 	@Override
@@ -54,6 +54,7 @@ public class AsiredFragmentItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Red Asi"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
 		}
 	}
 }

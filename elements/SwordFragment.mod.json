@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Sword"
+      "Sword",
+      "§5Epic item"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

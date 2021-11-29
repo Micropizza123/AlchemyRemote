@@ -27,7 +27,7 @@ public class AblanianButtonBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_button")
 	public static final Block block = null;
 	public AblanianButtonBlock(AlchemyModElements instance) {
-		super(instance, 95);
+		super(instance, 97);
 	}
 
 	@Override

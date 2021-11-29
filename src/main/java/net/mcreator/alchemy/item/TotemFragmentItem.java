@@ -22,7 +22,7 @@ public class TotemFragmentItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:totem_fragment")
 	public static final Item block = null;
 	public TotemFragmentItem(AlchemyModElements instance) {
-		super(instance, 127);
+		super(instance, 129);
 	}
 
 	@Override
@@ -54,6 +54,7 @@ public class TotemFragmentItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Totem"));
+			list.add(new StringTextComponent("\u00A75Epic item"));
 		}
 	}
 }

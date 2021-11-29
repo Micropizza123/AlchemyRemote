@@ -26,7 +26,7 @@ public class EnderenergymeterItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:enderenergymeter")
 	public static final Item block = null;
 	public EnderenergymeterItem(AlchemyModElements instance) {
-		super(instance, 140);
+		super(instance, 142);
 	}
 
 	@Override
