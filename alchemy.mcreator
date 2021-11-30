@@ -6851,6 +6851,16 @@
       "ids": {},
       "registry_name": "prismarine_gem_ore_smelting",
       "path": "~/Alchemy/Magical Dust/PrismarineGem"
+    },
+    {
+      "name": "Retenateeyerecipe",
+      "type": "recipe",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retenateeyerecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
     }
   ],
   "variable_elements": [
