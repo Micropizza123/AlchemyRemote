@@ -30,7 +30,7 @@ public class SakuraFenceGateBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sakura_fence_gate")
 	public static final Block block = null;
 	public SakuraFenceGateBlock(AlchemyModElements instance) {
-		super(instance, 104);
+		super(instance, 106);
 	}
 
 	@Override

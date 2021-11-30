@@ -22,7 +22,7 @@ public class SwordFragmentItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sword_fragment")
 	public static final Item block = null;
 	public SwordFragmentItem(AlchemyModElements instance) {
-		super(instance, 126);
+		super(instance, 128);
 	}
 
 	@Override
@@ -54,6 +54,7 @@ public class SwordFragmentItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Sword"));
+			list.add(new StringTextComponent("\u00A75Epic item"));
 		}
 	}
 }

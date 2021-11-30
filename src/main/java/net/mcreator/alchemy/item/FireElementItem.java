@@ -16,7 +16,7 @@ public class FireElementItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:fire_element")
 	public static final Item block = null;
 	public FireElementItem(AlchemyModElements instance) {
-		super(instance, 73);
+		super(instance, 74);
 	}
 
 	@Override

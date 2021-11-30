@@ -17,7 +17,7 @@ public class MagentaDiamondShovelItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_shovel")
 	public static final Item block = null;
 	public MagentaDiamondShovelItem(AlchemyModElements instance) {
-		super(instance, 61);
+		super(instance, 62);
 	}
 
 	@Override

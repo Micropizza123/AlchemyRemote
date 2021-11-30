@@ -6,7 +6,9 @@
     "texture": "magicsword",
     "customModelName": "Normal",
     "name": "Magical Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§eRare Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

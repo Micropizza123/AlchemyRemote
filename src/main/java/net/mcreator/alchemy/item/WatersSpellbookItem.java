@@ -22,7 +22,7 @@ public class WatersSpellbookItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:waters_spellbook")
 	public static final Item block = null;
 	public WatersSpellbookItem(AlchemyModElements instance) {
-		super(instance, 68);
+		super(instance, 69);
 	}
 
 	@Override

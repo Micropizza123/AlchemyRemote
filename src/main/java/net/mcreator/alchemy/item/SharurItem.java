@@ -25,7 +25,7 @@ public class SharurItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:sharur")
 	public static final Item block = null;
 	public SharurItem(AlchemyModElements instance) {
-		super(instance, 123);
+		super(instance, 125);
 	}
 
 	@Override
@@ -59,6 +59,7 @@ public class SharurItem extends AlchemyModElements.ModElement {
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("The enchanted mace of Ninurta"));
+				list.add(new StringTextComponent("\u00A76Mythical Weapon"));
 			}
 
 			@Override

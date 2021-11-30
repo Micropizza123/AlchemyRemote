@@ -1,0 +1,165 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "demo_background1.png",
+          "use1Xscale": false,
+          "name": "demo_background1.png",
+          "x": 14,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fusion",
+          "onClick": {
+            "name": "FusionGuiproc1"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Fusion",
+          "x": 58,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "demo123.png",
+          "use1Xscale": false,
+          "name": "demo123.png",
+          "x": 31,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Enchant",
+          "width": 60,
+          "height": 20,
+          "name": "Enchant",
+          "x": 58,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Enchant",
+          "onClick": {
+            "name": "FusionGuiEnchantProc"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Enchant",
+          "x": 213,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Your",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Your",
+          "x": 150,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tool",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Tool",
+          "x": 150,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 151,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Eme-",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Eme-",
+          "x": 184,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ralds",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ralds",
+          "x": 184,
+          "y": 68
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.EMERALD"
+          },
+          "color": {
+            "value": -13382656,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 185,
+          "y": 79
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 26,
+      "snapOnGrid": false
+    }
+  }
+}

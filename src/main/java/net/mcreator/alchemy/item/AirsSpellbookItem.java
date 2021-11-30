@@ -22,7 +22,7 @@ public class AirsSpellbookItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:airs_spellbook")
 	public static final Item block = null;
 	public AirsSpellbookItem(AlchemyModElements instance) {
-		super(instance, 67);
+		super(instance, 68);
 	}
 
 	@Override

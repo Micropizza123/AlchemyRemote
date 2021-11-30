@@ -63,7 +63,7 @@ public class EnderBatteryBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ender_battery")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public EnderBatteryBlock(AlchemyModElements instance) {
-		super(instance, 141);
+		super(instance, 143);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

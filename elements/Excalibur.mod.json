@@ -7,7 +7,8 @@
     "customModelName": "Normal",
     "name": "Excalibur",
     "specialInfo": [
-      "Made By Gods"
+      "Made By Gods",
+      "§6Mythical Weapon"
     ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
@@ -15,10 +16,10 @@
     "toolType": "Sword",
     "harvestLevel": 8,
     "efficiency": 4.0,
-    "attackSpeed": 3.2,
+    "attackSpeed": 1.6,
     "enchantability": 22,
-    "damageVsEntity": 12.0,
-    "usageCount": 4000,
+    "damageVsEntity": 14.2,
+    "usageCount": 8014,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [

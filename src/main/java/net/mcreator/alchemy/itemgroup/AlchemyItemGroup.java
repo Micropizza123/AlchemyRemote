@@ -13,7 +13,7 @@ import net.mcreator.alchemy.AlchemyModElements;
 @AlchemyModElements.ModElement.Tag
 public class AlchemyItemGroup extends AlchemyModElements.ModElement {
 	public AlchemyItemGroup(AlchemyModElements instance) {
-		super(instance, 226);
+		super(instance, 227);
 	}
 
 	@Override

@@ -6,7 +6,9 @@
     "texture": "retenate_axe",
     "customModelName": "Normal",
     "name": "Retenate Axe",
-    "specialInfo": [],
+    "specialInfo": [
+      "§6Mythical Tool"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

@@ -56,6 +56,10 @@ public class FusionGuiGuiWindow extends ContainerScreen<FusionGuiGui.GuiContaine
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/fuse5.png"));
 		this.blit(ms, this.guiLeft + 76, this.guiTop + 32, 0, 0, 16, 16, 16, 16);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/demo_background1.png"));
+		this.blit(ms, this.guiLeft + -111, this.guiTop + 4, 0, 0, 256, 256, 256, 256);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/demo123.png"));
+		this.blit(ms, this.guiLeft + -94, this.guiTop + 23, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 
@@ -75,7 +79,7 @@ public class FusionGuiGuiWindow extends ContainerScreen<FusionGuiGui.GuiContaine
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Fusion Table", 111, 2, -3407668);
+		this.font.drawString(ms, "Fusion Table", 3, 4, -3407668);
 	}
 
 	@Override
@@ -92,6 +96,18 @@ public class FusionGuiGuiWindow extends ContainerScreen<FusionGuiGui.GuiContaine
 			if (true) {
 				AlchemyMod.PACKET_HANDLER.sendToServer(new FusionGuiGui.ButtonPressedMessage(0, x, y, z));
 				FusionGuiGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + -67, this.guiTop + 21, 55, 20, new StringTextComponent("Fusion"), e -> {
+			if (true) {
+				AlchemyMod.PACKET_HANDLER.sendToServer(new FusionGuiGui.ButtonPressedMessage(1, x, y, z));
+				FusionGuiGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + -67, this.guiTop + 49, 60, 20, new StringTextComponent("Enchant"), e -> {
+			if (true) {
+				AlchemyMod.PACKET_HANDLER.sendToServer(new FusionGuiGui.ButtonPressedMessage(2, x, y, z));
+				FusionGuiGui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
 	}

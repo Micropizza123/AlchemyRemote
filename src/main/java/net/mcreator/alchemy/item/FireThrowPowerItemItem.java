@@ -28,7 +28,7 @@ public class FireThrowPowerItemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:fire_throw_power_item")
 	public static final Item block = null;
 	public FireThrowPowerItemItem(AlchemyModElements instance) {
-		super(instance, 116);
+		super(instance, 118);
 	}
 
 	@Override

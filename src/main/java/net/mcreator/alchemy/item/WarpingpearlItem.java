@@ -24,7 +24,7 @@ public class WarpingpearlItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:warpingpearl")
 	public static final Item block = null;
 	public WarpingpearlItem(AlchemyModElements instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class WarpingpearlItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("New ability on abilities tab"));
-			list.add(new StringTextComponent("Need spellbook to work"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
 		}
 	}
 }

@@ -6,6 +6,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -14,9 +17,12 @@ import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.alchemy.itemgroup.AlchemyItemGroup;
 import net.mcreator.alchemy.AlchemyModElements;
+
+import java.util.List;
 
 @AlchemyModElements.ModElement.Tag
 public class RetenatearmorItem extends AlchemyModElements.ModElement {
@@ -29,7 +35,7 @@ public class RetenatearmorItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:retenatearmor_boots")
 	public static final Item boots = null;
 	public RetenatearmorItem(AlchemyModElements instance) {
-		super(instance, 165);
+		super(instance, 166);
 	}
 
 	@Override
@@ -78,11 +84,27 @@ public class RetenatearmorItem extends AlchemyModElements.ModElement {
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AlchemyItemGroup.tab)) {
 			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("\u00A76Mythical Armor peace"));
+				list.add(new StringTextComponent("Full set bonus:"));
+				list.add(new StringTextComponent("Resistance I"));
+			}
+
+			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "alchemy:textures/models/armor/retenate__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("retenatearmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AlchemyItemGroup.tab)) {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("\u00A76Mythical Armor peace"));
+				list.add(new StringTextComponent("Full set bonus:"));
+				list.add(new StringTextComponent("Resistance I"));
+			}
+
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "alchemy:textures/models/armor/retenate__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -90,11 +112,27 @@ public class RetenatearmorItem extends AlchemyModElements.ModElement {
 		}.setRegistryName("retenatearmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AlchemyItemGroup.tab)) {
 			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("\u00A76Mythical Armor peace"));
+				list.add(new StringTextComponent("Full set bonus:"));
+				list.add(new StringTextComponent("Resistance I"));
+			}
+
+			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "alchemy:textures/models/armor/retenate__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("retenatearmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AlchemyItemGroup.tab)) {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("\u00A76Mythical Armor peace"));
+				list.add(new StringTextComponent("Full set bonus:"));
+				list.add(new StringTextComponent("Resistance I"));
+			}
+
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "alchemy:textures/models/armor/retenate__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

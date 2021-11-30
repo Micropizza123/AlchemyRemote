@@ -6,7 +6,9 @@
     "texture": "ice_gem_bow",
     "customModelName": "Normal",
     "name": "Ice Prismarine Bow",
-    "specialInfo": [],
+    "specialInfo": [
+      "§5Epic Weapon"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Alchemy"
     },

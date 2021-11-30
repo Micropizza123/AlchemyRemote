@@ -31,6 +31,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -47,7 +48,7 @@ public class RubyOreBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ruby_ore")
 	public static final Block block = null;
 	public RubyOreBlock(AlchemyModElements instance) {
-		super(instance, 77);
+		super(instance, 78);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -87,6 +88,8 @@ public class RubyOreBlock extends AlchemyModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == AblanianStoneBlock.block)
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -106,6 +109,8 @@ public class RubyOreBlock extends AlchemyModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("alchemy:ablanian")))
 						dimensionCriteria = true;
+					if (dimensionType == World.OVERWORLD)
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
@@ -119,11 +124,6 @@ public class RubyOreBlock extends AlchemyModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (new ResourceLocation("alchemy:ablanian_forest").equals(event.getName()))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

@@ -59,7 +59,7 @@ public class AmethystCrystalBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:amethyst_crystal")
 	public static final Block block = null;
 	public AmethystCrystalBlock(AlchemyModElements instance) {
-		super(instance, 52);
+		super(instance, 53);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

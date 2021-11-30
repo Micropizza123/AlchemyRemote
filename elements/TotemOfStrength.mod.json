@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "If your health gets lower that 3 you get strength 10"
+      "If your health gets lower that 3 you get strength 10",
+      "§6Mythical item"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

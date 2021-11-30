@@ -17,7 +17,7 @@ public class CrystalBerryItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:crystal_berry")
 	public static final Item block = null;
 	public CrystalBerryItem(AlchemyModElements instance) {
-		super(instance, 41);
+		super(instance, 42);
 	}
 
 	@Override

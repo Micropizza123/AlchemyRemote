@@ -28,7 +28,7 @@ public class AblanianFenceBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_fence")
 	public static final Block block = null;
 	public AblanianFenceBlock(AlchemyModElements instance) {
-		super(instance, 93);
+		super(instance, 95);
 	}
 
 	@Override

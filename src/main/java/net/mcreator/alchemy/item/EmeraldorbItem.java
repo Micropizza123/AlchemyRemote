@@ -16,7 +16,7 @@ public class EmeraldorbItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:emeraldorb")
 	public static final Item block = null;
 	public EmeraldorbItem(AlchemyModElements instance) {
-		super(instance, 153);
+		super(instance, 155);
 	}
 
 	@Override

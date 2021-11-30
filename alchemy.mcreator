@@ -1576,16 +1576,6 @@
       "path": "~/Items and tools"
     },
     {
-      "name": "Glock",
-      "type": "rangeditem",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "glock",
-      "path": "~/Items and tools"
-    },
-    {
       "name": "ColdLavaFuel",
       "type": "fuel",
       "sortid": 249,
@@ -2216,24 +2206,6 @@
       "path": "~/Alchemy/Abilities/item abilities/WarpingPearl"
     },
     {
-      "name": "GrowthProcedure",
-      "type": "procedure",
-      "sortid": 282,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "growth_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Alchemy/Enchantments"
-    },
-    {
       "name": "GoldenFishingRod",
       "type": "tool",
       "sortid": 45,
@@ -2392,24 +2364,6 @@
       "registry_name": "life_in_invetory",
       "metadata": {
         "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Alchemy/Abilities/PassiveAilities"
-    },
-    {
-      "name": "TickProcedure",
-      "type": "procedure",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tick_procedure",
-      "metadata": {
         "dependencies": [
           {
             "name": "entity",
@@ -6861,6 +6815,278 @@
       "ids": {},
       "registry_name": "retenateeyerecipe",
       "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "Excaliburfragmentrecipe",
+      "type": "recipe",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburfragmentrecipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "HeartOfTheMoonRightClickedInAir",
+      "type": "procedure",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart_of_the_moon_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "FusionGuiEnchantProc",
+      "type": "procedure",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_gui_enchant_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "ExcaliburRecipe",
+      "type": "recipe",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excalibur_recipe",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Firebornscrolluse",
+      "type": "procedure",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebornscrolluse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Coldedlavabottleproc",
+      "type": "procedure",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldedlavabottleproc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Excaliburfragment",
+      "type": "item",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburfragment",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "Magicalscroll",
+      "type": "item",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicalscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Coldedlavabottle",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldedlavabottle",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Darkscroll",
+      "type": "item",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Firebornscroll",
+      "type": "item",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebornscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "HeartOfTheMoon",
+      "type": "item",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart_of_the_moon",
+      "path": "~/Alchemy/Magical Dust"
+    },
+    {
+      "name": "FusionGuiEnchant",
+      "type": "gui",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_gui_enchant",
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "FusionGuiproc1",
+      "type": "procedure",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_guiproc_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "FusionGuiproc2",
+      "type": "procedure",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_guiproc_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable"
     }
   ],
   "variable_elements": [
@@ -6899,22 +7125,28 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Fireborns_abilities",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "recipe_book.pagetext": "Page",
       "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
-      "item.alchemy.magenta_diamond": "NetherAmethyst",
+      "recipe_book.pagetext": "Page",
       "item.alchemy.earth_element": "Earth Element",
+      "item.alchemy.magenta_diamond": "NetherAmethyst",
       "item.alchemy.steel_ingot": "Steel Ingot",
       "item.alchemy.genesis_armor_boots": "Genesis Boots",
       "biome.alchemy.ablanian_forest": "Ablanian Forest",
       "block.alchemy.cold_lava": "Cold Lava",
       "item.alchemy.genesis_armor_helmet": "Genesis Helmet",
-      "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
+      "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
       "advancements.ice.descr": "New Elements...",
       "item.alchemy.soul_fragment": "Fossil",
@@ -6935,8 +7167,8 @@
       "item.alchemy.red_crystal_shard": "Red Crystal Shard",
       "item.alchemy.magic_rune_stage_5": "Magic Rune",
       "item.alchemy.asi": "§cAsi",
-      "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
       "item.alchemy.magic_rune_stage_4": "Magic Rune",
+      "item.alchemy.ruby_armor_chestplate": "Ruby Chestplate",
       "item.alchemy.magic_rune_stage_6": "Magic Rune",
       "item.alchemy.warpingpearl": "Warping Pearl",
       "block.alchemy.ablanian_stone": "Ablanian Stone",
@@ -6961,30 +7193,30 @@
       "item.alchemy.retenatestick": "Retenate stick",
       "item.alchemy.spell_book": "SpellBook",
       "block.alchemy.red_crystal_block": "Red Crystal Block",
-      "block.alchemy.green_crystal_block": "Green Crystal Block",
       "block.alchemy.ablanian_fence_gate": "Ablanian Fence Gate",
+      "block.alchemy.green_crystal_block": "Green Crystal Block",
       "item.alchemy.potion_of_life": "Potion Of Life",
       "block.alchemy.infestedgrass": "Infestedgrass",
       "item.alchemy.retenate_gem": "Retenate Gem",
       "item.alchemy.rainbow_ingot": "Rainbow Ingot",
       "item.alchemy.enchanted_g_olden_carrot": "Enchanted Golden Carrot",
-      "item.alchemy.ice_arrow": "Icy Arrow",
-      "item.alchemy.ruby_sword": "Ruby Sword",
       "item.alchemy.magenta_diamond_hoe": "Amethyst Hoe",
+      "item.alchemy.ruby_sword": "Ruby Sword",
+      "item.alchemy.ice_arrow": "Icy Arrow",
       "item.alchemy.magicalsteel": "Magical steel",
-      "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.recipes.descr": "Loading into a world first time",
+      "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
-      "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
-      "item.alchemy.dimensional_key": "Dimensional Key",
       "effect.mana_regeneration": "Mana Regeneration Potion",
+      "item.alchemy.dimensional_key": "Dimensional Key",
+      "item.alchemy.retenatearmor_helmet": "Retenate Helmet",
       "item.alchemy.blue_crystal_shard": "Blue Crystal Shard",
-      "item.alchemy.water_power_ranged": "Water Power Ranged",
       "item.alchemy.ruby_shovel": "Ruby Shovel",
+      "item.alchemy.water_power_ranged": "Water Power Ranged",
       "advancements.more_advanced.descr": "Advanced Crafting",
       "advancements.relic_recipes.descr": "Relics",
       "item.alchemy.obsidian_ingot": "Obsidian Ingot",
@@ -7153,6 +7385,39 @@
     "name": "~",
     "children": [
       {
+        "name": "Items and tools",
+        "children": []
+      },
+      {
+        "name": "Ablanian",
+        "children": [
+          {
+            "name": "Wood",
+            "children": []
+          },
+          {
+            "name": "Material",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dungeons",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Functions2",
+        "children": []
+      },
+      {
         "name": "Blocks",
         "children": [
           {
@@ -7166,78 +7431,48 @@
         ]
       },
       {
-        "name": "Items and tools",
-        "children": []
-      },
-      {
         "name": "Alchemy",
         "children": [
           {
-            "name": "armor",
+            "name": "Philosophers stone",
             "children": []
           },
           {
-            "name": "Philosophers stone",
+            "name": "Functions",
             "children": []
           },
           {
             "name": "Crystals",
             "children": [
               {
-                "name": "GreenCrystal",
-                "children": []
-              },
-              {
                 "name": "BlueCrystal",
-                "children": []
-              },
-              {
-                "name": "RedCrystal",
                 "children": []
               },
               {
                 "name": "Amethyst",
                 "children": []
-              }
-            ]
-          },
-          {
-            "name": "Abilities",
-            "children": [
-              {
-                "name": "item abilities",
-                "children": [
-                  {
-                    "name": "WarpingPearl",
-                    "children": []
-                  },
-                  {
-                    "name": "Magic Rune",
-                    "children": []
-                  }
-                ]
               },
               {
-                "name": "PassiveAilities",
+                "name": "GreenCrystal",
                 "children": []
               },
               {
-                "name": "Skillbooks",
-                "children": []
-              },
-              {
-                "name": "MagicWandSpells",
+                "name": "RedCrystal",
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Enchantments",
-            "children": []
           },
           {
             "name": "Magical Dust",
             "children": [
+              {
+                "name": "Retenate",
+                "children": []
+              },
+              {
+                "name": "Soul",
+                "children": []
+              },
               {
                 "name": "MagicStaffProject",
                 "children": [
@@ -7248,15 +7483,11 @@
                 ]
               },
               {
-                "name": "Soul",
+                "name": "scrolls",
                 "children": []
               },
               {
-                "name": "Ginseng",
-                "children": []
-              },
-              {
-                "name": "Retenate",
+                "name": "PrismarineGem",
                 "children": []
               },
               {
@@ -7278,13 +7509,17 @@
                 ]
               },
               {
-                "name": "PrismarineGem",
+                "name": "Ginseng",
                 "children": []
               }
             ]
           },
           {
-            "name": "Functions",
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "Materials",
             "children": []
           },
           {
@@ -7297,25 +7532,38 @@
             ]
           },
           {
-            "name": "Materials",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Ablanian",
-        "children": [
-          {
-            "name": "Wood",
+            "name": "Enchantments",
             "children": []
           },
           {
-            "name": "Material",
-            "children": []
-          },
-          {
-            "name": "Stone",
-            "children": []
+            "name": "Abilities",
+            "children": [
+              {
+                "name": "MagicWandSpells",
+                "children": []
+              },
+              {
+                "name": "Skillbooks",
+                "children": []
+              },
+              {
+                "name": "item abilities",
+                "children": [
+                  {
+                    "name": "WarpingPearl",
+                    "children": []
+                  },
+                  {
+                    "name": "Magic Rune",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "PassiveAilities",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -7327,18 +7575,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Dungeons",
-        "children": []
-      },
-      {
-        "name": "Entities",
-        "children": []
-      },
-      {
-        "name": "Functions2",
-        "children": []
       },
       {
         "name": "Tags",

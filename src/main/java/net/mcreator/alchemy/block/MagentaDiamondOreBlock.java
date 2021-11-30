@@ -47,7 +47,7 @@ public class MagentaDiamondOreBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:magenta_diamond_ore")
 	public static final Block block = null;
 	public MagentaDiamondOreBlock(AlchemyModElements instance) {
-		super(instance, 64);
+		super(instance, 65);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

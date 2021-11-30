@@ -22,7 +22,7 @@ public class TotemOfResistanceItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:totem_of_resistance")
 	public static final Item block = null;
 	public TotemOfResistanceItem(AlchemyModElements instance) {
-		super(instance, 155);
+		super(instance, 157);
 	}
 
 	@Override
@@ -54,6 +54,7 @@ public class TotemOfResistanceItem extends AlchemyModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("If your health lower than 3 you get resistance 10"));
+			list.add(new StringTextComponent("\u00A76Mythical item"));
 		}
 	}
 }

@@ -22,7 +22,7 @@ public class BonusSlotGemItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:bonus_slot_gem")
 	public static final Item block = null;
 	public BonusSlotGemItem(AlchemyModElements instance) {
-		super(instance, 111);
+		super(instance, 113);
 	}
 
 	@Override

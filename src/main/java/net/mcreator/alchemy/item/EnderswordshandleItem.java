@@ -16,7 +16,7 @@ public class EnderswordshandleItem extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:enderswordshandle")
 	public static final Item block = null;
 	public EnderswordshandleItem(AlchemyModElements instance) {
-		super(instance, 135);
+		super(instance, 137);
 	}
 
 	@Override

@@ -14,14 +14,30 @@
       "value": "CUSTOM:Alchemy"
     },
     "armorTextureFile": "ruby",
-    "helmetName": "Ruby Helmet",
-    "bodyName": "Ruby Chestplate",
-    "leggingsName": "Ruby Leggings",
-    "bootsName": "Ruby Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetName": "Nether-Ruby Helmet",
+    "bodyName": "Nether-Ruby Chestplate",
+    "leggingsName": "Nether-Ruby Leggins",
+    "bootsName": "Nether-Ruby Boots",
+    "helmetSpecialInfo": [
+      "§5Epic Armor peace",
+      "Full set bonus:",
+      "Fire Resistance III"
+    ],
+    "bodySpecialInfo": [
+      "§5Epic Armor peace",
+      "Full set bonus:",
+      "Fire Resistance III"
+    ],
+    "leggingsSpecialInfo": [
+      "§5Epic Armor peace",
+      "Full set bonus:",
+      "Fire Resistance III"
+    ],
+    "bootsSpecialInfo": [
+      "§5Epic Armor peace",
+      "Full set bonus:",
+      "Fire Resistance III"
+    ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -27,7 +27,7 @@ public class AblanianPlanksBlock extends AlchemyModElements.ModElement {
 	@ObjectHolder("alchemy:ablanian_planks")
 	public static final Block block = null;
 	public AblanianPlanksBlock(AlchemyModElements instance) {
-		super(instance, 90);
+		super(instance, 92);
 	}
 
 	@Override

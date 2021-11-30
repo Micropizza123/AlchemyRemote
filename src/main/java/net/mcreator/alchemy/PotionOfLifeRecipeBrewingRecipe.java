@@ -17,7 +17,7 @@ import net.mcreator.alchemy.item.PotionOfLifeItem;
 @AlchemyModElements.ModElement.Tag
 public class PotionOfLifeRecipeBrewingRecipe extends AlchemyModElements.ModElement {
 	public PotionOfLifeRecipeBrewingRecipe(AlchemyModElements instance) {
-		super(instance, 189);
+		super(instance, 190);
 	}
 
 	@Override

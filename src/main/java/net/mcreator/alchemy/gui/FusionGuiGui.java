@@ -29,6 +29,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.alchemy.procedures.FusionProcedureProcedure;
+import net.mcreator.alchemy.procedures.FusionGuiproc2Procedure;
 import net.mcreator.alchemy.AlchemyModElements;
 import net.mcreator.alchemy.AlchemyMod;
 
@@ -41,7 +42,7 @@ public class FusionGuiGui extends AlchemyModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public FusionGuiGui(AlchemyModElements instance) {
-		super(instance, 181);
+		super(instance, 182);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -394,6 +395,17 @@ public class FusionGuiGui extends AlchemyModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				FusionProcedureProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				FusionGuiproc2Procedure.executeProcedure($_dependencies);
 			}
 		}
 	}
