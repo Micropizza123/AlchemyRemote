@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "alchemy:magicalscroll"
+    },
+    "title": {
+      "translate": "advancements.newborn.title"
+    },
+    "description": {
+      "translate": "advancements.newborn.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "newborn": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "alchemy:recipes"
+}

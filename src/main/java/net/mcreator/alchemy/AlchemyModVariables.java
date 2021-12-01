@@ -90,6 +90,7 @@ public class AlchemyModVariables {
 		public double Yaw = 0;
 		public boolean retenate_armor = false;
 		public double Fireborns_abilities = 0;
+		public double Lightningborns_abilities = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -105,6 +106,7 @@ public class AlchemyModVariables {
 			Yaw = nbt.getDouble("Yaw");
 			retenate_armor = nbt.getBoolean("retenate_armor");
 			Fireborns_abilities = nbt.getDouble("Fireborns_abilities");
+			Lightningborns_abilities = nbt.getDouble("Lightningborns_abilities");
 		}
 
 		@Override
@@ -114,6 +116,7 @@ public class AlchemyModVariables {
 			nbt.putDouble("Yaw", Yaw);
 			nbt.putBoolean("retenate_armor", retenate_armor);
 			nbt.putDouble("Fireborns_abilities", Fireborns_abilities);
+			nbt.putDouble("Lightningborns_abilities", Lightningborns_abilities);
 			return nbt;
 		}
 

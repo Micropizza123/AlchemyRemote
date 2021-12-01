@@ -6,8 +6,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.RayTraceContext;
 import net.minecraft.util.math.BlockPos;
@@ -18,7 +20,9 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
@@ -149,6 +153,57 @@ public class ColdedlavabottleprocProcedure {
 				if (!_ent.world.isRemote()) {
 					FireThrowPowerRangedItem.shoot(_ent.world, (LivingEntity) entity, new Random(), (float) 1, (float) 10, (int) 1);
 				}
+			}
+		}
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem())
+				&& (AlchemyModVariables.MapVariables.get(world).Lightningborns_abilities == 1))) {
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 5), (int) y, (int) (z - 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) (z - 6))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 5), (int) y, (int) (z - 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 6), (int) y, (int) z)));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 5), (int) y, (int) (z + 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) (z + 6))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 6), (int) y, (int) (z + 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 5), (int) y, (int) z)));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
 			}
 		}
 	}
