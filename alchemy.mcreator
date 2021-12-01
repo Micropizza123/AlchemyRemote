@@ -7079,6 +7079,16 @@
       "path": "~/Alchemy/Magical Dust/MagicStaffProject"
     },
     {
+      "name": "Newborn",
+      "type": "achievement",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newborn",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
       "name": "Lightningbornscroll",
       "type": "item",
       "sortid": 521,
@@ -7111,14 +7121,14 @@
       "path": "~/Alchemy/Magical Dust/scrolls"
     },
     {
-      "name": "Newborn",
-      "type": "achievement",
-      "sortid": 523,
+      "name": "Retenateeyerecipe",
+      "type": "recipe",
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "newborn",
-      "path": "~/Alchemy/Magical Dust/scrolls"
+      "registry_name": "retenateeyerecipe",
+      "path": "~/Alchemy/Magical Dust/Retenate"
     }
   ],
   "variable_elements": [
@@ -7176,18 +7186,16 @@
     "en_us": {
       "item.alchemy.magenta_diamond_armor_boots": "Amethyst Boots",
       "recipe_book.pagetext": "Page",
-      "item.alchemy.magenta_diamond": "NetherAmethyst",
       "item.alchemy.earth_element": "Earth Element",
+      "item.alchemy.magenta_diamond": "NetherAmethyst",
       "item.alchemy.steel_ingot": "Steel Ingot",
       "item.alchemy.genesis_armor_boots": "Genesis Boots",
-      "advancements.newborn.descr": "Achieve fire,lightning,ice,water or enderborn\u0027s scroll",
       "biome.alchemy.ablanian_forest": "Ablanian Forest",
       "block.alchemy.cold_lava": "Cold Lava",
       "item.alchemy.genesis_armor_helmet": "Genesis Helmet",
       "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
       "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
-      "item.alchemy.coldedlavabottle": "Colded-Lava in a Bottle",
       "advancements.ice.descr": "New Elements...",
       "item.alchemy.soul_fragment": "Fossil",
       "item.alchemy.emerald_apple": "Emerald Apple",
@@ -7220,7 +7228,6 @@
       "item.alchemy.magic_rune_stage_2": "Magic Rune",
       "item.alchemy.ice_prismarine_pickaxe": "Ice Prismarine Pickaxe",
       "item.alchemy.retenate_showel": "Retenate Shovel",
-      "item.alchemy.heart_of_the_moon": "Heart Of The Moon",
       "block.alchemy.ginseng": "Ginseng",
       "item.alchemy.netherarrow": "Nether arrow",
       "block.alchemy.wand_station": "Wand Station",
@@ -7249,7 +7256,6 @@
       "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
-      "item.alchemy.magicalscroll": "Magical scroll",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
@@ -7279,9 +7285,9 @@
       "block.alchemy.ablanian_slab": "Ablanian Slab",
       "item.alchemy.ablanian": "Dimensional Key",
       "item.alchemy.retenate_sword": "Retenate Sword",
+      "item.alchemy.glock": "Glock",
       "item.alchemy.diamond_dust": "Diamond Dust",
       "advancements.retenative.descr": "Retenative!",
-      "item.alchemy.scroll": "Scroll",
       "item.alchemy.fires_spellbook": "Fire\u0027s SpellBook",
       "block.alchemy.fusiontable": "Fusiontable",
       "item.alchemy.malysiun_rune_disabler": "Malysiun Rune",
@@ -7317,9 +7323,7 @@
       "block.alchemy.sakura_stairs": "Sakura Stairs",
       "item.alchemy.pulverizedice": "Pulverized ice",
       "item.alchemy.ice_element": "Ice Element",
-      "item.alchemy.darkscroll": "Dark scroll",
       "item.alchemy.netherrack_ingot": "Netherrack Ingot",
-      "item.alchemy.firebornscroll": "§4Fireborn\u0027s Scroll",
       "block.alchemy.ablanian_planks": "Ablanian Planks",
       "item.alchemy.enderswordshandle": "Ender handle",
       "item.alchemy.prismarine_gem": "Prismarine Gem",
@@ -7357,7 +7361,6 @@
       "block.alchemy.ender_battery": "Ender Battery",
       "item.alchemy.ice_stagalite_power": "Icestaff",
       "item.alchemy.potion_of_defence": "Potion Of Defence",
-      "advancements.newborn.title": "Newborn",
       "item.alchemy.airs_spellbook": "Air\u0027s SpellBook",
       "item.alchemy.philosophersstone": "Philosopher\u0027s Stone",
       "item.alchemy.reteniteingot": "Retenate ingot",
@@ -7376,7 +7379,6 @@
       "item.alchemy.fire_element": "Fire Element",
       "item.alchemy.ginseng_regeneration_ii": "Ginseng Regeneration II",
       "item.alchemy.air_element": "Air Element",
-      "item.alchemy.excaliburfragment": "Fossil",
       "block.alchemy.ablanian_cobblestone": "Ablanian Cobblestone",
       "item.alchemy.water_element": "Water Element",
       "item.alchemy.gambanteinn": "§4Gambanteinn",
@@ -7432,6 +7434,39 @@
     "name": "~",
     "children": [
       {
+        "name": "Items and tools",
+        "children": []
+      },
+      {
+        "name": "Ablanian",
+        "children": [
+          {
+            "name": "Wood",
+            "children": []
+          },
+          {
+            "name": "Material",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dungeons",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Functions2",
+        "children": []
+      },
+      {
         "name": "Blocks",
         "children": [
           {
@@ -7445,78 +7480,48 @@
         ]
       },
       {
-        "name": "Items and tools",
-        "children": []
-      },
-      {
         "name": "Alchemy",
         "children": [
           {
-            "name": "armor",
+            "name": "Philosophers stone",
             "children": []
           },
           {
-            "name": "Philosophers stone",
+            "name": "Functions",
             "children": []
           },
           {
             "name": "Crystals",
             "children": [
               {
-                "name": "GreenCrystal",
-                "children": []
-              },
-              {
                 "name": "BlueCrystal",
-                "children": []
-              },
-              {
-                "name": "RedCrystal",
                 "children": []
               },
               {
                 "name": "Amethyst",
                 "children": []
-              }
-            ]
-          },
-          {
-            "name": "Abilities",
-            "children": [
-              {
-                "name": "item abilities",
-                "children": [
-                  {
-                    "name": "WarpingPearl",
-                    "children": []
-                  },
-                  {
-                    "name": "Magic Rune",
-                    "children": []
-                  }
-                ]
               },
               {
-                "name": "PassiveAilities",
+                "name": "GreenCrystal",
                 "children": []
               },
               {
-                "name": "Skillbooks",
-                "children": []
-              },
-              {
-                "name": "MagicWandSpells",
+                "name": "RedCrystal",
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Enchantments",
-            "children": []
           },
           {
             "name": "Magical Dust",
             "children": [
+              {
+                "name": "Retenate",
+                "children": []
+              },
+              {
+                "name": "Soul",
+                "children": []
+              },
               {
                 "name": "MagicStaffProject",
                 "children": [
@@ -7527,15 +7532,11 @@
                 ]
               },
               {
-                "name": "Soul",
+                "name": "scrolls",
                 "children": []
               },
               {
-                "name": "Ginseng",
-                "children": []
-              },
-              {
-                "name": "Retenate",
+                "name": "PrismarineGem",
                 "children": []
               },
               {
@@ -7557,17 +7558,17 @@
                 ]
               },
               {
-                "name": "PrismarineGem",
-                "children": []
-              },
-              {
-                "name": "scrolls",
+                "name": "Ginseng",
                 "children": []
               }
             ]
           },
           {
-            "name": "Functions",
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "Materials",
             "children": []
           },
           {
@@ -7580,25 +7581,38 @@
             ]
           },
           {
-            "name": "Materials",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Ablanian",
-        "children": [
-          {
-            "name": "Wood",
+            "name": "Enchantments",
             "children": []
           },
           {
-            "name": "Material",
-            "children": []
-          },
-          {
-            "name": "Stone",
-            "children": []
+            "name": "Abilities",
+            "children": [
+              {
+                "name": "MagicWandSpells",
+                "children": []
+              },
+              {
+                "name": "Skillbooks",
+                "children": []
+              },
+              {
+                "name": "item abilities",
+                "children": [
+                  {
+                    "name": "WarpingPearl",
+                    "children": []
+                  },
+                  {
+                    "name": "Magic Rune",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "PassiveAilities",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -7612,18 +7626,6 @@
         ]
       },
       {
-        "name": "Dungeons",
-        "children": []
-      },
-      {
-        "name": "Entities",
-        "children": []
-      },
-      {
-        "name": "Functions2",
-        "children": []
-      },
-      {
         "name": "Tags",
         "children": []
       }
@@ -7635,7 +7637,7 @@
     "version": "1.0.0",
     "description": "Alchemy mod Beta",
     "author": "MicroPizza",
-    "websiteURL": "https://github.com/Micropizza123/Alchemy-MinecraftMod-",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -7647,7 +7649,7 @@
       "just_enough_items"
     ],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using Mcreator, still some  custom code.",
+    "credits": "Created using Mcreator",
     "modElementsPackage": "net.mcreator.alchemy",
     "lockBaseModFiles": false
   },

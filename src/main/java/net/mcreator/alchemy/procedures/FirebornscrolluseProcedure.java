@@ -1,16 +1,7 @@
 package net.mcreator.alchemy.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.alchemy.AlchemyModVariables;
-import net.mcreator.alchemy.AlchemyMod;
-
-import java.util.Map;
-
 public class FirebornscrolluseProcedure {
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -22,8 +13,10 @@ public class FirebornscrolluseProcedure {
 				AlchemyMod.LOGGER.warn("Failed to load dependency world for procedure Firebornscrolluse!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if ((AlchemyModVariables.MapVariables.get(world).Fireborns_abilities == 0)) {
 			AlchemyModVariables.MapVariables.get(world).Fireborns_abilities = (double) 1;
 			AlchemyModVariables.MapVariables.get(world).syncData(world);
@@ -39,4 +32,5 @@ public class FirebornscrolluseProcedure {
 			}
 		}
 	}
+
 }
