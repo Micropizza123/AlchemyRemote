@@ -1,22 +1,7 @@
 package net.mcreator.alchemy.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.alchemy.item.EnchantingScrollItem;
-import net.mcreator.alchemy.AlchemyMod;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.Map;
-
 public class FusionGuiScrollEnchantProcedure {
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
@@ -38,10 +23,12 @@ public class FusionGuiScrollEnchantProcedure {
 				AlchemyMod.LOGGER.warn("Failed to load dependency world for procedure FusionGuiScrollEnchant!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		double enchant_levels = 0;
 		ItemStack emeralds = ItemStack.EMPTY;
 		ItemStack tool = ItemStack.EMPTY;
@@ -103,4 +90,5 @@ public class FusionGuiScrollEnchantProcedure {
 			}
 		}
 	}
+
 }
