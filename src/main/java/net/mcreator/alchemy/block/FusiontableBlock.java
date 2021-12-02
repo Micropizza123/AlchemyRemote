@@ -50,6 +50,7 @@ import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -104,6 +105,13 @@ public class FusiontableBlock extends AlchemyModElements.ModElement {
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("fusiontable");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("This bock is used to fuse and enchant with scrolls"));
 		}
 
 		@Override

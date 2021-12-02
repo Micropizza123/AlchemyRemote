@@ -6,36 +6,36 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.Blocks;
 
+import net.mcreator.alchemy.item.EnchantingScrollItem;
 import net.mcreator.alchemy.AlchemyMod;
 
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.Random;
 import java.util.Map;
 
-public class FusionGuiEnchantProcProcedure {
+public class FusionGuiScrollEnchantProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				AlchemyMod.LOGGER.warn("Failed to load dependency x for procedure FusionGuiEnchantProc!");
+				AlchemyMod.LOGGER.warn("Failed to load dependency x for procedure FusionGuiScrollEnchant!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				AlchemyMod.LOGGER.warn("Failed to load dependency y for procedure FusionGuiEnchantProc!");
+				AlchemyMod.LOGGER.warn("Failed to load dependency y for procedure FusionGuiScrollEnchant!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				AlchemyMod.LOGGER.warn("Failed to load dependency z for procedure FusionGuiEnchantProc!");
+				AlchemyMod.LOGGER.warn("Failed to load dependency z for procedure FusionGuiScrollEnchant!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				AlchemyMod.LOGGER.warn("Failed to load dependency world for procedure FusionGuiEnchantProc!");
+				AlchemyMod.LOGGER.warn("Failed to load dependency world for procedure FusionGuiScrollEnchant!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -45,6 +45,7 @@ public class FusionGuiEnchantProcProcedure {
 		double enchant_levels = 0;
 		ItemStack emeralds = ItemStack.EMPTY;
 		ItemStack tool = ItemStack.EMPTY;
+		ItemStack book_scroll = ItemStack.EMPTY;
 		tool = (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -57,7 +58,7 @@ public class FusionGuiEnchantProcProcedure {
 				return _retval.get();
 			}
 		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0)));
-		emeralds = (new Object() {
+		book_scroll = (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -68,10 +69,11 @@ public class FusionGuiEnchantProcProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)));
-		if ((((((tool)).isEnchantable()) && ((((tool)).getCount()) == 1)) && ((emeralds).getItem() == Items.EMERALD))) {
-			enchant_levels = (double) Math.min(64, (((emeralds)).getCount()));
-			tool = (EnchantmentHelper.addRandomEnchantment(new Random(), (tool), (int) enchant_levels, (false)));
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)));
+		if (((((((tool)).isEnchantable()) || (((tool)).isEnchanted())) && ((((tool)).getCount()) == 1))
+				&& ((book_scroll).getItem() == EnchantingScrollItem.block))) {
+			((tool)).addEnchantment(Enchantments.MENDING, (int) 1);
+			((tool)).setDamage((int) ((((tool)).getMaxDamage()) + 2));
 			((emeralds)).shrink((int) enchant_levels);
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
@@ -89,9 +91,9 @@ public class FusionGuiEnchantProcProcedure {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (1);
-					final ItemStack _setstack = (emeralds);
-					_setstack.setCount((int) (((emeralds)).getCount()));
+					final int _sltid = (int) (2);
+					final ItemStack _setstack = new ItemStack(Blocks.AIR);
+					_setstack.setCount((int) 1);
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);

@@ -6780,7 +6780,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_gui_enchant",
-      "path": "~/Blocks/FusionTable"
+      "path": "~/Blocks/FusionTable/enchant"
     },
     {
       "name": "FusionGuiEnchantProc",
@@ -6810,7 +6810,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionTable"
+      "path": "~/Blocks/FusionTable/enchant"
     },
     {
       "name": "FusionGuiproc2",
@@ -6928,7 +6928,7 @@
       "name": "Excaliburfragment",
       "type": "item",
       "sortid": 513,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "excaliburfragment",
@@ -6958,7 +6958,7 @@
       "name": "HeartOfTheMoonRightClickedInAir",
       "type": "procedure",
       "sortid": 515,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "heart_of_the_moon_right_clicked_in_air",
@@ -6976,7 +6976,7 @@
       "name": "HeartOfTheMoon",
       "type": "item",
       "sortid": 515,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "heart_of_the_moon",
@@ -6986,7 +6986,7 @@
       "name": "Scroll",
       "type": "item",
       "sortid": 516,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "scroll",
@@ -6996,7 +6996,7 @@
       "name": "Darkscroll",
       "type": "item",
       "sortid": 517,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "darkscroll",
@@ -7006,7 +7006,7 @@
       "name": "Magicalscroll",
       "type": "item",
       "sortid": 518,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "magicalscroll",
@@ -7016,7 +7016,7 @@
       "name": "Firebornscroll",
       "type": "item",
       "sortid": 519,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "firebornscroll",
@@ -7026,7 +7026,7 @@
       "name": "Firebornscrolluse",
       "type": "procedure",
       "sortid": 520,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "firebornscrolluse",
@@ -7129,6 +7129,46 @@
       "ids": {},
       "registry_name": "retenateeyerecipe",
       "path": "~/Alchemy/Magical Dust/Retenate"
+    },
+    {
+      "name": "FusionGuiScrollEnchant",
+      "type": "procedure",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_gui_scroll_enchant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable/enchant"
+    },
+    {
+      "name": "EnchantingScroll",
+      "type": "item",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanting_scroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
     }
   ],
   "variable_elements": [
@@ -7196,6 +7236,7 @@
       "item.minecraft.potion.effect.mana_regeneration_potion_item": "Mana Regeneration",
       "item.alchemy.retenatearmor_chestplate": "Retenate Chestplate",
       "item.minecraft.tipped_arrow.effect.mana_regeneration_potion_item": "Arrow Mana Regeneration",
+      "item.alchemy.coldedlavabottle": "Colded-Lava in a Bottle",
       "advancements.ice.descr": "New Elements...",
       "item.alchemy.soul_fragment": "Fossil",
       "item.alchemy.emerald_apple": "Emerald Apple",
@@ -7208,6 +7249,7 @@
       "item.alchemy.retenate_pickaxe": "Retenate Pickaxe",
       "item.alchemy.totem_fragment": "Fossil",
       "item.alchemy.magenta_diamond_sword": "Amethyst Sword",
+      "item.alchemy.enchanting_scroll": "Enchanting Scroll",
       "item.alchemy.recipe_book": "§4Alchemy Guide",
       "advancements.ablanian_recipes.descr": "New dimension, new recipes!",
       "item.alchemy.ice_dagger": "Ice Prismarine Dagger",
@@ -7215,8 +7257,8 @@
       "item.alchemy.red_crystal_shard": "Red Crystal Shard",
       "item.alchemy.magic_rune_stage_5": "Magic Rune",
       "item.alchemy.asi": "§cAsi",
-      "item.alchemy.magic_rune_stage_4": "Magic Rune",
       "item.alchemy.ruby_armor_chestplate": "Nether-Ruby Chestplate",
+      "item.alchemy.magic_rune_stage_4": "Magic Rune",
       "item.alchemy.magic_rune_stage_6": "Magic Rune",
       "item.alchemy.warpingpearl": "Warping Pearl",
       "block.alchemy.ablanian_stone": "Ablanian Stone",
@@ -7471,7 +7513,12 @@
         "children": [
           {
             "name": "FusionTable",
-            "children": []
+            "children": [
+              {
+                "name": "enchant",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Advanced Weapon Workbench",
