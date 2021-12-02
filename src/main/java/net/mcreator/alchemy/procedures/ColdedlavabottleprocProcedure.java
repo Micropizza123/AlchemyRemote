@@ -151,5 +151,56 @@ public class ColdedlavabottleprocProcedure {
 				}
 			}
 		}
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem())
+				&& (AlchemyModVariables.MapVariables.get(world).Lightningborns_abilities == 1))) {
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 5), (int) y, (int) (z - 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) (z - 6))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 5), (int) y, (int) (z - 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 6), (int) y, (int) z)));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x + 5), (int) y, (int) (z + 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) (z + 6))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 6), (int) y, (int) (z + 5))));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+			if (world instanceof ServerWorld) {
+				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) (x - 5), (int) y, (int) z)));
+				_ent.setEffectOnly(false);
+				((World) world).addEntity(_ent);
+			}
+		}
 	}
 }

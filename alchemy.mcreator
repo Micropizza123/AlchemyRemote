@@ -7087,6 +7087,48 @@
         ]
       },
       "path": "~/Blocks/FusionTable"
+    },
+    {
+      "name": "Newborn",
+      "type": "achievement",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newborn",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Lightningbornscroll",
+      "type": "item",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningbornscroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "Lightningboenscrolluse",
+      "type": "procedure",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningboenscrolluse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alchemy/Magical Dust/scrolls"
     }
   ],
   "variable_elements": [
@@ -7128,6 +7170,12 @@
     },
     {
       "name": "Fireborns_abilities",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Lightningborns_abilities",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -7299,6 +7347,7 @@
       "block.alchemy.sakura_fence": "Sakura Fence",
       "item.alchemy.malysium_rune": "Malysium Rune",
       "item.alchemy.retenate_hoe": "Retenate Hoe",
+      "item.alchemy.lightningbornscroll": "§4Lightningborn\u0027s Scroll",
       "item.alchemy.relic_of_damage": "Relic Of Damage",
       "item.alchemy.white_diamond": "White Diamond",
       "item.alchemy.ender_dust": "Ender Dust",

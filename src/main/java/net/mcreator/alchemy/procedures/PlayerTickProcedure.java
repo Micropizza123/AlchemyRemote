@@ -10,18 +10,24 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.vector.Vector2f;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.command.ICommandSource;
 import net.minecraft.command.CommandSource;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import net.mcreator.alchemy.potion.FlightPotionEffect;
+import net.mcreator.alchemy.item.ScrollItem;
 import net.mcreator.alchemy.item.RubyArmorItem;
 import net.mcreator.alchemy.item.RetenatearmorItem;
 import net.mcreator.alchemy.item.PotionOfLifeItem;
@@ -33,10 +39,13 @@ import net.mcreator.alchemy.item.MagicRuneStage5Item;
 import net.mcreator.alchemy.item.MagicRuneStage4Item;
 import net.mcreator.alchemy.item.MagicRuneStage3Item;
 import net.mcreator.alchemy.item.MagicRuneStage2Item;
+import net.mcreator.alchemy.item.LightningbornscrollItem;
+import net.mcreator.alchemy.item.FirebornscrollItem;
 import net.mcreator.alchemy.enchantment.GrowthEnchantment;
 import net.mcreator.alchemy.AlchemyMod;
 
 import java.util.Map;
+import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Collection;
 
@@ -253,6 +262,34 @@ public class PlayerTickProcedure {
 												.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
 										: ItemStack.EMPTY)))
 								- 1)));
+		}
+		if ((!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
+				? ((ServerPlayerEntity) entity).getAdvancements()
+						.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("alchemy:newborn")))
+						.isDone()
+				: false))) {
+			if (((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(FirebornscrollItem.block)) : false)
+					|| ((entity instanceof PlayerEntity)
+							? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(LightningbornscrollItem.block))
+							: false))
+					|| (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ScrollItem.block)) : false)
+							|| ((entity instanceof PlayerEntity)
+									? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ScrollItem.block))
+									: false)))) {
+				if (entity instanceof ServerPlayerEntity) {
+					Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+							.getAdvancement(new ResourceLocation("alchemy:newborn"));
+					AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemaningCriteria().iterator();
+						while (_iterator.hasNext()) {
+							String _criterion = (String) _iterator.next();
+							((ServerPlayerEntity) entity).getAdvancements().grantCriterion(_adv, _criterion);
+						}
+					}
+				}
+			}
 		}
 	}
 }
