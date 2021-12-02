@@ -10,6 +10,7 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.CheckboxButton;
 import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
@@ -27,6 +28,8 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 	private int x, y, z;
 	private PlayerEntity entity;
 	private final static HashMap guistate = FusionGuiEnchantGui.guistate;
+	CheckboxButton Enchant;
+	CheckboxButton Unenchant;
 	public FusionGuiEnchantGuiWindow(FusionGuiEnchantGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -56,8 +59,16 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/demo_background1.png"));
 		this.blit(ms, this.guiLeft + -111, this.guiTop + 4, 0, 0, 256, 256, 256, 256);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/aaa.png"));
+		this.blit(ms, this.guiLeft + -94, this.guiTop + 51, 0, 0, 16, 16, 16, 16);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/demo123.png"));
 		this.blit(ms, this.guiLeft + -94, this.guiTop + 23, 0, 0, 16, 16, 16, 16);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/wadawdawawd.png"));
+		this.blit(ms, this.guiLeft + 10, this.guiTop + 40, 0, 0, 20, 20, 20, 20);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/emerald_drawing.png"));
+		this.blit(ms, this.guiLeft + 36, this.guiTop + 61, 0, 0, 16, 16, 16, 16);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/book1.png"));
+		this.blit(ms, this.guiLeft + 36, this.guiTop + 22, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 
@@ -77,10 +88,12 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Your", 24, 21, -12829636);
-		this.font.drawString(ms, "Tool", 24, 30, -12829636);
-		this.font.drawString(ms, "Eme-", 58, 23, -12829636);
-		this.font.drawString(ms, "ralds", 58, 31, -12829636);
+		this.font.drawString(ms, "Your", 10, 23, -12829636);
+		this.font.drawString(ms, "Tool", 10, 31, -12829636);
+		this.font.drawString(ms, "Eme-", 34, 43, -12829636);
+		this.font.drawString(ms, "ralds", 32, 51, -12829636);
+		this.font.drawString(ms, "Book", 34, 12, -12829636);
+		this.font.drawString(ms, "Or", 127, 46, -12829636);
 	}
 
 	@Override
@@ -105,11 +118,23 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 				FusionGuiEnchantGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 87, this.guiTop + 41, 60, 20, new StringTextComponent("Enchant"), e -> {
+		this.addButton(new Button(this.guiLeft + 104, this.guiTop + 59, 60, 20, new StringTextComponent("Enchant"), e -> {
 			if (true) {
 				AlchemyMod.PACKET_HANDLER.sendToServer(new FusionGuiEnchantGui.ButtonPressedMessage(2, x, y, z));
 				FusionGuiEnchantGui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
+		Enchant = new CheckboxButton(this.guiLeft + 73, this.guiTop + 59, 150, 20, new StringTextComponent(""), false);
+		FusionGuiEnchantGui.guistate.put("checkbox:Enchant", Enchant);
+		this.addButton(Enchant);
+		this.addButton(new Button(this.guiLeft + 96, this.guiTop + 20, 75, 20, new StringTextComponent("Un-Enchant"), e -> {
+			if (true) {
+				AlchemyMod.PACKET_HANDLER.sendToServer(new FusionGuiEnchantGui.ButtonPressedMessage(3, x, y, z));
+				FusionGuiEnchantGui.handleButtonAction(entity, 3, x, y, z);
+			}
+		}));
+		Unenchant = new CheckboxButton(this.guiLeft + 73, this.guiTop + 20, 150, 20, new StringTextComponent(""), false);
+		FusionGuiEnchantGui.guistate.put("checkbox:Unenchant", Unenchant);
+		this.addButton(Unenchant);
 	}
 }

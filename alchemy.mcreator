@@ -7129,6 +7129,46 @@
         ]
       },
       "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "EnchantingScroll",
+      "type": "item",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanting_scroll",
+      "path": "~/Alchemy/Magical Dust/scrolls"
+    },
+    {
+      "name": "FusionGuiScrollEnchant",
+      "type": "procedure",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_gui_scroll_enchant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/FusionTable/enchant"
     }
   ],
   "variable_elements": [
@@ -7229,7 +7269,6 @@
       "item.alchemy.magic_rune_stage_2": "Magic Rune",
       "item.alchemy.ice_prismarine_pickaxe": "Ice Prismarine Pickaxe",
       "item.alchemy.retenate_showel": "Retenate Shovel",
-      "item.alchemy.heart_of_the_moon": "Heart Of The Moon",
       "block.alchemy.ginseng": "Ginseng",
       "item.alchemy.netherarrow": "Nether arrow",
       "block.alchemy.wand_station": "Wand Station",
@@ -7258,7 +7297,6 @@
       "item.alchemy.retenate_spawn_egg": "Retenate Spawn Egg",
       "advancements.ablanian_recipes.title": "Ice Age",
       "block.alchemy.sakura_log": "Sakura Log",
-      "item.alchemy.magicalscroll": "Magical scroll",
       "item.alchemy.malysium_armor_chestplate": "Malysium Chestplate",
       "item.alchemy.ender_sword": "§4Ender Sword",
       "block.alchemy.weapon_worktable": "Advanced Weapon Workbench",
@@ -7291,7 +7329,6 @@
       "item.alchemy.glock": "Glock",
       "item.alchemy.diamond_dust": "Diamond Dust",
       "advancements.retenative.descr": "Retenative!",
-      "item.alchemy.scroll": "Scroll",
       "item.alchemy.fires_spellbook": "Fire\u0027s SpellBook",
       "block.alchemy.fusiontable": "Fusiontable",
       "item.alchemy.malysiun_rune_disabler": "Malysiun Rune",
@@ -7327,9 +7364,7 @@
       "block.alchemy.sakura_stairs": "Sakura Stairs",
       "item.alchemy.pulverizedice": "Pulverized ice",
       "item.alchemy.ice_element": "Ice Element",
-      "item.alchemy.darkscroll": "Dark scroll",
       "item.alchemy.netherrack_ingot": "Netherrack Ingot",
-      "item.alchemy.firebornscroll": "§4Fireborn\u0027s Scroll",
       "block.alchemy.ablanian_planks": "Ablanian Planks",
       "item.alchemy.enderswordshandle": "Ender handle",
       "item.alchemy.prismarine_gem": "Prismarine Gem",
@@ -7385,7 +7420,6 @@
       "item.alchemy.fire_element": "Fire Element",
       "item.alchemy.ginseng_regeneration_ii": "Ginseng Regeneration II",
       "item.alchemy.air_element": "Air Element",
-      "item.alchemy.excaliburfragment": "Fossil",
       "block.alchemy.ablanian_cobblestone": "Ablanian Cobblestone",
       "item.alchemy.water_element": "Water Element",
       "item.alchemy.gambanteinn": "§4Gambanteinn",
@@ -7478,7 +7512,12 @@
         "children": [
           {
             "name": "FusionTable",
-            "children": []
+            "children": [
+              {
+                "name": "enchant",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Advanced Weapon Workbench",
