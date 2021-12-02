@@ -1,7 +1,42 @@
 package net.mcreator.alchemy.procedures;
 
-public class ColdedlavabottleprocProcedure {
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.items.ItemHandlerHelper;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.RayTraceContext;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Hand;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.effect.LightningBoltEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.alchemy.item.FireThrowPowerRangedItem;
+import net.mcreator.alchemy.item.ColdedlavabottleItem;
+import net.mcreator.alchemy.block.ColdLavaBlock;
+import net.mcreator.alchemy.AlchemyModVariables;
+import net.mcreator.alchemy.AlchemyMod;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
+
+public class ColdedlavabottleprocProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -24,7 +59,6 @@ public class ColdedlavabottleprocProcedure {
 			executeProcedure(dependencies);
 		}
 	}
-
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -51,13 +85,11 @@ public class ColdedlavabottleprocProcedure {
 				AlchemyMod.LOGGER.warn("Failed to load dependency world for procedure Coldedlavabottleproc!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE)
 				&& (entity.world
 						.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
@@ -104,12 +136,15 @@ public class ColdedlavabottleprocProcedure {
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 				if (world instanceof World && !world.isRemote()) {
-					((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")),
-							SoundCategory.NEUTRAL, (float) 1, (float) 1);
+					((World) world)
+							.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+									(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+											.getValue(new ResourceLocation("ambient.basalt_deltas.additions")),
+									SoundCategory.NEUTRAL, (float) 1, (float) 1);
 				} else {
 					((World) world).playSound(x, y, z,
-							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")),
+							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+									.getValue(new ResourceLocation("ambient.basalt_deltas.additions")),
 							SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 				}
 			}
@@ -175,5 +210,4 @@ public class ColdedlavabottleprocProcedure {
 			}
 		}
 	}
-
 }

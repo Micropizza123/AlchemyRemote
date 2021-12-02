@@ -65,10 +65,6 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 		this.blit(ms, this.guiLeft + -94, this.guiTop + 23, 0, 0, 16, 16, 16, 16);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/wadawdawawd.png"));
 		this.blit(ms, this.guiLeft + 10, this.guiTop + 40, 0, 0, 20, 20, 20, 20);
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/emerald_drawing.png"));
-		this.blit(ms, this.guiLeft + 36, this.guiTop + 61, 0, 0, 16, 16, 16, 16);
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("alchemy:textures/book1.png"));
-		this.blit(ms, this.guiLeft + 36, this.guiTop + 22, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 
@@ -92,8 +88,8 @@ public class FusionGuiEnchantGuiWindow extends ContainerScreen<FusionGuiEnchantG
 		this.font.drawString(ms, "Tool", 10, 31, -12829636);
 		this.font.drawString(ms, "Eme-", 34, 43, -12829636);
 		this.font.drawString(ms, "ralds", 32, 51, -12829636);
-		this.font.drawString(ms, "Book", 34, 12, -12829636);
 		this.font.drawString(ms, "Or", 127, 46, -12829636);
+		this.font.drawString(ms, "Sroll", 31, 12, -12829636);
 	}
 
 	@Override

@@ -6872,7 +6872,7 @@
           }
         ]
       },
-      "path": "~/Blocks/FusionTable"
+      "path": "~/Blocks/FusionTable/enchant"
     },
     {
       "name": "ExcaliburRecipe",
@@ -7018,7 +7018,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_gui_enchant",
-      "path": "~/Blocks/FusionTable"
+      "path": "~/Blocks/FusionTable/enchant"
     },
     {
       "name": "FusionGuiproc1",
@@ -7249,6 +7249,7 @@
       "item.alchemy.retenate_pickaxe": "Retenate Pickaxe",
       "item.alchemy.totem_fragment": "Fossil",
       "item.alchemy.magenta_diamond_sword": "Amethyst Sword",
+      "item.alchemy.enchanting_scroll": "Enchanting Scroll",
       "item.alchemy.recipe_book": "Alchemy Guide",
       "advancements.ablanian_recipes.descr": "New dimension, new recipes!",
       "item.alchemy.ice_dagger": "Ice Prismarine Dagger",

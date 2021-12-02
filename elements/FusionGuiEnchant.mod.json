@@ -146,16 +146,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "emerald_drawing.png",
-          "use1Xscale": false,
-          "name": "emerald_drawing.png",
-          "x": 162,
-          "y": 98
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -171,29 +161,6 @@
           "name": "Slot #1",
           "x": 161,
           "y": 97
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Book",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Book",
-          "x": 160,
-          "y": 49
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "book1.png",
-          "use1Xscale": false,
-          "name": "book1.png",
-          "x": 162,
-          "y": 59
         }
       },
       {
@@ -268,6 +235,19 @@
           "name": "Unenchant",
           "x": 199,
           "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sroll",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sroll",
+          "x": 157,
+          "y": 49
         }
       }
     ],
